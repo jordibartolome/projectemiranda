@@ -1,5 +1,5 @@
 {
-  "name": "projecteMiranda",
+  "name": "projectemiranda",
   "version": "1.0.0",
   "description": "Projecte Miranda",
   "main": "app.js",
@@ -22,5 +22,9 @@
   "homepage": "https://github.com/jordibartolome/projectemiranda",
   "engines": {
     "node": ">=0.8.0"
+  },
+  "scripts": {
+    "prestart": "next build",
+    "start": "next start -p ${PORT}",
   }
 }
