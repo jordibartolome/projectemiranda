@@ -8,6 +8,6 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname + '/client/templates/main.html'));
 })
 
-app.listen(3000, function () {
-  console.log('Projecte Miranda - running!')
-})
+app.listen(process.env.PORT || 3000, function(){
+  console.log("Projecte Miranda - running!", this.address().port, app.settings.env);
+});
