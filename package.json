@@ -10,5 +10,14 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.14.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jordibartolome/projectemiranda.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jordibartolome/projectemiranda/issues"
+  },
+  "homepage": "https://github.com/jordibartolome/projectemiranda"
 }
