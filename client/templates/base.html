@@ -1,0 +1,43 @@
+<div class="header">
+	<h1 class="logoText">Fundació Projecte Miranda</h1>
+</div>
+<div class="menuContainer">
+	<div class="menuItem borderLeft" data-bind="click: function () {this.switchTab('whatDoWeDo');}">
+		<span class="menuItemTitle">Què fem?</span>
+		<span class="menuItemDescription">La nostra filosofia</span>
+	</div>
+	<div class="menuItem" data-bind="click: function () {this.switchTab('ourHorses');}">
+		<span class="menuItemTitle">Els nostres cavalls</span>
+		<span class="menuItemDescription">Coneix-los a tots</span>
+	</div>
+	<div class="menuItem">
+		<span class="menuItemTitle">Dog Team</span>
+		<span class="menuItemDescription">Gossitus</span>
+	</div>
+	<div class="menuItem">
+		<span class="menuItemTitle">Activitats</span>
+		<span class="menuItemDescription">Com ens pots conèixer?</span>
+	</div>
+	<div class="menuItem">
+		<span class="menuItemTitle">Col·labora</span>
+		<span class="menuItemDescription">Necessitem la teva ajuda</span>
+	</div>
+	<div class="menuItem">
+		<span class="menuItemTitle">Blog</span>
+	</div>
+	<div class="menuItem">
+		<span class="menuItemTitle">Sobre nosaltres</span>
+	</div>
+	<div class="menuItem highlightedItem">
+		<span class="menuItemTitle">Dóna</span>
+		<span class="menuItemTitle">Ajuda'ns</span>
+	</div>
+</div>
+<div class="mainContainer">
+	<!-- ko if: tab() == "whatDoWeDo" -->
+		<!-- ko template: {name: 'whatDoWeDo'} --><!-- /ko -->
+	<!-- /ko -->
+
+	<!-- ko if: tab() == "ourHorses" -->
+	<!-- /ko -->
+</div>

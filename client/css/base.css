@@ -1,0 +1,135 @@
+body {
+	font-family: HelveticaNeueW02-55Roma, "Open Sans", Arial, sans-serif; /*"Open Sans", Arial, Helvetica, sans-serif;*/
+}
+
+.header {
+	display: block;
+	height: 90px;
+	padding-left: 40px;
+	padding-top: 30px;
+
+}
+
+.header .logoText {
+	font-size: 48px;
+	color: #127a16;
+}
+
+.menuContainer {
+	display: flex;
+	/*background-color: #127a16;*/
+	background-color: #3d3d3e;
+	border-bottom: 1px solid white;
+}
+
+.menuItem {
+    flex-direction: row;
+    flex-grow: 1;
+    cursor: pointer;
+    height: 32px;
+    padding-top: 6px;
+    text-align: center;
+	border-right: 1px solid white;
+    -webkit-transition: background-color 500ms;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
+}
+
+.menuItem.borderLeft {
+	border-left: 1px solid white;
+}
+
+.menuItem:hover {
+	background-color: white;
+	color: #127a16;
+}
+
+.menuItem:hover .menuItemTitle {
+	color: #127a16;
+}
+
+
+.menuItem .menuItemTitle {
+	color: white;
+	display: block;
+	position: relative;
+	margin-bottom: 2px;
+	font-size: 15px;
+
+    -webkit-transition: color 500ms linear;
+    -ms-transition: color 500ms linear;
+    transition: color 500ms linear;
+}
+
+.menuItem .menuItemDescription {
+	color: #aeaeae;
+	font-size: 10px;
+	display: block;
+	position: relative;
+
+    -webkit-transition: color 500ms linear;
+    -ms-transition: color 500ms linear;
+    transition: color 500ms linear;
+}
+
+.fullWidthImage {
+	height: 300px;
+	background-size: cover;
+}
+
+.homePageImage {
+	background-image: url("/static/images/main.jpg");
+}
+
+.familyHorse {
+	background-image: url("/static/images/familyHorse.jpg");
+}
+
+.threeHorses {
+	background-image: url("/static/images/tresCavalls.jpg");
+}
+
+.textContainer {
+	background-color: rgba(0, 0, 0, 0.18);
+	padding-top: 20px;
+	padding-left: 40px;
+	padding-bottom: 20px;
+	color: white;
+    top: 190px;
+    position: relative;
+}
+
+.pageTitle {
+	font-size: 40px;
+	display: block;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.pageDescription {
+	font-size: 20px;
+	display: block;
+	position: relative;
+}
+
+.sectionText {
+    display: block;
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.sectionText .title {
+    display: block;
+    font-size: 40px;
+    color: #127a16;
+    margin-bottom: 10px;
+}
+
+.sectionText .description {
+    display: block;
+    margin-bottom: 5px;
+    line-height: 1.2;
+}

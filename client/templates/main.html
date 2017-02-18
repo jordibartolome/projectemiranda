@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta content="text/html;charset=UTF-8" http-equiv="content-type" />
+     <title>Projecte Miranda</title>
+    <meta name="description" content="Fundació Projecte Miranda" />
+
+    <!-- FACEBOOK TAGS -->
+    <meta property="og:site_name" content="Projecte Miranda" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+<!--     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=XBr5qnywLR">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png?v=XBr5qnywLR" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png?v=XBr5qnywLR" sizes="16x16">
+    <link rel="manifest" href="/manifest.json?v=XBr5qnywLR">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg?v=XBr5qnywLR" color="#5bbad5">
+    <link rel="shortcut icon" href="/favicon.ico?v=XBr5qnywLR"> -->
+    <meta name="apple-mobile-web-app-title" content="Projecte Miranda">
+    <meta name="application-name" content="Projecte Miranda">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" type="text/css" href="/static/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="/static/css/base.css">
+
+    <!-- LIBS  -->
+    <script type='text/javascript' src='/static/js/lib/jquery-3.1.1.min.js'></script>
+    <script type='text/javascript' src='/static/js/lib/knockout-3.4.1.js'></script>
+
+    <script type="text/javascript" src="/static/js/siteViewModel.js"></script>
+    <script type="text/javascript" src="/static/js/application.js"></script>
+    <script type='text/javascript' src='/static/js/requests.js'></script>
+	<script type='text/javascript' src='/static/js/templates.js'></script>
+  </head>
+
+  <body>
+
+    <!-- Google Tag Manager -->
+<!--     <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-<%= Rails.configuration.x.google['tag_manager_id'] %>"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-<%= Rails.configuration.x.google['tag_manager_id'] %>');</script> -->
+    <!-- End Google Tag Manager -->
+   
+    <div class="mainPage" data-bind="template: {name: 'base', data: siteViewModel}"></div>
+  </body>
+</html>
