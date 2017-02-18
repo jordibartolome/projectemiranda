@@ -22,9 +22,5 @@
   "homepage": "https://github.com/jordibartolome/projectemiranda",
   "engines": {
     "node": ">=0.8.0"
-  },
-  "scripts": {
-    "prestart": "next build",
-    "start": "next start -p ${PORT}",
   }
 }
