@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/jordibartolome/projectemiranda/issues"
   },
-  "homepage": "https://github.com/jordibartolome/projectemiranda"
+  "homepage": "https://github.com/jordibartolome/projectemiranda",
+  "engines": {
+    "node": ">=0.8.0"
+  }
 }
