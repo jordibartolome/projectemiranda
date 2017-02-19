@@ -2,42 +2,31 @@
 	<h1 class="logoText">Fundació Projecte Miranda</h1>
 </div>
 <div class="menuContainer">
-	<div class="menuItem borderLeft" data-bind="click: function () {this.switchTab('whatDoWeDo');}">
-		<span class="menuItemTitle">Què fem?</span>
-		<span class="menuItemDescription">La nostra filosofia</span>
-	</div>
-	<div class="menuItem" data-bind="click: function () {this.switchTab('ourHorses');}">
-		<span class="menuItemTitle">Els nostres cavalls</span>
-		<span class="menuItemDescription">Coneix-los a tots</span>
-	</div>
-	<div class="menuItem">
-		<span class="menuItemTitle">Dog Team</span>
-		<span class="menuItemDescription">Gossitus</span>
-	</div>
-	<div class="menuItem">
-		<span class="menuItemTitle">Activitats</span>
-		<span class="menuItemDescription">Com ens pots conèixer?</span>
-	</div>
-	<div class="menuItem">
-		<span class="menuItemTitle">Col·labora</span>
-		<span class="menuItemDescription">Necessitem la teva ajuda</span>
-	</div>
-	<div class="menuItem">
-		<span class="menuItemTitle">Blog</span>
-	</div>
-	<div class="menuItem">
-		<span class="menuItemTitle">Sobre nosaltres</span>
-	</div>
-	<div class="menuItem highlightedItem">
-		<span class="menuItemTitle">Dóna</span>
-		<span class="menuItemTitle">Ajuda'ns</span>
-	</div>
+	<!-- ko foreach: menuItems -->
+		<div class="menuItem borderLeft">
+			<a data-bind="event: { mouseover: handleMenuItemMouseover, mouseout: handleMenuItemMouseout }, attr: { href: href }">
+				<span class="menuItemTitle" data-bind="text: title"></span>
+				<!-- ko if: subtitle -->
+					<span class="menuItemDescription" data-bind="text: subtitle"></span>
+				<!--/ko -->
+			</a>
+			<!-- ko if: floatingMenu() && floatingMenu().visible() -->
+				<!-- ko with: floatingMenu -->
+					<div class="floatingMenu" data-bind="css: {wide: wide}, event: { mouseover: handleFloatingMenuMouseover, mouseout: handleFloatingMenuMouseout }">
+						<!-- ko foreach: items -->
+							<a class="item" data-bind="text: title, attr: {href: href}"></a>
+						<!--/ko -->
+					</div>
+				<!--/ko -->
+			<!--/ko -->
+		</div>
+	<!-- /ko -->
 </div>
 <div class="mainContainer">
-	<!-- ko if: tab() == "whatDoWeDo" -->
+	<div data-bind="page: {id: 'start'}">
 		<!-- ko template: {name: 'whatDoWeDo'} --><!-- /ko -->
-	<!-- /ko -->
-
-	<!-- ko if: tab() == "ourHorses" -->
-	<!-- /ko -->
+	</div>
+	<div data-bind="page: {id: 'our_horses'}">
+		<!-- ko template: {name: 'ourHorses'} --><!-- /ko -->
+	</div>
 </div>

@@ -2,6 +2,10 @@ body {
 	font-family: HelveticaNeueW02-55Roma, "Open Sans", Arial, sans-serif; /*"Open Sans", Arial, Helvetica, sans-serif;*/
 }
 
+a {
+	text-decoration: none;
+}
+
 .header {
 	display: block;
 	height: 90px;
@@ -17,7 +21,6 @@ body {
 
 .menuContainer {
 	display: flex;
-	/*background-color: #127a16;*/
 	background-color: #3d3d3e;
 	border-bottom: 1px solid white;
 }
@@ -25,6 +28,7 @@ body {
 .menuItem {
     flex-direction: row;
     flex-grow: 1;
+    position: relative;
     cursor: pointer;
     height: 32px;
     padding-top: 6px;
@@ -72,6 +76,48 @@ body {
     transition: color 500ms linear;
 }
 
+.menuItem .floatingMenu {
+    position: absolute;
+    top: 38px;
+    background-color: white;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    width: 200px;
+    text-align: left;
+    z-index: 10;
+    border-left: 1px solid #127a16;
+    border-bottom: 1px solid #127a16;
+    border-right: 1px solid #127a16;
+    font-size: 14px;
+}
+
+.menuItem .floatingMenu.wide {
+	width: 300px;
+}
+
+.menuItem .floatingMenu .item {
+    display: block;
+    border-bottom: 1px solid rgba(187, 217, 188, 0.5);
+    padding-bottom: 8px;
+    cursor: pointer;
+    padding-top: 8px;
+    color: #3d3d3e;
+
+    -webkit-transition: color 200ms linear;
+    -ms-transition: color 200ms linear;
+    transition: color 200ms linear;
+}
+
+.menuItem .floatingMenu .item.lastItem {
+	border-bottom: none;
+}
+
+.menuItem .floatingMenu .item:hover {
+	color: #C07330;
+}
+
 .fullWidthImage {
 	height: 300px;
 	background-size: cover;
@@ -99,17 +145,25 @@ body {
     position: relative;
 }
 
-.pageTitle {
+.fullWidthImage .pageTitle {
 	font-size: 40px;
 	display: block;
 	position: relative;
 	margin-bottom: 10px;
 }
 
-.pageDescription {
+.fullWidthImage .pageDescription {
 	font-size: 20px;
 	display: block;
 	position: relative;
+}
+
+.complimentary1 {
+	color: #9B5417!important;
+}
+
+.complimentary1Light {
+	color: #C07330;
 }
 
 .sectionText {
@@ -128,8 +182,55 @@ body {
     margin-bottom: 10px;
 }
 
+.sectionText .subtitle {
+    display: block;
+    font-size: 25px;
+    color: #003B04;
+    margin-bottom: 8px;
+}
+
 .sectionText .description {
     display: block;
     margin-bottom: 5px;
     line-height: 1.2;
+}
+
+.subSectionText {
+    display: block;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.animalCard {
+    display: inline-block;
+    width: 300px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    text-align: center;
+
+    -webkit-transition: opacity 500ms;
+    -ms-transition: opacity 500ms linear;
+    transition: opacity 500ms linear;
+}
+
+.animalCard:hover {
+	opacity: 0.8;
+}
+
+.animalCard .animalImage {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.animalCard .animalImage img {
+	width: 100%;
+	border-radius: 5px;
+}
+
+.animalCard .animalName {
+	color: #127a16;
 }
