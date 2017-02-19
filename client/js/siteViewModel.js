@@ -113,6 +113,8 @@ class SiteViewModel {
 		this.menuItems = ko.observableArray([]);
 		this.nonSponsoredHorses = ko.observableArray([]);
 
+		this.becomePartner = new BecomePartnerViewModel();
+
 		this.initialize();
 	}
 
