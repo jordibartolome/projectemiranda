@@ -14,7 +14,7 @@
 				<!-- ko with: floatingMenu -->
 					<div class="floatingMenu" data-bind="css: {wide: wide}, event: { mouseover: handleFloatingMenuMouseover, mouseout: handleFloatingMenuMouseout }">
 						<!-- ko foreach: items -->
-							<a class="item" data-bind="text: title, attr: {href: href}"></a>
+							<a class="item" data-bind="text: title, attr: {href: href, target: target}"></a>
 						<!--/ko -->
 					</div>
 				<!--/ko -->

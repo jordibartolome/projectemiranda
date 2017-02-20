@@ -63,5 +63,11 @@ class BecomePartnerViewModel {
 
 	becomePartner() {
 		this.notPartnerYet(false);
+		var aa = ProjecteMiranda.postService("/parse", {}, () => {
+			console.log("callbk");
+		});
+
+		aa();
+
 	}
 }

@@ -88,7 +88,8 @@ const Menu = [
 				},
 				{
 					title: "Teaming",
-					href: "/#!/teaming",
+					href: "https://www.teaming.net/www-projectemiranda-cat",
+					target: "_blank"
 				},
 			]
 		}

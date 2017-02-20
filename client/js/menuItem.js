@@ -90,5 +90,6 @@ class FloatingMenuItem {
 	constructor(item) {
 		this.title = ko.observable(item.title);
 		this.href = ko.observable(item.href);
+		this.target = ko.observable(item.target);
 	}
 }
