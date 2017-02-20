@@ -16,13 +16,12 @@ app.listen(process.env.PORT || 3000, function(){
   console.log("Projecte Miranda - running!", this.address().port, app.settings.env);
 });
 
-
+// EMAIL
 app.use(bodyParser.urlencoded({
     extended: true
 }));
 app.use(bodyParser.json());
 
-// EMAIL
 var helper = require('sendgrid').mail;
 app.post('/new_partner', function (req, res) {
 	from_email = new helper.Email("jordi87@gmail.com");
