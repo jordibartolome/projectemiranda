@@ -43,7 +43,7 @@
 	</div>
 
 	<!-- ko with: visits-->
-	<div data-bind="page: {id: 'visits', afterShow: initializeOnPageLoad}">
+	<div data-bind="page: {id: 'visits', afterShow: function () {initializeOnPageLoad()}}">
 		<!-- ko template: {name: 'visits'} --><!-- /ko -->
 	</div>
 	<!-- /ko -->

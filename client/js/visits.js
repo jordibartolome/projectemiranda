@@ -3,11 +3,18 @@ class VisitsViewModel {
 
 	}
 
-	initializeOnPageLoad() {
-		// Wait for KO to create the template
+	createCalendar() {
 		setTimeout(() => {
-			var calendar = new Calendar();
-			calendar.show();
+			if ($("#calendar")[0]) {
+				var calendar = new Calendar();
+				calendar.show();
+			} else {
+				this.createCalendar();
+			}
 		}, 100)
+	}
+
+	initializeOnPageLoad() {
+		this.createCalendar();
 	}
 }
