@@ -1,5 +1,9 @@
 <div class="header">
-	<h1 class="logoText">Fundació Projecte Miranda</h1>
+	<!-- <h1 class="logoText">Fundació Projecte Miranda</h1> -->
+	<div class="logos">
+		<!-- <div class="logoHorse"></div> -->
+		<div class="logoName"></div>
+	</div>
 </div>
 <div class="menuContainer">
 	<!-- ko foreach: menuItems -->
@@ -37,4 +41,10 @@
 	<div data-bind="page: {id: 'become_volunteer'}">
 		<!-- ko template: {name: 'becomeVolunteer'} --><!-- /ko -->
 	</div>
+
+	<!-- ko with: visits-->
+	<div data-bind="page: {id: 'visits', afterShow: initializeOnPageLoad}">
+		<!-- ko template: {name: 'visits'} --><!-- /ko -->
+	</div>
+	<!-- /ko -->
 </div>

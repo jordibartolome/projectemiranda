@@ -1,6 +1,24 @@
 class App {
   constructor() {
     this.siteViewModel = new SiteViewModel();
+
+    this.initialize();
+  }
+
+  createKOBindings() {
+    ko.bindingHandlers['create'] = {
+      init: function (element, valueAccessor, allBindingsAccessor, viewModel) {
+        var value = valueAccessor() || {};
+        if (typeof value != "function") {
+          throw new Error("The value for a create binding must be a function");
+        }
+        value.call(viewModel, element);
+      }
+    };
+  }
+
+  initialize () {
+    this.createKOBindings();
   }
 }
 

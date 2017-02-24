@@ -10,6 +10,29 @@ a {
 	font-weight: bold;
 }
 
+.logos {
+	display: block;
+}
+
+.logoHorse {
+	background-image: url("/static/images/logoHorse.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 80px;
+	width: 80px;
+	display: inline-block;
+	background-position-y: 50%;
+}
+
+.logoName {
+	background-image: url("/static/images/logoText.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 80px;
+    display: inline-block;
+    width: 700px;
+	background-position-y: 50%;
+}
 
 .modernForm .section {
   display: table-cell;
@@ -91,26 +114,26 @@ a {
   display: block;
 }
 
-.modernForm .columnsContainer {
+.columnsContainer {
   display: flex;
   width: 100%;
 }
 
-.modernForm .firstColumn {
+.firstColumn {
   flex-direction: row;
   flex-grow: 1;
   flex-basis: 0;
   margin-right: 10px;
 }
 
-.modernForm .secondColumn {
+.secondColumn {
   flex-direction: row;
   flex-grow: 1;
   flex-basis: 0;
   position: relative;
 }
 
-.modernForm .firstColumn.fixedWidth {
+.firstColumn.fixedWidth {
   width: 49.5%;
 }
 
@@ -261,7 +284,7 @@ a {
 
 
 .standardLink {
-	color: #127a16;
+	color: #639c77;
     -webkit-transition: color 100ms;
     -ms-transition: color 100ms linear;
     transition: color 100ms linear;
@@ -274,15 +297,13 @@ a {
 
 .header {
 	display: block;
-	height: 90px;
+	height: 80px;
 	padding-left: 40px;
-	padding-top: 30px;
-
 }
 
 .header .logoText {
 	font-size: 48px;
-	color: #127a16;
+	color: #639c77;
 }
 
 .menuContainer {
@@ -311,11 +332,11 @@ a {
 
 .menuItem:hover {
 	background-color: white;
-	color: #127a16;
+	color: #639c77;
 }
 
 .menuItem:hover .menuItemTitle {
-	color: #127a16;
+	color: #639c77;
 }
 
 
@@ -353,9 +374,9 @@ a {
     width: 200px;
     text-align: left;
     z-index: 10;
-    border-left: 1px solid #127a16;
-    border-bottom: 1px solid #127a16;
-    border-right: 1px solid #127a16;
+    border-left: 1px solid #639c77;
+    border-bottom: 1px solid #639c77;
+    border-right: 1px solid #639c77;
     font-size: 14px;
 }
 
@@ -391,6 +412,9 @@ a {
 
 .homePageImage {
 	background-image: url("/static/images/main.jpg");
+	background-position-y: 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .familyHorse {
@@ -457,7 +481,7 @@ a {
 .sectionText .title {
     display: block;
     font-size: 40px;
-    color: #127a16;
+    color: #639c77;
     margin-bottom: 10px;
 }
 
@@ -516,5 +540,54 @@ a {
 }
 
 .animalCard .animalName {
-	color: #127a16;
+	color: #639c77;
+}
+
+.indentedSection {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.calendar {
+	margin-left: 20px;
+	margin-top: 20px;
+	height: 700px;
+	width: 1000px;
+}
+
+.legend {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.legend .legendElement {
+	display: block;
+	padding-bottom: 5px;
+	position: relative;
+}
+
+.legend .legendElement .legendColor {
+    width: 20px;
+    height: 10px;
+    background-color: black;
+    display: inline-block;
+    margin-right: 10px;
+
+}
+
+.legend .legendElement .legendColor.visitsNoPartners {
+	background-color: #ea7900;
+}
+
+.legend .legendElement .legendColor.meetingsPartners {
+	background-color: #378006;
+}
+
+.legend .legendElement .legendColor.everyoneWelcome {
+	background-color: #0067ea;
+}
+
+.descriptionImage {
+	height: 300px;
+	border-radius: 5px;
 }

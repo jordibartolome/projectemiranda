@@ -39,7 +39,7 @@ const Menu = [
 			items: [
 				{
 					title: "Visites solidàries",
-					href: "/#!/meetings",
+					href: "/#!/visits",
 				},
 				{
 					title: "Trobades de socis",
@@ -115,6 +115,7 @@ class SiteViewModel {
 		this.nonSponsoredHorses = ko.observableArray([]);
 
 		this.becomePartner = new BecomePartnerViewModel();
+		this.visits = new VisitsViewModel();
 
 		this.initialize();
 	}
