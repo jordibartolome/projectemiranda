@@ -3,15 +3,9 @@ class VisitsViewModel {
 
 	}
 
+	// Show calendar
 	createCalendar() {
-		setTimeout(() => {
-			if ($("#calendar")[0]) {
-				var calendar = new Calendar();
-				calendar.show();
-			} else {
-				this.createCalendar();
-			}
-		}, 100)
+		new Calendar().show();
 	}
 
 	initializeOnPageLoad() {

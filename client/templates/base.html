@@ -43,8 +43,26 @@
 	</div>
 
 	<!-- ko with: visits-->
+	<div data-bind="page: {id: 'meet_us', afterShow: function () {initializeOnPageLoad()}}">
+		<!-- ko if: pager.activePage$().getCurrentId() == "meet_us" -->
+			<!-- ko template: {name: 'meet_us'} --><!-- /ko -->
+		<!-- /ko -->
+	</div>
+	<!-- /ko -->
+
+	<!-- ko with: visits-->
 	<div data-bind="page: {id: 'visits', afterShow: function () {initializeOnPageLoad()}}">
-		<!-- ko template: {name: 'visits'} --><!-- /ko -->
+		<!-- ko if: pager.activePage$().getCurrentId() == "visits" -->
+			<!-- ko template: {name: 'visits'} --><!-- /ko -->
+		<!-- /ko -->
+	</div>
+	<!-- /ko -->
+
+	<!-- ko with: visits-->
+	<div data-bind="page: {id: 'partner_meetings', afterShow: function () {initializeOnPageLoad()}}">
+		<!-- ko if: pager.activePage$().getCurrentId() == "partner_meetings" -->
+			<!-- ko template: {name: 'partner_meetings'} --><!-- /ko -->
+		<!-- /ko -->
 	</div>
 	<!-- /ko -->
 </div>

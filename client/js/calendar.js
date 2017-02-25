@@ -27,11 +27,9 @@ var EVENTS = [
 ]
 
 class Calendar {
-	constructor() {
+	constructor() {}
 
-	}
-
-	show() {
+	render () {
 		$('#calendar').fullCalendar({
 			firstDay: 1,
 			height: "parent",
@@ -39,5 +37,15 @@ class Calendar {
 			fixedWeekCount: false,
 		  events: EVENTS
     });
+	}
+
+	show() {
+		setTimeout(() => {
+			if ($("#calendar")[0]) {
+				this.render();
+			} else {
+				this.show();
+			}
+		}, 100)
 	}
 }
