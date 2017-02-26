@@ -4,6 +4,8 @@ var VISIT_TEXT = "Visita solidària";
 var VISIT_COLOR = "#ea7900";
 var EVERYONE_VISIT_TEXT = "Visita oberta";
 var EVERYONE_VISIT_COLOR = "#0067ea";
+var SUMMER_CAMP_COLOR = '#378006';
+var SUMMER_CAMP_TEXT = "Campaments d'estiu";
 
 var TYPES = [
 	{
@@ -20,6 +22,11 @@ var TYPES = [
 		type: "EVERYONE",
 		color: "EVERYONE_VISIT_COLOR",
 		title: "EVERYONE_VISIT_TEXT"
+	},
+	{
+		type: "SUMMER_CAMP",
+		color: "SUMMER_CAMP_COLOR",
+		title: "SUMMER_CAMP_TEXT"
 	}
 ]
 
@@ -54,6 +61,24 @@ var EVERYONE = [
 	  start  : '2017-03-19',
 	  url: "http://jordibartolome.me",
 	},
+];
+
+var SUMMER_CAMP = [
+	{
+	  start: '2017-06-25',
+	  end: '2017-07-02',
+	  url: "https://www.eventbrite.com/e/campaments-destiu-tickets-32205656987",
+	},
+	{
+	  start: '2017-07-02',
+	  end: '2017-07-09',
+	  url: "https://www.eventbrite.com/e/campaments-destiu-tickets-32205657990",
+	},
+	{
+	  start: '2017-07-09',
+	  end: '2017-07-16',
+	  url: "https://www.eventbrite.com/e/campaments-destiu-tickets-32205658993",
+	}
 ];
 
 var EVENTS = [];
