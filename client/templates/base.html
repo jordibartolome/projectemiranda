@@ -65,4 +65,13 @@
 		<!-- /ko -->
 	</div>
 	<!-- /ko -->
+
+	<!-- ko with: summerCamp-->
+	<div data-bind="page: {id: 'summer_camp_kids', afterShow: function () {initializeOnPageLoad()}}">
+		<!-- ko if: pager.activePage$().getCurrentId() == "summer_camp_kids" -->
+			<!-- ko template: {name: 'summer_camp_kids'} --><!-- /ko -->
+		<!-- /ko -->
+	</div>
+	<!-- /ko -->
+
 </div>
