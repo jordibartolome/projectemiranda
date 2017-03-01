@@ -1,12 +1,10 @@
-class SummerCampViewModel extends VisitsViewModel {
+class CampsViewModel extends VisitsViewModel {
 	constructor () {
 		super();
 	}
 
-	// Show the date!
-	setDefaultDate() {
-		this.getCalendar().defaultDate("2017-06-01");
-	}
+	// Show the date - override
+	setDefaultDate() {}
 
 	initialize() {
 		if (!this.getCalendar().rendered()) {

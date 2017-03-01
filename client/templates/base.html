@@ -66,10 +66,18 @@
 	</div>
 	<!-- /ko -->
 
-	<!-- ko with: summerCamp-->
+	<!-- ko with: summerCampKids-->
 	<div data-bind="page: {id: 'summer_camp_kids', afterShow: function () {initializeOnPageLoad()}}">
 		<!-- ko if: pager.activePage$().getCurrentId() == "summer_camp_kids" -->
 			<!-- ko template: {name: 'summer_camp_kids'} --><!-- /ko -->
+		<!-- /ko -->
+	</div>
+	<!-- /ko -->
+
+	<!-- ko with: summerCampTeens-->
+	<div data-bind="page: {id: 'summer_camp_teens', afterShow: function () {initializeOnPageLoad()}}">
+		<!-- ko if: pager.activePage$().getCurrentId() == "summer_camp_teens" -->
+			<!-- ko template: {name: 'summer_camp_teens'} --><!-- /ko -->
 		<!-- /ko -->
 	</div>
 	<!-- /ko -->

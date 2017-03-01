@@ -127,6 +127,7 @@ a {
 }
 
 .secondColumn {
+  margin-left: 10px;
   flex-direction: row;
   flex-grow: 1;
   flex-basis: 0;

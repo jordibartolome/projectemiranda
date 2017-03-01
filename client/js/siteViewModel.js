@@ -5,7 +5,10 @@ class SiteViewModel {
 
 		this.becomePartner = new BecomePartnerViewModel();
 		this.visits = new VisitsViewModel();
-		this.summerCamp = new SummerCampViewModel();
+
+		// Camps
+		this.summerCampKids = new SummerCampKidsViewModel();
+		this.summerCampTeens = new SummerCampTeensViewModel();
 
 		this.initialize();
 	}
