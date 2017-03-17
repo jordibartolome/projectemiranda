@@ -10,6 +10,20 @@ a {
 	font-weight: bold;
 }
 
+.mainContainer {
+  max-width: 1280px;
+  margin: 0 auto;
+  box-shadow: 1px 90px 2000px 0px #dedede;
+  margin-bottom: 10px;
+}
+
+.footer {
+  background-color: #434344;
+  padding: 20px;
+  color: #b3afaf;
+  font-size: 13px;
+}
+
 .logos {
 	display: block;
 }
@@ -136,6 +150,10 @@ a {
 
 .maxGrowth {
   flex-basis: initial;
+}
+
+.centered {
+  text-align: center;
 }
 
 .firstColumn.fixedWidth {
@@ -531,6 +549,7 @@ a {
     margin-bottom: 20px;
     cursor: pointer;
     text-align: center;
+    vertical-align: top;
 
     -webkit-transition: opacity 500ms;
     -ms-transition: opacity 500ms linear;
@@ -539,6 +558,22 @@ a {
 
 .animalCard:hover {
 	opacity: 0.8;
+}
+
+.animalCard.expanded {
+  background-color: rgba(202, 218, 208, 1);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.animalCard .animalInfo {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+.animalCard .snippet {
+  font-size: 12px;
 }
 
 .animalCard .animalImage {

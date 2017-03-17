@@ -1,0 +1,14 @@
+<div class="animalCard" data-bind="click: toggleExpand, css: {expanded: expanded}">
+	<div class="animalImage">
+		<img data-bind="attr: {src: imagePath}" />					
+	</div>
+	<span class="animalName complimentary1" data-bind="text: name"></span>
+	<div class="animalInfo" data-bind="fadeVisible: expanded">
+		<!-- ko if: sponsor -->
+			<span class="sponsor" data-bind="text: sponsor"></span>
+		<!-- /ko -->
+		<!-- ko if: snippet -->
+			<span class="snippet" data-bind="text: snippet"></span>
+		<!-- /ko -->
+	</div>
+</div>

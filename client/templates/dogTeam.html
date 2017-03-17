@@ -15,7 +15,7 @@
 
 			<span class="description">Els resilients: Kenai, Reiki, Thai, Bròc, Lluna i Kèfir. Gossos diversos, de procedències poc definides que no deixen de sorprendre’ns amb les seves habilitats i acudits… Un autèntic repte pel treball amb senyals de calma i en positiu.</span>
 
-			<span class="description">Si vols esponsoritzar el dog team apadrinant un dels gossos (Quota de 15 o 25€/mes) envia’ns un mail a <a href="mailto:info@projectemiranda.cat" class="standardLink">info@projectemiranda.cat</a> o truca al 931023068 i t’informem en detall i sense compromís! T’enviarem fotos i videos del teu gos i podràs venit a veure’l a totes les trobades de socis i padrins que anem programant mensualment.</span>
+			<span class="description">Si vols esponsoritzar el dog team apadrinant un dels gossos (Quota de 15 o 25€/mes) envia’ns un mail a <a href="mailto:info@projectemiranda.cat" class="standardLink">info@projectemiranda.cat</a> o truca al 931023068 i t’informem en detall i sense compromís! T’enviarem fotos i videos del teu gos i podràs venir a veure’l a totes les trobades de socis i padrins que anem programant mensualment.</span>
 		</div>
 
 		<div class="secondColumn">
@@ -23,21 +23,12 @@
 		</div>
 	</div>
 
-
-
-
-
 	<div class="subSectionText">
 		<span class="subtitle complimentary1">Busquen padrins</span>
 
 		<div class="gridContainer">
 			<!-- ko foreach: nonSponsoredDogs -->
-				<div class="animalCard">
-					<div class="animalImage">
-						<img data-bind="attr: {src: imagePath}" />					
-					</div>
-					<span class="animalName complimentary1" data-bind="text: name"></span>
-				</div>
+				<!-- ko template: {name: 'animalCard'} --><!-- /ko -->
 			<!-- /ko -->
 		</div>
 	</div>
@@ -47,12 +38,7 @@
 
 		<div class="gridContainer">
 			<!-- ko foreach: sponsoredDogs -->
-				<div class="animalCard">
-					<div class="animalImage">
-						<img data-bind="attr: {src: imagePath}" />					
-					</div>
-					<span class="animalName complimentary1" data-bind="text: name"></span>
-				</div>
+				<!-- ko template: {name: 'animalCard'} --><!-- /ko -->
 			<!-- /ko -->
 		</div>
 	</div>

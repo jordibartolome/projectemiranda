@@ -2,12 +2,14 @@ const HORSES = [
 	{
 		name: "Àsia",
 		id: "asia",
-		sponsored: false
+		sponsored: false,
+		snippet: "L’Àsia, filla de la Ushuaia, va néixer un matí de març del 2015, que el Pla de l’Orri era tot emblanquinat. Quan va néixer tenia el mateix color que un esquirol i ara és blanca com la neu, guapa i molt salvatge!"
 	},
 	{
 		name: "Torp",
 		id: "torp",
-		sponsored: false
+		sponsored: false,
+		snippet: "El Torp, és el primer fill de l’Estrella. Una euga que vam rescatar ja fa molts anys, perquè s’havia trencat la cadera i l’anaven a sacrificar… L’Estrella es va recuperar i tot i que els veterinaris ens deien que no podria tenir fills amb la seva cadera torta, va poder ser mare d’aquest poltre negre preciós i ple de vida que va néixer lliure i fort el mes de juny del 2015."
 	},
 	{
 		name: "Mua",

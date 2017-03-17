@@ -9,12 +9,7 @@
 
 		<div class="gridContainer">
 			<!-- ko foreach: nonSponsoredHorses -->
-				<div class="animalCard">
-					<div class="animalImage">
-						<img data-bind="attr: {src: imagePath}" />					
-					</div>
-					<span class="animalName complimentary1" data-bind="text: name"></span>
-				</div>
+				<!-- ko template: {name: 'animalCard'} --><!-- /ko -->
 			<!-- /ko -->
 		</div>
 	</div>
@@ -24,12 +19,7 @@
 
 		<div class="gridContainer">
 			<!-- ko foreach: sponsoredHorses -->
-				<div class="animalCard">
-					<div class="animalImage">
-						<img data-bind="attr: {src: imagePath}" />					
-					</div>
-					<span class="animalName complimentary1" data-bind="text: name"></span>
-				</div>
+				<!-- ko template: {name: 'animalCard'} --><!-- /ko -->
 			<!-- /ko -->
 		</div>
 	</div>
