@@ -30,9 +30,18 @@
 	<div data-bind="page: {id: 'start'}">
 		<!-- ko template: {name: 'whatDoWeDo'} --><!-- /ko -->
 	</div>
+
+	<!-- ko with: ourHorses-->
 	<div data-bind="page: {id: 'our_horses'}">
 		<!-- ko template: {name: 'ourHorses'} --><!-- /ko -->
 	</div>
+	<!-- /ko -->
+
+	<!-- ko with: dogTeam-->
+	<div data-bind="page: {id: 'dog_team'}">
+		<!-- ko template: {name: 'dogTeam'} --><!-- /ko -->
+	</div>
+	<!-- /ko -->
 
 	<div data-bind="page: {id: 'become_partner'}">
 		<!-- ko template: {name: 'becomePartner', data: becomePartner} --><!-- /ko -->
@@ -62,6 +71,14 @@
 	<div data-bind="page: {id: 'partner_meetings', afterShow: function () {initializeOnPageLoad()}}">
 		<!-- ko if: pager.activePage$().getCurrentId() == "partner_meetings" -->
 			<!-- ko template: {name: 'partner_meetings'} --><!-- /ko -->
+		<!-- /ko -->
+	</div>
+	<!-- /ko -->
+
+	<!-- ko with: visits-->
+	<div data-bind="page: {id: 'transhumance', afterShow: function () {initializeOnPageLoad()}}">
+		<!-- ko if: pager.activePage$().getCurrentId() == "transhumance" -->
+			<!-- ko template: {name: 'transhumance'} --><!-- /ko -->
 		<!-- /ko -->
 	</div>
 	<!-- /ko -->

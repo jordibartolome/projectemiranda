@@ -1,8 +1,12 @@
 class SiteViewModel {
 	constructor() {
 		this.menuItems = ko.observableArray([]);
-		this.nonSponsoredHorses = ko.observableArray([]);
 
+		// Models
+		this.ourHorses = new OurHorsesViewModel();
+		this.dogTeam = new DogTeamViewModel();
+
+		// View models
 		this.becomePartner = new BecomePartnerViewModel();
 		this.visits = new VisitsViewModel();
 
@@ -19,14 +23,7 @@ class SiteViewModel {
 		}
 	}
 
-	createHorsesLists() {
-		for (var i = 0; i < NonSponsoredHorses.length; i++) {
-			this.nonSponsoredHorses.push(new AnimalCard(NonSponsoredHorses[i]));
-		}
-	}
-
 	initialize() {
 		this.createMenu();
-		this.createHorsesLists();
 	}
 }

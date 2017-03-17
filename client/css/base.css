@@ -134,6 +134,10 @@ a {
   position: relative;
 }
 
+.maxGrowth {
+  flex-basis: initial;
+}
+
 .firstColumn.fixedWidth {
   width: 49.5%;
 }

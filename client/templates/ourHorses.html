@@ -2,7 +2,7 @@
 	<span class="title">Els nostres cavalls</span>
 	<span class="description">Els cavalls de la Fundació Projecte Miranda són un magnífic equip de professionals de la salut i de l’ajuda a les persones.  Cavalls resilients, que han superat dificultats i traumes emocionals i/o físics, o que ho estan fent de mica en mica. Gairebé tots els cavalls que viuen al Pla de l’Orri, precedeixen de maltractaments i d’històries dures, això si, amb final feliç!  Si vols ajudar-nos a mantenir aquest procés, apadrina un cavall (amb una contribució de 60€ al mes) i tindràs un AMIC molt especial. Podràs venir a visitar-lo, et farem arribar informació del seu estat, fotos … I podràs venir a veure’l totes les trobades de socis i padrins de la fundació! Clica a sobre de les imatges per conèixer la història de cada cavall.</span>
 
-	<span class="description">Si vols apadrinar un cavall, envia’ns un mail a info@projectemiranda.cat</span>
+	<span class="description">Si vols apadrinar un cavall, envia’ns un email a <a href="mailto:info@projectemiranda.cat" class="standardLink">info@projectemiranda.cat</a></span>
 
 	<div class="subSectionText">
 		<span class="subtitle complimentary1">Busquen padrins</span>
@@ -17,6 +17,20 @@
 				</div>
 			<!-- /ko -->
 		</div>
+	</div>
 
+	<div class="subSectionText">
+		<span class="subtitle complimentary1">Ja tenen padrins!</span>
+
+		<div class="gridContainer">
+			<!-- ko foreach: sponsoredHorses -->
+				<div class="animalCard">
+					<div class="animalImage">
+						<img data-bind="attr: {src: imagePath}" />					
+					</div>
+					<span class="animalName complimentary1" data-bind="text: name"></span>
+				</div>
+			<!-- /ko -->
+		</div>
 	</div>
 </div>
