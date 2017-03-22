@@ -1,6 +1,5 @@
 class OurHorsesViewModel {
 	constructor() {
-		this.horses = new Horses();
 		this.sponsoredHorses = ko.observableArray([]);
 		this.nonSponsoredHorses = ko.observableArray([]);
 
@@ -9,13 +8,13 @@ class OurHorsesViewModel {
 
 	createHorsesLists() {
 		// Sponsored horses
-		var nsh = this.horses.getSponsoredHorses();
+		var nsh = Horses.getSponsoredHorses();
 		for (let i = 0; i < nsh.length; i++) {
 			this.sponsoredHorses.push(new AnimalCard(nsh[i]));
 		}
 
 		// Non sponsored horses
-		nsh = this.horses.getNonSponsoredHorses();
+		nsh = Horses.getNonSponsoredHorses();
 		for (let i = 0; i < nsh.length; i++) {
 			this.nonSponsoredHorses.push(new AnimalCard(nsh[i]));
 		}

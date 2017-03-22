@@ -76,7 +76,7 @@ const Menu = [
 				},
 				{
 					title: "Apadrina",
-					href: "/#!/transhumance",
+					href: "/#!/sponsor",
 				},
 				{
 					title: "Dóna",

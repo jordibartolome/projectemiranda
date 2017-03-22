@@ -286,8 +286,34 @@ a {
    padding: 15px 30px;
 }
 
-.modernForm .buttonWithPadding.actionButton.medium{
+.buttonsWrapper {
+  width: 100%;
+  display: block;
+  position: relative;
+  clear: both;
+  text-align: center;
+}
+
+.actionButton {
+  padding: 5px 10px 5px 10px;
+  -webkit-transition: background-color 200ms;
+  -ms-transition: background-color 200ms linear;
+  transition: background-color 200ms linear;
+  display: inline-block;
+  position: relative;
+  font-size: 14px;
+  border-radius: 2px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.actionButton.buttonWithPadding.medium{
   padding: 10px 20px 10px 20px;
+}
+
+.actionButton.buttonWithPadding.big{
+  padding: 20px 30px 20px 30px;
+  font-size: 16px;
 }
 
 .modernForm .buttonsWrapper {
@@ -483,12 +509,12 @@ a {
 	color: #C07330;
 }
 
-.actionButton.pimaryColor {
+.actionButton.primaryColor {
   background-color: #449648;
   color: white;
 }
 
-.actionButton.pimaryColor:hover {
+.actionButton.primaryColor:hover {
   background-color: #7ab47d;
 }
 
@@ -550,14 +576,9 @@ a {
     cursor: pointer;
     text-align: center;
     vertical-align: top;
-
-    -webkit-transition: opacity 500ms;
-    -ms-transition: opacity 500ms linear;
-    transition: opacity 500ms linear;
 }
 
 .animalCard:hover {
-	opacity: 0.8;
 }
 
 .animalCard.expanded {
@@ -574,11 +595,21 @@ a {
 
 .animalCard .snippet {
   font-size: 12px;
+  margin-bottom: 10px;
+  display: block;
+  line-height: 1.2;
 }
 
 .animalCard .animalImage {
     display: block;
     margin-bottom: 5px;
+    -webkit-transition: opacity 500ms;
+    -ms-transition: opacity 500ms linear;
+    transition: opacity 500ms linear;
+}
+
+.animalCard .animalImage:hover {
+  opacity: 0.8;
 }
 
 .animalCard .animalImage img {
@@ -588,6 +619,8 @@ a {
 
 .animalCard .animalName {
 	color: #639c77;
+  margin-bottom: 5px;
+  display: block;
 }
 
 .indentedSection {
@@ -641,4 +674,23 @@ a {
 .descriptionImage {
 	height: 300px;
 	border-radius: 5px;
+}
+
+.extraImages {
+  margin-top: 40px;
+  display: block;
+  text-align: center;
+  border-top: 1px solid rgba(197, 218, 204, 0.52);
+  padding-top: 40px;
+  border-bottom: 1px solid rgba(197, 218, 204, 0.52);
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+}
+
+.extraImages img {
+  width: 250px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 20px;
+  border-radius: 5px;
 }

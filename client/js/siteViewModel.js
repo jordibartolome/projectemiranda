@@ -5,9 +5,11 @@ class SiteViewModel {
 		// Models
 		this.ourHorses = new OurHorsesViewModel();
 		this.dogTeam = new DogTeamViewModel();
+		this.animal = new AnimalInfo();
 
 		// View models
 		this.becomePartner = new BecomePartnerViewModel();
+		this.sponsor = new Sponsor();
 		this.visits = new VisitsViewModel();
 
 		// Camps

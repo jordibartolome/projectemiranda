@@ -14,4 +14,8 @@ class AnimalCard {
 	toggleExpand() {
 		this.expanded(!this.expanded());
 	}
+
+	goTo() {
+		window.location.href = "/#!/animal/?name=" + this.id();
+	}
 }
