@@ -1,6 +1,6 @@
 <div class="sectionText modernForm medium">
   <div class="formRow">
-    <span class="subtitle">Formulari per donar-se d'alta com a soci</span>
+    <span class="subtitle" data-bind="text: title"></span>
   </div>
   <div class="subSectionText">
     <div class="formRow">
@@ -80,12 +80,12 @@
     </div>
 
     <div class="formRow">
-      <div class="columnsContainer">
-        <div class="firstColumn">
+      <div class="">
+        <div class="firstColumn fixedWidth">
           <span class="inputDescription">Cavall per apadrinar</span>
           <div class="select">
             <div class="select">
-              <select data-bind="options: availableHorses, optionsValue: 'value', optionsText: 'label', value: selectedHorse"></select>
+              <select data-bind="options: availableHorses, optionsValue: 'id', optionsText: 'name', value: selectedHorse"></select>
             </div>
           </div>
         </div>
@@ -93,10 +93,10 @@
     </div>
 
     <div class="buttonsWrapper">
-      <button class="actionButton primaryColor big" data-bind="click: send, visible: notDoneYet">Fes-te soci!</button>
+      <button class="actionButton primaryColor big" data-bind="click: send, visible: notDoneYet, text: sendText"></button>
     </div>
 
-    <div class="description primary" data-bind="visible: !notDoneYet()">Moltes gràcies per fer-te soci de la Fundació. Ben aviat contactarem amb tu!</div>
+    <div class="description primary" data-bind="visible: !notDoneYet()">Moltes gràcies per ajudar a la Fundació. Ben aviat contactarem amb tu!</div>
 
   </div>
 </div>

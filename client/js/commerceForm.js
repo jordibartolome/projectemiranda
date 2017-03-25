@@ -46,6 +46,10 @@ var ID_TYPES = [
 
 class CommerceForm {
 	constructor() {
+		this.title = ko.observable();
+		this.sendText = ko.observable();
+		this.notDoneYet = ko.observable(true);
+
 		this.firstName = ko.observable();
 		this.lastName = ko.observable();
 		this.email = ko.observable();
@@ -65,11 +69,10 @@ class CommerceForm {
 		this.idNumber = ko.observable();
 
 		this.showHorses = ko.observable(false);
-		this.notDoneYet = ko.observable(true);
 	}
 
 	send() {
-		this.notPartnerYet(false);
+		this.notDoneYet(false);
 		var postService = ProjecteMiranda.postService("/new_partner", {}, () => {});
 
 		postService({

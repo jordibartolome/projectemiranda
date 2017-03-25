@@ -35,7 +35,7 @@ class AnimalInfo {
 	}
 
 	sponsor() {
-		window.location.href = "/#!/sponsor";
+		window.location.href = "/#!/sponsor/?name=" + this.id();
 	}
 
 	prepareAnimalToShow() {
