@@ -13,7 +13,7 @@
 			</div>
 		</div>
 
-		<div class="extraImages">
+		<div class="extraImages" data-bind="visible: extraImages().length > 0">
 				<!-- ko foreach: extraImages -->
 					<img class="extraImage" data-bind="attr: {src: $data}" />
 				<!-- /ko -->
