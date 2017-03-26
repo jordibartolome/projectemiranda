@@ -5,7 +5,7 @@ class Sponsor {
 		this.form.sendText("Apadrina!");
 		this.form.contribution(60);
 		this.form.showHorses(true);
-
+		this.form.disableContribution(true);
 	}
 
 	initialize() {

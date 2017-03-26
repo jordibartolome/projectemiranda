@@ -4,5 +4,4 @@ class BecomePartnerViewModel {
 		this.form.title("Formulari per donar-se d'alta com a soci");
 		this.form.sendText("Fes-te soci!");
 	}
-
 }

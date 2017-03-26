@@ -2,7 +2,9 @@
 	<!-- <h1 class="logoText">Fundació Projecte Miranda</h1> -->
 	<div class="logos">
 		<!-- <div class="logoHorse"></div> -->
-		<div class="logoName"></div>
+		<a href="/">
+			<div class="logoName"></div>
+		</a>
 	</div>
 </div>
 <div class="menuContainer">
@@ -60,6 +62,10 @@
 		<!-- ko template: {name: 'animal'} --><!-- /ko -->
 	</div>
 	<!-- /ko -->
+
+	<div data-bind="page: {id: 'collaborate', scrollToTop: true}">
+		<!-- ko template: {name: 'collaborate', data: sponsor} --><!-- /ko -->
+	</div>
 
 	<div data-bind="page: {id: 'sponsor', scrollToTop: true}">
 		<!-- ko template: {name: 'sponsor', data: sponsor} --><!-- /ko -->

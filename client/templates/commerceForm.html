@@ -37,10 +37,10 @@
         </div>
 
         <div class="secondColumn">
-          <span class="inputDescription">Quantitat que vols aportar</span>
+          <span class="inputDescription">Quantitat que vols aportar mensualment</span>
           <div class="select">
             <div class="select">
-              <select data-bind="options: availableContributions, optionsValue: 'value', optionsText: 'label', value: contribution"></select>
+              <select data-bind="options: availableContributions, optionsValue: 'value', optionsText: 'label', value: contribution, disable: disableContribution"></select>
             </div>
           </div>
         </div>
@@ -79,14 +79,12 @@
       </div>
     </div>
 
-    <div class="formRow">
-      <div class="">
-        <div class="firstColumn fixedWidth">
-          <span class="inputDescription">Cavall per apadrinar</span>
+    <div class="formRow" data-bind="visible: showHorses">
+      <div class="firstColumn fixedWidth">
+        <span class="inputDescription">Cavall per apadrinar</span>
+        <div class="select">
           <div class="select">
-            <div class="select">
-              <select data-bind="options: availableHorses, optionsValue: 'id', optionsText: 'name', value: selectedHorse"></select>
-            </div>
+            <select data-bind="options: availableHorses, optionsValue: 'id', optionsText: 'name', value: selectedHorse"></select>
           </div>
         </div>
       </div>

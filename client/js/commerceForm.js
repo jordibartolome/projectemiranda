@@ -56,6 +56,7 @@ class CommerceForm {
 		this.phone = ko.observable();
 		this.address = ko.observable();
 		this.contribution = ko.observable();
+		this.disableContribution = ko.observable(false);
 		this.availableContributions = ko.observableArray(CONTRIBUTIONS);
 
 		this.selectedHorse = ko.observable();
@@ -67,7 +68,6 @@ class CommerceForm {
 		this.idType = ko.observable("DNI");
 		this.availableIdTypes = ko.observableArray(ID_TYPES);
 		this.idNumber = ko.observable();
-
 		this.showHorses = ko.observable(false);
 	}
 
