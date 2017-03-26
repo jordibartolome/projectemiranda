@@ -6,8 +6,16 @@ a {
 	text-decoration: none;
 }
 
+strong {
+  font-weight: bold;
+}
+
 .bold {
 	font-weight: bold;
+}
+
+.top {
+  vertical-align: top;
 }
 
 .mainContainer {
@@ -379,6 +387,11 @@ a {
 	border-left: 1px solid white;
 }
 
+.menuItem.highlighted {
+  background-color: #e97b18;
+  color: white;
+}
+
 .menuItem:hover {
 	background-color: white;
 	color: #639c77;
@@ -407,9 +420,13 @@ a {
 	display: block;
 	position: relative;
 
-    -webkit-transition: color 500ms linear;
-    -ms-transition: color 500ms linear;
-    transition: color 500ms linear;
+  -webkit-transition: color 500ms linear;
+  -ms-transition: color 500ms linear;
+  transition: color 500ms linear;
+}
+
+.menuItem.highlighted .menuItemDescription {
+  color: white;
 }
 
 .menuItem .floatingMenu {
@@ -555,6 +572,10 @@ a {
     font-size: 15px;
 }
 
+.sectionText .description.bigDescription {
+  font-size: 18px;
+}
+
 .sectionText .description.largePaddingBottom {
 	margin-bottom: 12px;
 }
@@ -692,5 +713,32 @@ a {
   display: inline-block;
   vertical-align: middle;
   margin-right: 20px;
+  margin-bottom: 20px;
   border-radius: 5px;
+}
+
+.socialNetworkContainer {
+  display: inline-block;
+  position: relative;
+  top: -6px;
+  margin-left: 7px;
+}
+
+.socialNetworkContainer .fa {
+  margin-right: 5px;
+}
+
+.clickableIcon {
+  cursor: pointer;
+  transition-property: color, background-color;
+  -webkit-transition-property: color, background-color;
+  -moz-transition-property: color, background-color;
+
+  transition-duration: 0.15s;
+  -webkit-transition-duration: 0.15s;
+  -moz-transition-duration: 0.15s;
+}
+
+.clickableIcon:hover {
+  color: #e97b18;
 }

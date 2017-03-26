@@ -7,7 +7,7 @@
 </div>
 <div class="menuContainer">
 	<!-- ko foreach: menuItems -->
-		<div class="menuItem borderLeft">
+		<div class="menuItem borderLeft" data-bind="css: {highlighted: highlighted}">
 			<a data-bind="event: { mouseover: handleMenuItemMouseover, mouseout: handleMenuItemMouseout }, attr: { href: href }">
 				<span class="menuItemTitle" data-bind="text: title"></span>
 				<!-- ko if: subtitle -->
@@ -39,6 +39,10 @@
 		<!-- ko template: {name: 'socialContribution'} --><!-- /ko -->
 	</div>
 
+	<div data-bind="page: {id: 'kitchen', scrollToTop: true}">
+		<!-- ko template: {name: 'kitchen'} --><!-- /ko -->
+	</div>
+
 	<!-- ko with: ourHorses-->
 	<div data-bind="page: {id: 'our_horses', scrollToTop: true}">
 		<!-- ko template: {name: 'ourHorses'} --><!-- /ko -->
@@ -67,6 +71,10 @@
 
 	<div data-bind="page: {id: 'become_volunteer', scrollToTop: true}">
 		<!-- ko template: {name: 'becomeVolunteer'} --><!-- /ko -->
+	</div>
+
+	<div data-bind="page: {id: 'how_we_spend_donations', scrollToTop: true}">
+		<!-- ko template: {name: 'howWeSpendDonations'} --><!-- /ko -->
 	</div>
 
 	<!-- ko with: visits-->
@@ -119,5 +127,7 @@
 
 
 	<!-- FOOTER -->
-	<!-- ko template: {name: 'footer'} --><!-- /ko -->
+	<!-- ko with: footer-->
+		<!-- ko template: {name: 'footer'} --><!-- /ko -->
+	<!-- /ko -->
 </div>

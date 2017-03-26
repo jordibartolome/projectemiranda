@@ -3,6 +3,7 @@ class MenuItem {
 		this.title = ko.observable(item.title);
 		this.subtitle = ko.observable(item.subtitle);
 		this.href = ko.observable(item.href);
+		this.highlighted = ko.observable(item.highlighted);
 
 		this.fi = item.floatingMenu;
 		this.floatingMenu = ko.observable();

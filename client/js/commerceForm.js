@@ -85,7 +85,8 @@ class CommerceForm {
 			bankAccount: this.bankAccount(),
 			owner: this.owner(),
 			idType: this.idType(),
-			idNumber: this.idNumber()
+			idNumber: this.idNumber(),
+			horse: this.selectedHorse()
 		});
 
 	}

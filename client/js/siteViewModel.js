@@ -11,6 +11,7 @@ class SiteViewModel {
 		this.becomePartner = new BecomePartnerViewModel();
 		this.sponsor = new Sponsor();
 		this.visits = new VisitsViewModel();
+		this.footer = new Footer();
 
 		// Camps
 		this.summerCampKids = new SummerCampKidsViewModel();
