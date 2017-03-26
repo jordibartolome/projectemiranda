@@ -67,9 +67,11 @@
 		<!-- ko template: {name: 'collaborate', data: sponsor} --><!-- /ko -->
 	</div>
 
-	<div data-bind="page: {id: 'sponsor', scrollToTop: true}">
-		<!-- ko template: {name: 'sponsor', data: sponsor} --><!-- /ko -->
+	<!-- ko with: sponsor-->
+	<div data-bind="page: {id: 'sponsor', scrollToTop: true, afterShow: function () {initialize()}}">
+		<!-- ko template: {name: 'sponsor'} --><!-- /ko -->
 	</div>
+	<!-- /ko -->
 
 	<div data-bind="page: {id: 'become_partner', scrollToTop: true}">
 		<!-- ko template: {name: 'becomePartner', data: becomePartner} --><!-- /ko -->
