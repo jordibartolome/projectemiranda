@@ -1,6 +1,6 @@
 const Menu = [
 	{
-		title: "Què fem?",
+		title: "Projecte Miranda",
 		subtitle: "La nostra filosofia",
 		href: "/#!/start",
 		floatingMenu: {
@@ -16,6 +16,10 @@ const Menu = [
 				{
 					title: "La cuina",
 					href: "/#!/kitchen",
+				},
+				{
+					title: "On som?",
+					href: "/#!/where",
 				}
 			]
 		}
@@ -94,11 +98,11 @@ const Menu = [
 			]
 		}
 	},
-	{
-		title: "Blog",
-		subtitle: "",
-		href: "/blog"
-	},
+	// {
+	// 	title: "Blog",
+	// 	subtitle: "",
+	// 	href: "/blog"
+	// },
 	{
 		title: "Dóna",
 		subtitle: "Ajuda'ns",
