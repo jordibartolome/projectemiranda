@@ -87,10 +87,6 @@ const Menu = [
 					href: "/#!/become_partner",
 				},
 				{
-					title: "Fes-te voluntari",
-					href: "/#!/become_volunteer",
-				},
-				{
 					title: "Apadrina",
 					href: "/#!/sponsor",
 				},
@@ -101,6 +97,10 @@ const Menu = [
 				{
 					title: "A què destinem la teva aportació?",
 					href: "/#!/how_we_spend_donations",
+				},
+				{
+					title: "Fes-te voluntari",
+					href: "/#!/become_volunteer",
 				},
 				{
 					title: "Teaming",
