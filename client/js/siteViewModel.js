@@ -12,6 +12,7 @@ class SiteViewModel {
 		this.sponsor = new Sponsor();
 		this.visits = new VisitsViewModel();
 		this.footer = new Footer();
+		this.press = new Press();
 
 		// Camps
 		this.summerCampKids = new SummerCampKidsViewModel();

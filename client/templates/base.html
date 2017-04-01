@@ -29,42 +29,48 @@
 	<!-- /ko -->
 </div>
 <div class="mainContainer">
-	<div data-bind="page: {id: 'start', scrollToTop: true}">
+	<div data-bind="page: {id: 'start', scrollToTop: false}">
 		<!-- ko template: {name: 'whatDoWeDo'} --><!-- /ko -->
 	</div>
 
-	<div data-bind="page: {id: 'horses_sanctuary', scrollToTop: true}">
+	<div data-bind="page: {id: 'horses_sanctuary', scrollToTop: false}">
 		<!-- ko template: {name: 'horsesSanctuary'} --><!-- /ko -->
 	</div>
 
-	<div data-bind="page: {id: 'social_contribution', scrollToTop: true}">
+	<div data-bind="page: {id: 'social_contribution', scrollToTop: false}">
 		<!-- ko template: {name: 'socialContribution'} --><!-- /ko -->
 	</div>
 
-	<div data-bind="page: {id: 'kitchen', scrollToTop: true}">
+	<div data-bind="page: {id: 'kitchen', scrollToTop: false}">
 		<!-- ko template: {name: 'kitchen'} --><!-- /ko -->
 	</div>
 
-	<div data-bind="page: {id: 'where', scrollToTop: true}">
+	<div data-bind="page: {id: 'where', scrollToTop: false}">
 		<!-- ko template: {name: 'where'} --><!-- /ko -->
 	</div>
 
-	<div data-bind="page: {id: 'team', scrollToTop: true}">
+	<div data-bind="page: {id: 'team', scrollToTop: false}">
 		<!-- ko template: {name: 'team'} --><!-- /ko -->
 	</div>
 
-	<div data-bind="page: {id: 'press', scrollToTop: true}">
+	<!-- ko with: press-->
+	<div data-bind="page: {id: 'press', beforeShow: function () {showPress()}, scrollToTop: false}">
 		<!-- ko template: {name: 'press'} --><!-- /ko -->
+	</div>
+	<!-- /ko -->
+
+	<div data-bind="page: {id: 'contact', scrollToTop: false}">
+		<!-- ko template: {name: 'contact'} --><!-- /ko -->
 	</div>
 
 	<!-- ko with: ourHorses-->
-	<div data-bind="page: {id: 'our_horses', scrollToTop: true}">
+	<div data-bind="page: {id: 'our_horses', scrollToTop: false}">
 		<!-- ko template: {name: 'ourHorses'} --><!-- /ko -->
 	</div>
 	<!-- /ko -->
 
 	<!-- ko with: dogTeam-->
-	<div data-bind="page: {id: 'dog_team', scrollToTop: true}">
+	<div data-bind="page: {id: 'dog_team', scrollToTop: false}">
 		<!-- ko template: {name: 'dogTeam'} --><!-- /ko -->
 	</div>
 	<!-- /ko -->
@@ -75,30 +81,30 @@
 	</div>
 	<!-- /ko -->
 
-	<div data-bind="page: {id: 'collaborate', scrollToTop: true}">
+	<div data-bind="page: {id: 'collaborate', scrollToTop: false}">
 		<!-- ko template: {name: 'collaborate', data: sponsor} --><!-- /ko -->
 	</div>
 
 	<!-- ko with: sponsor-->
-	<div data-bind="page: {id: 'sponsor', scrollToTop: true, afterShow: function () {initialize()}}">
+	<div data-bind="page: {id: 'sponsor', scrollToTop: false, afterShow: function () {initialize()}}">
 		<!-- ko template: {name: 'sponsor'} --><!-- /ko -->
 	</div>
 	<!-- /ko -->
 
-	<div data-bind="page: {id: 'become_partner', scrollToTop: true}">
+	<div data-bind="page: {id: 'become_partner', scrollToTop: false}">
 		<!-- ko template: {name: 'becomePartner', data: becomePartner} --><!-- /ko -->
 	</div>
 
-	<div data-bind="page: {id: 'become_volunteer', scrollToTop: true}">
+	<div data-bind="page: {id: 'become_volunteer', scrollToTop: false}">
 		<!-- ko template: {name: 'becomeVolunteer'} --><!-- /ko -->
 	</div>
 
-	<div data-bind="page: {id: 'how_we_spend_donations', scrollToTop: true}">
+	<div data-bind="page: {id: 'how_we_spend_donations', scrollToTop: false}">
 		<!-- ko template: {name: 'howWeSpendDonations'} --><!-- /ko -->
 	</div>
 
 	<!-- ko with: visits-->
-	<div data-bind="page: {id: 'meet_us', afterShow: function () {initializeOnPageLoad()}, scrollToTop: true}">
+	<div data-bind="page: {id: 'meet_us', afterShow: function () {initializeOnPageLoad()}, scrollToTop: false}">
 		<!-- ko if: pager.activePage$().getCurrentId() == "meet_us" -->
 			<!-- ko template: {name: 'meet_us'} --><!-- /ko -->
 		<!-- /ko -->
@@ -106,7 +112,7 @@
 	<!-- /ko -->
 
 	<!-- ko with: visits-->
-	<div data-bind="page: {id: 'visits', afterShow: function () {initializeOnPageLoad()}, scrollToTop: true}">
+	<div data-bind="page: {id: 'visits', afterShow: function () {initializeOnPageLoad()}, scrollToTop: false}">
 		<!-- ko if: pager.activePage$().getCurrentId() == "visits" -->
 			<!-- ko template: {name: 'visits'} --><!-- /ko -->
 		<!-- /ko -->
@@ -114,7 +120,7 @@
 	<!-- /ko -->
 
 	<!-- ko with: visits-->
-	<div data-bind="page: {id: 'partner_meetings', afterShow: function () {initializeOnPageLoad()}, scrollToTop: true}">
+	<div data-bind="page: {id: 'partner_meetings', afterShow: function () {initializeOnPageLoad()}, scrollToTop: false}">
 		<!-- ko if: pager.activePage$().getCurrentId() == "partner_meetings" -->
 			<!-- ko template: {name: 'partner_meetings'} --><!-- /ko -->
 		<!-- /ko -->
@@ -122,7 +128,7 @@
 	<!-- /ko -->
 
 	<!-- ko with: visits-->
-	<div data-bind="page: {id: 'transhumance', afterShow: function () {initializeOnPageLoad()}, scrollToTop: true}">
+	<div data-bind="page: {id: 'transhumance', afterShow: function () {initializeOnPageLoad()}, scrollToTop: false}">
 		<!-- ko if: pager.activePage$().getCurrentId() == "transhumance" -->
 			<!-- ko template: {name: 'transhumance'} --><!-- /ko -->
 		<!-- /ko -->
@@ -130,7 +136,7 @@
 	<!-- /ko -->
 
 	<!-- ko with: summerCampKids-->
-	<div data-bind="page: {id: 'summer_camp_kids', afterShow: function () {initializeOnPageLoad()}, scrollToTop: true}">
+	<div data-bind="page: {id: 'summer_camp_kids', afterShow: function () {initializeOnPageLoad()}, scrollToTop: false}">
 		<!-- ko if: pager.activePage$().getCurrentId() == "summer_camp_kids" -->
 			<!-- ko template: {name: 'summer_camp_kids'} --><!-- /ko -->
 		<!-- /ko -->
@@ -138,7 +144,7 @@
 	<!-- /ko -->
 
 	<!-- ko with: summerCampTeens-->
-	<div data-bind="page: {id: 'summer_camp_teens', afterShow: function () {initializeOnPageLoad()}, scrollToTop: true}">
+	<div data-bind="page: {id: 'summer_camp_teens', afterShow: function () {initializeOnPageLoad()}, scrollToTop: false}">
 		<!-- ko if: pager.activePage$().getCurrentId() == "summer_camp_teens" -->
 			<!-- ko template: {name: 'summer_camp_teens'} --><!-- /ko -->
 		<!-- /ko -->

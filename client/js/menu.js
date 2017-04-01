@@ -28,6 +28,10 @@ const Menu = [
 				{
 					title: "Premsa",
 					href: "/#!/press",
+				},
+				{
+					title: "Contacta",
+					href: "/#!/contact",
 				}
 			]
 		}
