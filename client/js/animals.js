@@ -379,34 +379,81 @@ const DOGS = [
 	{
 		name: "Broc",
 		id: "broc",
-		sponsored: false
+		sponsored: false,
+		snippet: "El Broc va arribar a la Fundació el dia de Reis de 2015 amb un any d’edat aprox. El vam trobar perdut pel poble de Vilada i com que estavem a tope d’animals… vam decidir un mica a contracor, portar-lo a la protectora de Berga. Com que al cap d’uns mesos no l’havia adoptat ningú, vam acabar decidint “apretar-nos” i fer-li un lloc al nostre equip.",
+		description: [
+			"El Broc va arribar a la Fundació el dia de Reis de 2015 amb un any d’edat aprox. El vam trobar perdut pel poble de Vilada i com que estavem a tope d’animals… vam decidir un mica a contracor, portar-lo a la protectora de Berga. Com que al cap d’uns mesos no l’havia adoptat ningú, vam acabar decidint “apretar-nos” i fer-li un lloc al nostre equip.",
+			"Al ser un cadell, és un gos que necessita jugar moltes hores al dia i sortir a córrer pels camps. Aixó és el que ara per fi pot fer! Està sent un gos molt valent que supera les pors i les novetats molt ràpidament i alhora un gos molt fàcil que s’ha calmat força ràpid. És lògic que estigués activat perquè a la Protectora fan molt bona fèina però el Broc ha estat massa hores dins d’una gàbia o sigui que no és extrany que necessiti joc i moviment.",
+			"De seguida ha fet vincle amb els altres gossos i des de l’inici s’ha mostrat molt atent a les dinàmiques de la manada i amb nosaltres."
+		],
+		totalImages: 2
 	},
 	{
 		name: "Reiki",
 		id: "reiki",
-		sponsored: false
+		sponsored: false,
+		snippet: "El Reiki va arribar amb 7 mesos d’edat i amb molt d’estress, el juny del 2015, 15 dies abans que arribés el seu germà Thai. Rescatat per les nostres companyes d’Andalusia, va ser molt mal tractat de ben petit i el van abandonar llençant-lo dins d’un pati per sobre d’un mur…",
+		description: [
+			"El Reiki va arribar amb 7 mesos d’edat i amb molt d’estress, el juny del 2015, 15 dies abans que arribés el seu germà Thai. Rescatat per les nostres companyes d’Andalusia, va ser molt mal tractat de ben petit i el van abandonar llençant-lo dins d’un pati per sobre d’un mur…",
+			"Va aconseguir un adoptant a Barcelona però després de viatjar durant 24h, l’adoptant no es va presentar. El tranposrtista se’l va endur a casa seva a Cartagena i al cap d’uns dies la Fundació el va adoptar.",
+			"Durant els primers mesos, va ser un gos que pel seu alt nivell d’estress i el seu instint caçador, ens va donar molta feina. Tenia molt mala relació amb els gats. Ara és un gos que mira als ulls i que comença a fer vincle amb els gats! Quan el treiem del tancat, ja no marxa… ha entès que aquesta és la seva casa i el “dogteam” la seva familia.",
+			"El Reiki és un gos atleta que serà el teu company incondicional. Apadrina’l i connecta amb l’alegría del moviment i la llibertat."
+		],
+		totalImages: 3
 	},
 	{
 		name: "Jazz",
 		id: "jazz",
 		sponsored: true,
-		sponsor: "Marina i Júla"
+		sponsor: "Marina i Júla",
+		snippet: "El Jazz va arribar el 2012 amb 6 mesos d’edat! Creuat de Pastor Belga i Labrador. El seu “propietari” l’estava a punt de portar a una protectora de Saragossa, però la seva veïna va contactar amb nosaltres, ens va enviar una foto… i no vam poder dir que no.",
+		description: [
+			"El Jazz va arribar el 2012 amb 6 mesos d’edat! Creuat de Pastor Belga i Labrador. El seu “propietari” l’estava a punt de portar a una protectora de Saragossa, però la seva veïna va contactar amb nosaltres, ens va enviar una foto… i no vam poder dir que no.",
+			"Els primers mesos, amb l’estress acumulat, no parava de saltar com un cangur… però poc a poc es va anar calmant i ara és un gos 10! Amb una forma física de pastor maratonià… molt sociable, alegre, carinyós i molt pacient amb tots els nens que visiten la Fundació i no poden parar d’acariciar-lo i jugar amb ell…",
+			"Moltes gràcies Marina i Júlia per apadrinar-lo! sou unes padrines fantàstiques!!!"
+		],
+		totalImages: 2
 	},
 	{
 		name: "Kèfir",
 		id: "kefir",
-		sponsored: true
+		sponsored: true,
+		sponsor: "Mardesomnis",
+		snippet: "El Kèfir va arribar a la Fundació el mes de febrer de 2016. Amb dos anys d’edat procedent de l Associació Amics dela Animals de La Noguera. Els seus primers adoptants el van tornar a la protectora per que va tenir un atac epilèptic.",
+		description: [
+			"El Kèfir va arribar a la Fundació el mes de febrer de 2016. Amb dos anys d’edat procedent de l Associació Amics dela Animals de La Noguera. Els seus primers adoptants el van tornar a la protectora per que va tenir un atac epilèptic.",
+			"La seva arribada  ala Fundació, l’entrada a l’espai dels gossos i el primer contacte amb ells va ser preciós. Calmat i tranquil, no va generar cap estrés a ningú. En aquest moment delicat i decisiu, va ser absolutament respectuós, un rei dels senyals de calma. A tots ens va semblar que feia anys que el Kèfir vivia entre nosaltres. Alhora… vam descobrir aviat que aquest estat tranquil era també causat per la seva medicació, al nostre entendre massa agresiva i poc efectiva. Així doncs el vam deixar de medicar, per ajudar-lo a estar més present i també la seva intoxicació a mitjà plaç.  Ara, tot i que cada dos mesos pot patir algun atac epilèptic, viu en plenitud. Alohra, és un gos que necessita molta atenció ja que després dels atacs, no recorda quasi res… i necessita tornar a situar-se.",
+			"Estem molt contents que l’associació Mardesomnis (dedicada a la organització d’activitats de lleure per a nens, nenes i joves amb epilèpsia i altres malalties neurològiques.) l’hagi apadrinat!!"
+		],
+		totalImages: 2
 	},
 	{
 		name: "Lluna",
 		id: "lluna",
-		sponsored: true
+		sponsored: true,
+		sponsor: "Maia",
+		snippet: "La Lluna, rescatada per ADE va arribar a la Fundació el dia de Reis del 2015 amb dos anys d’edat després de passar tota la seva vida lligada en un hort.",
+		description: [
+			"La Lluna, rescatada per ADE va arribar a la Fundació el dia de Reis del 2015 amb dos anys d’edat després de passar tota la seva vida lligada en un hort.",
+			"Des de l’inici va ser com un àngel amb les persones, els altres gossos i els gats. Va costar una mica que entengués que els cavalls i els xais eren de casa i no suposaven cap amenaça. Amb les porquetes té un fort instint depredador i no hem aconseguit encara que hi pugui conviure. És en canvi una gran pastora que ens acompanya a revisar i moure cavalls a les pastures d’hivern de la muntanya d’Alinyà. També és un valor afegit a les visites on la seva preciosa presència i abnegació amb nens i adults són extraordinaries.",
+			"Molt contents que la Maia l’hagi apadrinat!"
+		],
+		totalImages: 2
 	},
 	{
 		name: "Thai",
 		id: "thai",
 		sponsored: true,
-		sponsor: "Timur"
+		sponsor: "Timur",
+		snippet: "Heu vist la película de dibuixos animats Bold? Igual que el seu protagonista, el Thai és valent, eixerit i així ha superat totes les dificultats que ha viscut.",
+		description: [
+			"Heu vist la película de dibuixos animats Bold? Igual que el seu protagonista, el Thai és valent, eixerit i així ha superat totes les dificultats que ha viscut.",
+			"El Thai va arribar el juliol de 2015, una setmana abans de començar els campaments, procedent d’un rescat que van fer unes companyes d’Andalusia. Sembla que es va poder escapar i el van trobar deambulant sol i perdut per la ciutat.",
+			"El Thai d’uns set mesos havia passat tota la seva etapa infantil tancat en una gàbia, sembla que en mans d’uns mals caçadors. Quan va arribar no responia a cap nom ni tracte afectuós. De mica en mica va anar reconnectant amb el gos dolç com de vellut, que és en la seva essència. Ell encara necessita sortir pel seu compte a fer la ronda de vigilància per la finca i tot sol torna a la porta de casa al cap d’una estona. Juga amb tothom i ara ja sap que es diu Thai i ve alegrament quan el crides. És un gos molt jove que encara dóna feina perquè s’estressa una mica amb els gats però a poc a poc, aquest estrès va disminuint. També mostrava por amb els altres gossos i li costava sostenir el seu espai propi. A través del joc, cada dia va guanyant confiança.",
+			"Boníssim amb la gent i amb els altres gossos. Sorprenentment xerraire i suau com el cotó.",
+			"Molt contens de que el Timur, un noi que el Thai va conèixer pels Campaments del 2015, l’hagi apadrinat! Són dos grans amics!"
+		],
+		totalImages: 2
 	}
 ]
 
