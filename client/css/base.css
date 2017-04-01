@@ -22,6 +22,10 @@ strong {
   vertical-align: top;
 }
 
+.inline {
+  display: inline-block!important;
+}
+
 .mainContainer {
   max-width: 1200px;
   margin: 0 auto;
@@ -653,7 +657,7 @@ strong {
 	padding-right: 10px;
 }
 
-.indentedSection.withTopMargin {
+.withTopMargin {
 	margin-top: 30px;
 }
 

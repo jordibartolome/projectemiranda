@@ -20,6 +20,14 @@ const Menu = [
 				{
 					title: "On som?",
 					href: "/#!/where",
+				},
+				{
+					title: "Equip",
+					href: "/#!/team",
+				},
+				{
+					title: "Premsa",
+					href: "/#!/press",
 				}
 			]
 		}
