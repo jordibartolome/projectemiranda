@@ -540,7 +540,16 @@ strong {
 }
 
 .actionButton.primaryColor:hover {
-  background-color: #7ab47d;
+  background-color: #426b44;
+}
+
+.actionButton.secondaryColor {
+  background-color: #e97b18;
+  color: white;
+}
+
+.actionButton.secondaryColor:hover {
+  background-color: #c55e00;
 }
 
 .sectionText {
@@ -657,6 +666,10 @@ strong {
 	padding-right: 10px;
 }
 
+.largeTopMargin {
+  margin-top: 60px;
+}
+
 .withTopMargin {
 	margin-top: 30px;
 }
@@ -755,4 +768,13 @@ strong {
   font-size: 14px;
   display: block;
   margin-bottom: 5px;
+}
+
+.separation {
+  background-color: #e6e6e6;
+  height: 1px;
+  width: 100%;
+  display: block;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
