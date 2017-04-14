@@ -13,6 +13,7 @@ class SiteViewModel {
 		this.visits = new VisitsViewModel();
 		this.footer = new Footer();
 		this.press = new Press();
+		this.donate = new Donate();
 
 		// Camps
 		this.summerCampKids = new SummerCampKidsViewModel();

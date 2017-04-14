@@ -6,6 +6,12 @@ class Sponsor {
 		this.form.contribution(60);
 		this.form.showHorses(true);
 		this.form.disableContribution(true);
+
+		this.donateViewModel = new Donate();
+	}
+
+	donate () {
+		this.donateViewModel.donate();
 	}
 
 	initialize() {
