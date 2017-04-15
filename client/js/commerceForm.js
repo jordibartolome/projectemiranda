@@ -40,7 +40,7 @@ var ID_TYPES = [
 	},
 	{
 		value: "Passport",
-		label: "Passaprt"
+		label: "Passaport"
 	}
 ];
 

@@ -4,8 +4,10 @@ var VISIT_TEXT = "Visita solidària";
 var VISIT_COLOR = "#ea7900";
 var EVERYONE_VISIT_TEXT = "Visita oberta";
 var EVERYONE_VISIT_COLOR = "#0067ea";
-var SUMMER_CAMP_COLOR = '#378006';
 var SUMMER_CAMP_TEXT = "Campaments d'estiu";
+var SUMMER_CAMP_COLOR = '#65b72f';
+var WORK_CAMP_TEXT = "Camps de treball";
+var WORK_CAMP_COLOR = "#293669";
 
 var TYPES = [
 	{
@@ -27,6 +29,11 @@ var TYPES = [
 		type: "SUMMER_CAMP",
 		color: "SUMMER_CAMP_COLOR",
 		title: "SUMMER_CAMP_TEXT"
+	},
+	{
+		type: "WORK_CAMP",
+		color: "WORK_CAMP_COLOR",
+		title: "WORK_CAMP_TEXT"
 	}
 ]
 
@@ -54,13 +61,13 @@ var PARTNERS = [
 
 var EVERYONE = [
 	{
-	  start  : '2017-02-19',
+	  start  : '2017-04-15',
 	  url: "http://jordibartolome.me",
 	},
-		{
-	  start  : '2017-03-19',
+	{
+	  start  : '2017-04-30',
 	  url: "http://jordibartolome.me",
-	},
+	}
 ];
 
 var SUMMER_CAMP = [
@@ -80,6 +87,19 @@ var SUMMER_CAMP = [
 	  url: "https://www.eventbrite.com/e/campaments-destiu-tickets-32205658993",
 	}
 ];
+
+var WORK_CAMP = [	
+	{
+	  start: '2017-07-16',
+	  end: '2017-07-23',
+	  url: "https://www.eventbrite.com/e/entradas-camp-de-vida-12-17-anys-32311224743",
+	},
+	{
+	  start: '2017-07-23',
+	  end: '2017-07-30',
+	  url: "https://www.eventbrite.com/e/entradas-camp-de-vida-12-17-anys-32311225746",
+	}
+]
 
 var EVENTS = [];
 class Calendar {
