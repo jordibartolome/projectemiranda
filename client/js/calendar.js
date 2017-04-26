@@ -5,9 +5,9 @@ var VISIT_COLOR = "#ea7900";
 var EVERYONE_VISIT_TEXT = "Visita oberta";
 var EVERYONE_VISIT_COLOR = "#0067ea";
 var SUMMER_CAMP_TEXT = "Campaments d'estiu";
-var SUMMER_CAMP_COLOR = '#65b72f';
+var SUMMER_CAMP_COLOR = '#d8d305';
 var WORK_CAMP_TEXT = "Camps de treball";
-var WORK_CAMP_COLOR = "#293669";
+var WORK_CAMP_COLOR = "#86830a";
 
 var TYPES = [
 	{

@@ -349,7 +349,7 @@ strong {
 
 
 .standardLink {
-	color: #639c77;
+	color: #358e49;
     -webkit-transition: color 100ms;
     -ms-transition: color 100ms linear;
     transition: color 100ms linear;
@@ -368,7 +368,7 @@ strong {
 
 .header .logoText {
 	font-size: 48px;
-	color: #639c77;
+	color: #358e49;
 }
 
 .menuContainer {
@@ -402,11 +402,11 @@ strong {
 
 .menuItem:hover {
 	background-color: white;
-	color: #639c77;
+	color: #358e49;
 }
 
 .menuItem:hover .menuItemTitle {
-	color: #639c77;
+	color: #358e49;
 }
 
 
@@ -448,9 +448,9 @@ strong {
     width: 200px;
     text-align: left;
     z-index: 10;
-    border-left: 1px solid #639c77;
-    border-bottom: 1px solid #639c77;
-    border-right: 1px solid #639c77;
+    border-left: 1px solid #358e49;
+    border-bottom: 1px solid #358e49;
+    border-right: 1px solid #358e49;
     font-size: 14px;
 }
 
@@ -564,7 +564,7 @@ strong {
 .sectionText .title {
     display: block;
     font-size: 40px;
-    color: #639c77;
+    color: #358e49;
     margin-bottom: 10px;
 }
 
@@ -656,7 +656,7 @@ strong {
 }
 
 .animalCard .animalName {
-	color: #639c77;
+	color: #358e49;
   margin-bottom: 5px;
   display: block;
 }
