@@ -713,6 +713,14 @@ strong {
 	background-color: #0067ea;
 }
 
+.legend .legendElement .legendColor.summerKids {
+  background-color: #d8d305;
+}
+
+.legend .legendElement .legendColor.summerCamps {
+  background-color: #86830a;
+}
+
 .descriptionImage {
 	height: 300px;
 	border-radius: 5px;
