@@ -379,17 +379,17 @@ strong {
 }
 
 .menuItem {
-    flex-direction: row;
-    flex-grow: 1;
-    position: relative;
-    cursor: pointer;
-    height: 32px;
-    padding-top: 6px;
-    text-align: center;
-	border-right: 1px solid white;
-    -webkit-transition: background-color 500ms;
-    -ms-transition: background-color 500ms linear;
-    transition: background-color 500ms linear;
+  flex-direction: row;
+  flex-grow: 1;
+  position: relative;
+  cursor: pointer;
+  height: 32px;
+  padding-top: 6px;
+  text-align: center;
+  border-right: 1px solid white;
+  -webkit-transition: background-color 500ms;
+  -ms-transition: background-color 500ms linear;
+  transition: background-color 500ms linear;
 }
 
 .menuItem.borderLeft {
@@ -401,9 +401,19 @@ strong {
   color: white;
 }
 
+.menuItem.highlighted:hover {
+  background-color: #F4BC48;
+  border-left: 1px #F4BC48 solid;
+}
+
+.menuItem.highlighted:hover .menuItemTitle {
+  color: #e97b18;
+}
+
 .menuItem:hover {
 	background-color: white;
 	color: #358e49;
+  border-left: 1px #348a47 solid;
 }
 
 .menuItem:hover .menuItemTitle {
@@ -441,6 +451,7 @@ strong {
 .menuItem .floatingMenu {
     position: absolute;
     top: 38px;
+    left: -1px;
     background-color: white;
     padding-left: 20px;
     padding-top: 10px;
