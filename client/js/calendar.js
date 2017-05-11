@@ -39,35 +39,51 @@ var TYPES = [
 
 var VISITS = [ 
 	{
-	  start  : '2017-02-21',
+	  start  : '2017-05-21',
 	  url: "http://jordibartolome.me",
 	},
-		{
-	  start  : '2017-03-21',
+	{
+	  start  : '2017-06-17',
+	  url: "http://jordibartolome.me",
+	},
+	{
+	  start  : '2017-08-05',
+	  url: "http://jordibartolome.me",
+	},
+	{
+	  start  : '2017-08-26',
+	  url: "http://jordibartolome.me",
+	},
+	{
+	  start  : '2017-09-10',
 	  url: "http://jordibartolome.me",
 	},
 ];
 
 var PARTNERS = [
 	{
-	  start  : '2017-02-24',
+	  start  : '2017-06-04',
 	  url: "http://jordibartolome.me",
 	},
-		{
-	  start  : '2017-03-24',
+	{
+	  start  : '2017-08-19',
+	  url: "http://jordibartolome.me",
+	},
+	{
+	  start  : '2017-09-03',
 	  url: "http://jordibartolome.me",
 	},
 ];
 
 var EVERYONE = [
-	{
-	  start  : '2017-04-15',
-	  url: "http://jordibartolome.me",
-	},
-	{
-	  start  : '2017-04-30',
-	  url: "http://jordibartolome.me",
-	}
+	// {
+	//   start  : '2017-04-15',
+	//   url: "http://jordibartolome.me",
+	// },
+	// {
+	//   start  : '2017-04-30',
+	//   url: "http://jordibartolome.me",
+	// }
 ];
 
 var SUMMER_CAMP = [
