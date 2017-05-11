@@ -1,10 +1,14 @@
-<div class="header">
-	<!-- <h1 class="logoText">Fundació Projecte Miranda</h1> -->
+<div class="header" data-bind="create: initializeSite">
 	<div class="logos">
 		<a href="/">
 			<div class="logoHorse"></div>
 			<div class="logoName"></div>
 		</a>
+		<div class="flags">
+			<div class="catalan" data-bind="click: function () {changeLanguage('ca')}"></div>
+			<div class="spanish" data-bind="click: function () {changeLanguage('es')}"></div>
+			<div class="english" data-bind="click: function () {changeLanguage('en')}"></div>
+		</div>
 	</div>
 </div>
 <div class="menuContainer">

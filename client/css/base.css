@@ -798,3 +798,34 @@ strong {
   margin-top: 50px;
   margin-bottom: 50px;
 }
+
+.flags {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  width: 90px;
+  display: block;
+}
+
+.flags div {
+  width: 26px;
+  height: 18px;
+  border-radius: 5px;
+  background-size: cover;
+  cursor: pointer;
+  background-position: 50% 50%;
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+
+.flags .catalan {
+  background-image: url("/static/images/flags/catalan.jpg");
+}
+
+.flags .spanish {
+  background-image: url("/static/images/flags/spanish.jpg");
+}
+
+.flags .english {
+  background-image: url("/static/images/flags/english.jpg");
+}
