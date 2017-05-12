@@ -40,11 +40,12 @@ class SiteViewModel {
 	initializeSite() {
 		// Localize the site
 		var lang = getCookie("language");
-		if (lang) {
-			setTimeout(() => {
-  			$("[data-localize]").localize("static/resources/site", { language: lang });
-			}, 20);	
+		if (!lang) {
+			lang = "ca";
 		}
 
+		setTimeout(() => {
+			$("[data-localize]").localize("static/resources/site", { language: lang });
+		}, 1);	
 	}
 }
