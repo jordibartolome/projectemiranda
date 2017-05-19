@@ -46,6 +46,6 @@ class SiteViewModel {
 
 		setTimeout(() => {
 			$("[data-localize]").localize("static/resources/site", { language: lang });
-		}, 1);	
+		}, 300);	
 	}
 }
