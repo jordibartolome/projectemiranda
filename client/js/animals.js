@@ -154,9 +154,9 @@ const HORSES = [
 		name: "Bhangra",
 		id: "bhangra",
 		sponsored: false,
-		snippet: "Una euga amb molt de ritme, hipersensible i una gran mare (el seu fill és el Yembé) Mireu quina mirada....no calen paraules. Apadrinar un ésser així....és posar un àngel a la vostra vida. La Bhangra anava per bistec....i per sort el destí la va portar, ja fa molts anys al projecte Miranda.",
+		snippet: "Una euga amb molt de ritme, hipersensible i una gran mare (el seu fill és el Yembé) Mireu quina mirada....no calen paraules. Apadrinar un ésser així....és posar un àngel a la vostra vida. La Bhangra anava per bistec....i per sort el destí la va portar, ja fa molts anys a la Fundació Miranda.",
 		description: [
-			"Una euga amb molt de ritme, hipersensible i una gran mare (el seu fill és el Yembé) Mireu quina mirada....no calen paraules. Apadrinar un ésser així....és posar un àngel a la vostra vida. La Bhangra anava per bistec....i per sort el destí la va portar, ja fa molts anys al projecte Miranda.",
+			"Una euga amb molt de ritme, hipersensible i una gran mare (el seu fill és el Yembé) Mireu quina mirada....no calen paraules. Apadrinar un ésser així....és posar un àngel a la vostra vida. La Bhangra anava per bistec....i per sort el destí la va portar, ja fa molts anys a la Fundació Miranda.",
 			"Aquí la teniu rascant-se amb la seva gran amiga i guia del ramat, la Bhangra."
 		],
 		totalImages: 3

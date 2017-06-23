@@ -1,6 +1,6 @@
 const Menu = [
 	{
-		title: "Projecte Miranda",
+		title: "Fundació Miranda",
 		subtitle: "La nostra filosofia",
 		href: "/#!/start",
 		floatingMenu: {
