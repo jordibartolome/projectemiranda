@@ -1,17 +1,20 @@
 body {
   font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  color: #444444;
 }
 
 a {
 	text-decoration: none;
 }
 
-strong {
-  font-weight: bold;
+.bold, strong {
+  font-weight: 900;
+  color: #e0720f;
 }
 
-.bold {
-	font-weight: bold;
+.bold.green {
+  color: #358c48;
 }
 
 .italic {
@@ -592,6 +595,7 @@ strong {
     font-size: 20px;
     margin-bottom: 8px;
     font-weight: bold;
+    color: black;
 }
 
 .sectionText .description {

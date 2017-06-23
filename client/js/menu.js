@@ -10,20 +10,20 @@ const Menu = [
 					href: "/#!/horses_sanctuary",
 				},
 				{
-					title: "Tasca social",
-					href: "/#!/social_contribution",
-				},
-				{
-					title: "La cuina",
-					href: "/#!/kitchen",
+					title: "Qui som?",
+					href: "/#!/team",
 				},
 				{
 					title: "On som?",
 					href: "/#!/where",
 				},
 				{
-					title: "Equip",
-					href: "/#!/team",
+					title: "Tasca social",
+					href: "/#!/social_contribution",
+				},
+				{
+					title: "La cuina",
+					href: "/#!/kitchen",
 				},
 				{
 					title: "Premsa",
@@ -37,16 +37,6 @@ const Menu = [
 		}
 	},
 	{
-		title: "Els nostres cavalls",
-		subtitle: "Coneix-los a tots",
-		href: "/#!/our_horses"
-	},
-	{
-		title: "Dog team",
-		subtitle: "Els nostres gossos",
-		href: "/#!/dog_team"
-	},
-	{
 		title: "Activitats",
 		subtitle: "Com ens pots conèixer?",
 		href: "/#!/meet_us",
@@ -54,16 +44,12 @@ const Menu = [
 			wide: true,
 			items: [
 				{
-					title: "Visites solidàries",
+					title: "Un dia entre cavalls",
 					href: "/#!/visits",
 				},
 				{
-					title: "Trobades de socis",
-					href: "/#!/partner_meetings",
-				},
-				{
-					title: "Transhumància",
-					href: "/#!/transhumance",
+					title: "Cultura i natura",
+					href: "/#!/culture_and_nature",
 				},
 				{
 					title: "Campaments d'estiu (6-13 anys)",
@@ -72,6 +58,28 @@ const Menu = [
 				{
 					title: "Camp de treball d'estiu (13-17 anys)",
 					href: "/#!/summer_camp_teens",
+				},
+				{
+					title: "Transhumància",
+					href: "/#!/transhumance",
+				},
+			]
+		}
+	},
+	{
+		title: "Santuari de cavalls",
+		subtitle: "Coneix-los a tots",
+		href: "/#!/our_horses",
+		floatingMenu: {
+			wide: true,
+			items: [
+				{
+					title: "Els nostres cavalls",
+					href: "/#!/our_horses",
+				},
+				{
+					title: "Dog team",
+					href: "/#!/dog_team",
 				},
 			]
 		}
