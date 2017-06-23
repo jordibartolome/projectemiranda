@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Chalkduster";
+    src: url(/static/fonts/Chalkduster.ttf.woff);
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 200;
@@ -27,6 +32,17 @@ a {
 
 .inline {
   display: inline-block!important;
+}
+
+.mainTitle {
+  font-family: "Chalkduster";
+  font-size: 40px;
+  color: #358c48;
+  position: relative;
+  top: 0px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 20px;
 }
 
 .mainContainer {
@@ -377,11 +393,12 @@ a {
 
 .menuContainer {
 	display: flex;
-	background-color: #3d3d3e;
-	border-bottom: 1px solid white;
+	background-color: white;
+  border-bottom: 1px solid #d3e2d6;
 }
 
 .menuItem {
+  background-color: white;
   flex-direction: row;
   flex-grow: 1;
   position: relative;
@@ -414,9 +431,9 @@ a {
 }
 
 .menuItem:hover {
-	background-color: white;
-	color: #358e49;
-  border-left: 1px #348a47 solid;
+    background-color: #d3e2d6;
+    color: #358e49;
+    border-left: 1px #348a47 solid;
 }
 
 .menuItem:hover .menuItemTitle {
@@ -425,15 +442,15 @@ a {
 
 
 .menuItem .menuItemTitle {
-	color: white;
+	color: #333333;
 	display: block;
 	position: relative;
 	margin-bottom: 2px;
 	font-size: 15px;
 
-    -webkit-transition: color 500ms linear;
-    -ms-transition: color 500ms linear;
-    transition: color 500ms linear;
+  -webkit-transition: color 500ms linear;
+  -ms-transition: color 500ms linear;
+  transition: color 500ms linear;
 }
 
 .menuItem .menuItemDescription {
