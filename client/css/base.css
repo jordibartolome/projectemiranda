@@ -447,6 +447,7 @@ a {
 	position: relative;
 	margin-bottom: 2px;
 	font-size: 15px;
+  font-weight: 900;
 
   -webkit-transition: color 500ms linear;
   -ms-transition: color 500ms linear;
@@ -756,7 +757,7 @@ a {
 
 .descriptionImage {
 	height: 300px;
-	border-radius: 5px;
+	border-radius: 2px;
 }
 
 .extraImages {

@@ -33,9 +33,11 @@
 	<!-- /ko -->
 </div>
 <div class="mainContainer">
-	<div data-bind="page: {id: 'start', scrollToTop: false}">
+	<!-- ko with: home-->
+	<div data-bind="page: {id: 'start', afterShow: function () {initializeOnPageLoad()}, scrollToTop: false}">
 		<!-- ko template: {name: 'whatDoWeDo'} --><!-- /ko -->
 	</div>
+	<!-- /ko -->
 
 	<div data-bind="page: {id: 'horses_sanctuary', scrollToTop: false}">
 		<!-- ko template: {name: 'horsesSanctuary'} --><!-- /ko -->

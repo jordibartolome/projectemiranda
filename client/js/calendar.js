@@ -1,11 +1,12 @@
-var PARTNERS_VISIT_TEXT = "Socis i padrins";
-var PARTNERS_VISIT_COLOR = '#378006';
-var VISIT_TEXT = "Visita solidària";
+var VISIT_TEXT = "Un dia entre cavalls";
 var VISIT_COLOR = "#ea7900";
-var EVERYONE_VISIT_TEXT = "Visita oberta";
-var EVERYONE_VISIT_COLOR = "#0067ea";
+
+var CULTURE_AND_NATURE_VISIT_TEXT = "Cultura i natura";
+var CULTURE_AND_NATURE_VISIT_COLOR = '#378006';
+
 var SUMMER_CAMP_TEXT = "Campaments d'estiu";
 var SUMMER_CAMP_COLOR = '#d8d305';
+
 var WORK_CAMP_TEXT = "Camps de treball";
 var WORK_CAMP_COLOR = "#86830a";
 
@@ -16,14 +17,9 @@ var TYPES = [
 		title: "VISIT_TEXT"
 	},
 	{
-		type: "PARTNERS",
-		color: "PARTNERS_VISIT_COLOR",
-		title: "PARTNERS_VISIT_TEXT"
-	},
-	{
-		type: "EVERYONE",
-		color: "EVERYONE_VISIT_COLOR",
-		title: "EVERYONE_VISIT_TEXT"
+		type: "CULTURE_AND_NATURE",
+		color: "CULTURE_AND_NATURE_VISIT_COLOR",
+		title: "CULTURE_AND_NATURE_VISIT_TEXT"
 	},
 	{
 		type: "SUMMER_CAMP",
@@ -38,52 +34,34 @@ var TYPES = [
 ]
 
 var VISITS = [ 
-	{
-	  start  : '2017-05-21',
-	  url: "http://jordibartolome.me",
-	},
-	{
-	  start  : '2017-06-17',
-	  url: "http://jordibartolome.me",
-	},
-	{
-	  start  : '2017-08-05',
-	  url: "http://jordibartolome.me",
-	},
-	{
-	  start  : '2017-08-26',
-	  url: "http://jordibartolome.me",
-	},
-	{
-	  start  : '2017-09-10',
-	  url: "http://jordibartolome.me",
-	},
-];
-
-var PARTNERS = [
-	{
-	  start  : '2017-06-04',
-	  url: "http://jordibartolome.me",
-	},
-	{
-	  start  : '2017-08-19',
-	  url: "http://jordibartolome.me",
-	},
-	{
-	  start  : '2017-09-03',
-	  url: "http://jordibartolome.me",
-	},
-];
-
-var EVERYONE = [
 	// {
-	//   start  : '2017-04-15',
+	//   start  : '2017-05-21',
 	//   url: "http://jordibartolome.me",
 	// },
 	// {
-	//   start  : '2017-04-30',
+	//   start  : '2017-06-17',
 	//   url: "http://jordibartolome.me",
-	// }
+	// },
+	// {
+	//   start  : '2017-08-05',
+	//   url: "http://jordibartolome.me",
+	// },
+	// {
+	//   start  : '2017-08-26',
+	//   url: "http://jordibartolome.me",
+	// },
+	// {
+	//   start  : '2017-09-10',
+	//   url: "http://jordibartolome.me",
+	// },
+];
+
+var CULTURE_AND_NATURE = [
+	{
+	  start: '2017-08-25',
+	  end: '2017-08-28',
+	  url: "https://www.eventbrite.com/e/connectat-a-la-vida-tickets-35647822597",
+	}
 ];
 
 var SUMMER_CAMP = [

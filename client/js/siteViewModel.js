@@ -8,6 +8,7 @@ class SiteViewModel {
 		this.animal = new AnimalInfo();
 
 		// View models
+		this.home = new Home();
 		this.becomePartner = new BecomePartnerViewModel();
 		this.sponsor = new Sponsor();
 		this.visits = new VisitsViewModel();
