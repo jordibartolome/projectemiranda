@@ -34,26 +34,18 @@ var TYPES = [
 ]
 
 var VISITS = [ 
-	// {
-	//   start  : '2017-05-21',
-	//   url: "http://jordibartolome.me",
-	// },
-	// {
-	//   start  : '2017-06-17',
-	//   url: "http://jordibartolome.me",
-	// },
-	// {
-	//   start  : '2017-08-05',
-	//   url: "http://jordibartolome.me",
-	// },
-	// {
-	//   start  : '2017-08-26',
-	//   url: "http://jordibartolome.me",
-	// },
-	// {
-	//   start  : '2017-09-10',
-	//   url: "http://jordibartolome.me",
-	// },
+	{
+	  start  : '2017-08-05',
+	  url: "https://www.eventbrite.com/e/un-dia-entre-cavalls-lliures-tickets-35653965972",
+	},
+	{
+	  start  : '2017-08-19',
+	  url: "https://www.eventbrite.com/e/un-dia-entre-cavalls-lliures-tickets-35653966975",
+	},
+	{
+	  start  : '2017-09-23',
+	  url: "https://www.eventbrite.com/e/un-dia-entre-cavalls-lliures-tickets-35653967978"
+	},
 ];
 
 var CULTURE_AND_NATURE = [
