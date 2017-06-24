@@ -1,6 +1,6 @@
 class CampsViewModel extends VisitsViewModel {
-	constructor () {
-		super();
+	constructor (id) {
+		super(id);
 	}
 
 	// Show the date - override

@@ -12,6 +12,9 @@ class SiteViewModel {
 		this.becomePartner = new BecomePartnerViewModel();
 		this.sponsor = new Sponsor();
 		this.visits = new VisitsViewModel();
+		this.meetUs = new MeetUsViewModel();
+		this.cultureAndNature = new CultureAndNatureViewModel();
+		this.transhumance = new TranshumanceViewModel();
 		this.footer = new Footer();
 		this.press = new Press();
 		this.donate = new Donate();

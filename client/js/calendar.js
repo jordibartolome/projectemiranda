@@ -1,4 +1,4 @@
-var VISIT_TEXT = "Un dia entre cavalls";
+var VISIT_TEXT = "Un dia entre cavalls lliures";
 var VISIT_COLOR = "#ea7900";
 
 var CULTURE_AND_NATURE_VISIT_TEXT = "Cultura i natura";
@@ -97,7 +97,11 @@ var WORK_CAMP = [
 
 var EVENTS = [];
 class Calendar {
-	constructor() {
+	constructor(id) {
+		this.id = ko.observable(id);
+		this.calendarId = ko.computed(() => {
+			return "calendar-" + this.id();
+		});
 		this.rendered = ko.observable(false);
 	}
 
@@ -115,7 +119,7 @@ class Calendar {
 	render () {
 		this.createEventsList();
 
-		$('#calendar').fullCalendar({
+		$('#' + this.calendarId()).fullCalendar({
 			firstDay: 1,
 			height: "parent",
 			locale: 'ca',
@@ -125,17 +129,17 @@ class Calendar {
 	}
 
 	defaultDate(date) {
-		$('#calendar').fullCalendar("gotoDate", date);
+		$('#' + this.calendarId()).fullCalendar("gotoDate", date);
 	}
 
 	show() {
 		setTimeout(() => {
-			if ($("#calendar")[0]) {
+			if ($('#' + this.calendarId())[0]) {
 				this.render();
 				this.rendered(true);
 			} else {
 				this.show();
 			}
-		}, 100)
+		}, 500)
 	}
 }

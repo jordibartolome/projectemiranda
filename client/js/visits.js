@@ -1,19 +1,5 @@
-class VisitsViewModel {
+class VisitsViewModel extends CalendarViewModel {
 	constructor () {
-		this.calendar;
-	}
-
-	getCalendar() {
-		return this.calendar;
-	}
-
-	// Show calendar
-	createCalendar() {
-		this.calendar = new Calendar();
-		this.calendar.show();
-	}
-
-	initializeOnPageLoad() {
-		this.createCalendar();
+		super("visits");
 	}
 }

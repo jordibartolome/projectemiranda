@@ -44,7 +44,7 @@ const Menu = [
 			wide: true,
 			items: [
 				{
-					title: "Un dia entre cavalls",
+					title: "Un dia entre cavalls lliures",
 					href: "/#!/visits",
 				},
 				{

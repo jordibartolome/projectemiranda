@@ -1,6 +1,6 @@
 class SummerCampKidsViewModel extends CampsViewModel {
   constructor () {
-    super();
+    super("summerCampKids");
   }
 
   // Show the date!
