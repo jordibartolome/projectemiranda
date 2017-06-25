@@ -1,8 +1,8 @@
 var VISIT_TEXT = "Un dia entre cavalls lliures";
-var VISIT_COLOR = "#ea7900";
+var VISIT_COLOR = "#378006";
 
 var CULTURE_AND_NATURE_VISIT_TEXT = "Cultura i natura";
-var CULTURE_AND_NATURE_VISIT_COLOR = '#378006';
+var CULTURE_AND_NATURE_VISIT_COLOR = '#ea7900';
 
 var SUMMER_CAMP_TEXT = "Campaments d'estiu";
 var SUMMER_CAMP_COLOR = '#d8d305';
