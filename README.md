@@ -1,2 +1,2 @@
-# projectemiranda
-Projecte Miranda
+# Fundaci Miranda
+www.fundaciomiranda.org
