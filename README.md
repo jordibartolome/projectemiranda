@@ -1,2 +1,2 @@
-# Fundaci Miranda
+# Fundació Miranda
 www.fundaciomiranda.org
