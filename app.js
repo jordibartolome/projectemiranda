@@ -27,7 +27,7 @@ app.post('/new_partner', function (req, res) {
 	from_email = new helper.Email("cavalls@fundaciomiranda.org");
 	to_email = new helper.Email("cavalls@fundaciomiranda.org");
 	subject = "Nou soci!";
-	content = new helper.Content("text/plain", "Nou soci \n \n Nom: " + req.body.firstName + " " + req.body.lastName + " \n \n " + "Telèfon: " + req.body.phone + " \n \n " + "Adreça: " + req.body.address + " \n \n " + "Quota: " + req.body.contribution + " \n \n " + "Número de compte: " + req.body.bankAccount + " \n \n " + "Titular del compte bancari: " + req.body.owner + " \n \n " + "Tipus de document: " + req.body.idType + " \n \n " + "Número: " + req.body.idNumber + " \n \n " + "Cavall: " + req.body.horse);
+	content = new helper.Content("text/plain", "Nou soci \n \n Nom: " + req.body.firstName + " " + req.body.lastName + " \n \n " + "Telèfon: " + req.body.phone + " \n \n " + "Email: " + req.body.email + " \n \n " + "Adreça: " + req.body.address + " \n \n " + "Quota: " + req.body.contribution + " \n \n " + "Número de compte: " + req.body.bankAccount + " \n \n " + "Titular del compte bancari: " + req.body.owner + " \n \n " + "Tipus de document: " + req.body.idType + " \n \n " + "Número: " + req.body.idNumber + " \n \n " + "Cavall: " + req.body.horse);
 	mail = new helper.Mail(from_email, subject, to_email, content);
 
 	var sg = require('sendgrid')(process.env.SENDGRID_API_KEY);
