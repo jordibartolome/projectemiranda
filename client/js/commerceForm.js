@@ -72,6 +72,10 @@ class CommerceForm {
 	}
 
 	send() {
+		if (!this.firstName()) {
+			return;
+		}
+		
 		this.notDoneYet(false);
 		var postService = ProjecteMiranda.postService("/new_partner", {}, () => {});
 

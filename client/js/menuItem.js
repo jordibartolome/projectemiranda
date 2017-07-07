@@ -2,8 +2,10 @@ class MenuItem {
 	constructor(item) {
 		this.title = ko.observable(item.title);
 		this.subtitle = ko.observable(item.subtitle);
+		this.id = ko.observable(item.id);
 		this.href = ko.observable(item.href);
 		this.highlighted = ko.observable(item.highlighted);
+		this.target = ko.observable(item.target);
 
 		this.fi = item.floatingMenu;
 		this.floatingMenu = ko.observable();
@@ -20,6 +22,18 @@ class MenuItem {
 	handleMenuItemMouseout() {
 		if (this.floatingMenu()) {
 			this.floatingMenu().tryToHide();
+		}
+	}
+
+	handleFloatingMenuMouseover() {
+		if (this.floatingMenu()) {
+			this.floatingMenu().handleFloatingMenuMouseover();
+		}
+	}
+
+	handleFloatingMenuMouseout() {
+		if (this.floatingMenu()) {
+			this.floatingMenu().handleFloatingMenuMouseout();
 		}
 	}
 
@@ -77,7 +91,8 @@ class FloatingMenu {
 
 	createItems() {
 		for (var i = 0; i < this.fm.items.length; i++) {
-			this.items.push(new FloatingMenuItem(this.fm.items[i]));
+			// this.items.push(new FloatingMenuItem(this.fm.items[i]));
+			this.items.push(new MenuItem(this.fm.items[i]));
 		}
 	}
 
@@ -87,10 +102,10 @@ class FloatingMenu {
 }
 
 // Each one of the floating items
-class FloatingMenuItem {
-	constructor(item) {
-		this.title = ko.observable(item.title);
-		this.href = ko.observable(item.href);
-		this.target = ko.observable(item.target);
-	}
-}
+// class FloatingMenuItem {
+// 	constructor(item) {
+// 		this.title = ko.observable(item.title);
+// 		this.href = ko.observable(item.href);
+// 		this.target = ko.observable(item.target);
+// 	}
+// }

@@ -4,11 +4,6 @@
 			<div class="logoHorse"></div>
 			<span class="mainTitle">Fundació Miranda</span>
 		</a>
-		<div class="flags">
-			<div class="catalan" data-bind="click: function () {changeLanguage('ca')}"></div>
-			<div class="spanish" data-bind="click: function () {changeLanguage('es')}"></div>
-			<!-- <div class="english" data-bind="click: function () {changeLanguage('en')}"></div> -->
-		</div>
 	</div>
 </div>
 <div class="menuContainer">
@@ -24,7 +19,25 @@
 				<!-- ko with: floatingMenu -->
 					<div class="floatingMenu" data-bind="css: {wide: wide}, event: { mouseover: handleFloatingMenuMouseover, mouseout: handleFloatingMenuMouseout }">
 						<!-- ko foreach: items -->
-							<a class="item" data-bind="text: title, attr: {href: href, target: target}"></a>
+							<div class="floatingMenuItemWrapper" data-bind="event: { mouseover: function() {handleMenuItemMouseover() && handleFloatingMenuMouseover()}, mouseout: function () {handleMenuItemMouseout() && handleFloatingMenuMouseout()} }">
+								<a class="item" data-bind="text: title,  attr: {href: href, target: target}, css: {lastItem: $index() == $parent.items().length - 1}"></a>
+								<!-- ko if: floatingMenu() -->
+									<!-- ko with: floatingMenu -->
+										<!-- ko if: items().length > 0 -->
+											<i class="fa fa-angle-right" aria-hidden="true"></i>
+										<!-- /ko -->
+										<!-- ko if: visible -->
+											<div class="floatingMenuSubitems">
+												<!-- ko foreach: items -->
+													<div class="floatingMenuSubitemsWrapper">
+														<a class="subitem" data-bind="text: title, attr: {href: href, target: target}, css: {lastItem: $index() == $parent.items().length - 1}"></a>
+													</div>
+												<!--/ko -->
+											</div>
+										<!--/ko -->
+									<!--/ko -->
+								<!--/ko -->
+							</div>
 						<!--/ko -->
 					</div>
 				<!--/ko -->
@@ -131,6 +144,14 @@
 	</div>
 	<!-- /ko -->
 
+	<!-- ko with: holidaysAndRelax-->
+	<div data-bind="page: {id: 'holidays_and_relax', afterShow: function () {initializeOnPageLoad()}, scrollToTop: false}">
+		<!-- ko if: pager.activePage$().getCurrentId() == "holidays_and_relax" -->
+			<!-- ko template: {name: 'holidays_and_relax'} --><!-- /ko -->
+		<!-- /ko -->
+	</div>
+	<!-- /ko -->
+
 	<!-- ko with: cultureAndNature-->
 	<div data-bind="page: {id: 'culture_and_nature', afterShow: function () {initializeOnPageLoad()}, scrollToTop: false}">
 		<!-- ko if: pager.activePage$().getCurrentId() == "culture_and_nature" -->
@@ -162,6 +183,15 @@
 		<!-- /ko -->
 	</div>
 	<!-- /ko -->
+
+	<!-- ko with: holidaysInTheFoundation-->
+	<div data-bind="page: {id: 'holidays_in_the_foundation', afterShow: function () {initializeOnPageLoad()}, scrollToTop: false}">
+		<!-- ko if: pager.activePage$().getCurrentId() == "holidays_in_the_foundation" -->
+			<!-- ko template: {name: 'holidays_in_the_foundation'} --><!-- /ko -->
+		<!-- /ko -->
+	</div>
+	<!-- /ko -->
+
 
 
 	<!-- FOOTER -->

@@ -4,6 +4,9 @@ var VISIT_COLOR = "#378006";
 var CULTURE_AND_NATURE_VISIT_TEXT = "Cultura i natura";
 var CULTURE_AND_NATURE_VISIT_COLOR = '#ea7900';
 
+var HOLIDAYS_IN_THE_FOUNDATION_TEXT = "Vacances al Pla de l'Orri";
+var HOLIDAYS_IN_THE_FOUNDATION_COLOR = '#1ab7d2';
+
 var SUMMER_CAMP_TEXT = "Campaments d'estiu";
 var SUMMER_CAMP_COLOR = '#d8d305';
 
@@ -20,6 +23,11 @@ var TYPES = [
 		type: "CULTURE_AND_NATURE",
 		color: "CULTURE_AND_NATURE_VISIT_COLOR",
 		title: "CULTURE_AND_NATURE_VISIT_TEXT"
+	},
+	{
+		type: "HOLIDAYS_IN_THE_FOUNDATION",
+		color: "HOLIDAYS_IN_THE_FOUNDATION_COLOR",
+		title: "HOLIDAYS_IN_THE_FOUNDATION_TEXT"
 	},
 	{
 		type: "SUMMER_CAMP",
@@ -85,6 +93,14 @@ var WORK_CAMP = [
 	  end: '2017-07-30',
 	  url: "https://www.eventbrite.com/e/entradas-camp-de-vida-12-17-anys-32311225746",
 	}
+];
+
+var HOLIDAYS_IN_THE_FOUNDATION = [
+	{
+	  start: '2017-08-04',
+	  end: '2017-08-07',
+	  url: "https://www.eventbrite.com/e/vacances-entre-cavalls-lliures-tickets-35774225672",
+	},
 ]
 
 var EVENTS = [];
@@ -114,7 +130,7 @@ class Calendar {
 		$('#' + this.calendarId()).fullCalendar({
 			firstDay: 1,
 			height: "parent",
-			locale: 'ca',
+			locale: PM.locale(),
 			fixedWeekCount: false,
 		  events: EVENTS
     });

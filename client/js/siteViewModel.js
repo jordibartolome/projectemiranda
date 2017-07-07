@@ -13,11 +13,13 @@ class SiteViewModel {
 		this.sponsor = new Sponsor();
 		this.visits = new VisitsViewModel();
 		this.meetUs = new MeetUsViewModel();
+		this.holidaysAndRelax = new HolidaysAndRelaxViewModel(this.menuItems);
 		this.cultureAndNature = new CultureAndNatureViewModel();
 		this.transhumance = new TranshumanceViewModel();
 		this.footer = new Footer();
 		this.press = new Press();
 		this.donate = new Donate();
+		this.holidaysInTheFoundation = new HolidaysInTheFoundation()
 
 		// Camps
 		this.summerCampKids = new SummerCampKidsViewModel();
@@ -32,24 +34,21 @@ class SiteViewModel {
 		}
 	}
 
-	changeLanguage(lang) {
-		setCookie("language", lang, 10000);
-		location.reload();
-	}
-
 	initialize() {
 		this.createMenu();
 	}
 
 	initializeSite() {
-		// Localize the site
-		var lang = getCookie("language");
-		if (!lang) {
-			lang = "ca";
+		// Check if elements are present 
+		let divElement = $("#homePage")[0];
+		if (!divElement) {
+			setTimeout(() => {
+				this.initializeSite();
+			}, 50);
+			return;
 		}
 
-		setTimeout(() => {
-			$("[data-localize]").localize("static/resources/site", { language: lang });
-		}, 300);	
+		// Localize the site
+		$("[data-localize]").localize("static/resources/site", { language: PM.locale() });
 	}
 }

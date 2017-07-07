@@ -48,8 +48,23 @@ const Menu = [
 					href: "/#!/visits",
 				},
 				{
-					title: "Cultura i natura",
-					href: "/#!/culture_and_nature",
+					title: "Estades i retirs",
+					id: "holidaysAndRelax",
+					href: "/#!/holidays_and_relax",
+					floatingMenu: {
+						items: [
+							{
+								title: "Cultura i natura",
+								href: "/#!/culture_and_nature",
+								id: "cultureAndNature"
+							},
+							{
+								title: "Vacances al Pla de l'Orri",
+								href: "/#!/holidays_in_the_foundation",
+								id: "holidaysInTheFoundation"
+							},
+						]
+					}
 				},
 				{
 					title: "Campaments d'estiu (6-13 anys)",

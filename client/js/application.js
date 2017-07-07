@@ -1,6 +1,9 @@
 class App {
   constructor() {
     this.siteViewModel = new SiteViewModel();
+    this.layout = ko.observable();
+    this.isPhoneLayout = ko.observable(false);
+    this.locale = ko.observable("ca");
 
     this.initialize();
   }
@@ -30,8 +33,45 @@ class App {
     };
   }
 
+  // Calculate the current layout based on the window width
+  calculateLayout() {
+    var cssLayout = 'standard';
+    var windowWidth = $(window).outerWidth() || 0;
+
+    /* windowWidth values must be the same as that used for the phone.css media query in client_layout.html.erb */
+    if (windowWidth < 500) {
+      cssLayout = 'phoneVertical';
+    }
+    else if (windowWidth < 768) {
+      cssLayout = 'phone';
+    }
+    else if (windowWidth < 1024) {
+      cssLayout = 'mobile';
+    }
+
+    // Layout
+    this.layout(cssLayout);
+
+    // Phone layout
+    if (cssLayout == "phone" || cssLayout == "phoneVertical") {
+      this.isPhoneLayout(true);
+    }
+  }
+
+  setLanguage() {
+    let lang = getCookie("language");
+    if (!lang) {
+      lang = "ca";
+    }
+
+    this.locale(lang);
+  }
+
+
   initialize () {
     this.createKOBindings();
+    this.setLanguage();
+    this.calculateLayout();
   }
 }
 

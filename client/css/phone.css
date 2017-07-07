@@ -1,0 +1,62 @@
+@media screen and (max-width: 640px) {
+	.header {
+		padding-left: 0px;
+		text-align: center;
+		padding-top: 15px;
+		height: 50px;
+	}
+
+	.logoHorse {
+		height: 40px;
+		width: 40px;
+	  margin-right: 5px;
+	}
+
+	.logoName {
+	  display: inline-block;
+		height: 80px;
+	  width: 150px;
+	}
+
+	.mainTitle {
+	  font-size: 20px;
+	  position: relative;
+	  vertical-align: top;
+	  margin-top: 12px;
+	}
+
+	.sectionText {
+		padding-top: 30px;
+		padding-left: 30px;
+		padding-right: 30px;
+		padding-bottom: 30px;
+	}
+
+	.columnsContainer {
+		display: block;
+	}
+
+  .firstColumn, .secondColumn {
+    display: block;
+  }
+
+  .descriptionImage {
+  	height: initial;
+  	width: 200px;
+  }
+
+  .buttonsWrapper {
+  	padding-bottom: 20px;
+  }
+
+	.calendar {
+		margin-left: 5px;
+		margin-top: 5px;
+		height: 500px;
+		width: 300px;
+	}
+
+	.sectionText .title {
+		font-size: 28px;
+	}
+}

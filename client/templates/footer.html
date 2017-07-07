@@ -1,16 +1,43 @@
-	<div class="footer">
-      <div class="columnsContainer">
-		<div class="firstColumn">
-			<span><a href="mailto:cavalls@fundaciomiranda.org" class="standardLink">cavalls@fundaciomiranda.org</a> - Pla de l'Orri - Alt Berguedà</span>
-		</div>
-		<div class="secondColumn">
-			<span class="top">Segueix-nos</span>
-			<div class="socialNetworkContainer">
-				<i class="fa fa-facebook-square fa-2x facebook clickableIcon" aria-hidden="true" data-bind="click: goToFacebook"></i>
-				<i class="fa fa-instagram fa-2x instagram clickableIcon" aria-hidden="true" data-bind="click: goToInstagram"></i>
-				<i class="fa fa-twitter-square fa-2x instagram clickableIcon" aria-hidden="true" data-bind="click: goToTwitter"></i>
-				<i class="fa fa-youtube-square fa-2x instagram clickableIcon" aria-hidden="true" data-bind="click: goToYoutube"></i>
+<div class="footer ">
+	<div class="subSectionText shortPadding">
+	  <div class="columnsContainer">
+			<div class="firstColumn">
+				<span class="top">Canviar idioma</span>
+				<div class="flags">
+					<div class="catalan" data-bind="click: function () {changeLanguage('ca')}"></div>
+					<div class="spanish" data-bind="click: function () {changeLanguage('es')}"></div>
+					<!-- <div class="english" data-bind="click: function () {changeLanguage('en')}"></div> -->
+				</div>
+			</div>
+			<div class="secondColumn modernForm medium">
+				<span class="">Vols rebre les nostres promocions?</span>
+				<div class="marginTop">
+					<!-- ko if: !signupDone() -->
+        	<input class="inputWithButton" type="text" data-bind="value: email, valueUpdate: 'input'" />
+					<div class="actionButton primaryColor buttonNextToInput" data-bind="click: signupToNewsletter">Subscriu-te</div>
+					<!-- /ko -->
+					<!-- ko if: signupDone() -->
+						<span class="primary">Moltes gràcies per subscriure't! Aviat rebràs emails de la Fundació.</span>
+					<!-- /ko -->
+				</div>
 			</div>
 		</div>
+	</div>
+
+	<div class="subSectionText shortPadding">
+	  <div class="columnsContainer">
+			<div class="firstColumn">
+				<span><a href="mailto:cavalls@fundaciomiranda.org" class="standardLink">cavalls@fundaciomiranda.org</a> - Pla de l'Orri - Alt Berguedà</span>
+			</div>
+			<div class="secondColumn">
+				<span class="top">Segueix-nos</span>
+				<div class="socialNetworkContainer">
+					<i class="fa fa-facebook-square fa-2x facebook clickableIcon" aria-hidden="true" data-bind="click: goToFacebook"></i>
+					<i class="fa fa-instagram fa-2x instagram clickableIcon" aria-hidden="true" data-bind="click: goToInstagram"></i>
+					<i class="fa fa-twitter-square fa-2x instagram clickableIcon" aria-hidden="true" data-bind="click: goToTwitter"></i>
+					<i class="fa fa-youtube-square fa-2x instagram clickableIcon" aria-hidden="true" data-bind="click: goToYoutube"></i>
+				</div>
+			</div>
 		</div>
 	</div>
+</div>

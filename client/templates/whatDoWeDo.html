@@ -1,4 +1,4 @@
-<div class="fullWidthImage homePageImage">
+<div class="fullWidthImage homePageImage" id="homePage">
 	<div class="textContainer">
 		<h2 class="pageTitle">Santuari de cavalls lliures</h2>
 		<h3 class="pageDescription">50 cavalls  pasturant en ramat tot l’any, millorant el territori i fent tasca social.</h3>
@@ -20,10 +20,11 @@
 	</div>
 </div>
 
+<!-- ko if: !PM.isPhoneLayout() -->
 <div class="sectionText">
 	<div class="columnsContainer">
 		<div class="firstColumn centered">
-	<iframe src="https://www.youtube.com/embed/ZeSYPcjQdbo" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+			<iframe src="https://www.youtube.com/embed/ZeSYPcjQdbo" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 		</div>
 		<div class="secondColumn">
 		<span class="title">Què fem?</span>
@@ -37,6 +38,7 @@
 		</div>
 	</div>
 </div>
+<!-- /ko -->
 
 <div class="sectionText">
 	<div class="columnsContainer">
@@ -53,7 +55,6 @@
 
 		<div class="secondColumn centered">
 			<img class="descriptionImage" src="/static/images/home.jpg" />
-
 		</div>
 	</div>
 </div>
@@ -62,45 +63,3 @@
 	<span class="title">Activitats</span>
 	<!-- ko template: {name: 'calendar', data: calendar} --><!-- /ko -->
 </div>
-
-
-<!-- <div class="sectionText">
-	<div class="columnsContainer">
-		<div class="firstColumn centered">
-			<img class="descriptionImage" src="/static/images/home1.jpg" />
-		</div>
-
-		<div class="secondColumn ">
-			<span class="title">Què fem?</span>
-			<span class="description">Acompanyem processos de desenvolupament personal, educatius i formatius amb el suport i l’energia vital del nostre Santuari de Cavalls Lliures, <strong>la majoria recuperats de maltractaments</strong>, que ara viuen en plenitud pasturant per més de 1.000 hectàries, en un entorn natural privilegiat.</span> 
-			<span class="description">Col·laborem amb Eòlia, Escola Superior d’Art Dramàtic, en les branques del Planter i de Teatre Sense Límits, amb la nostra Aula de Natura/Escola de Vida</span>
-			<div class="buttonsWrapper">
-				<a href="/#!/social_contribution">
-					<div class="actionButton primaryColor buttonWithPadding big">Més info</div>
-				</a>
-			</div>
-		</div>
-	</div>
-</div>
- -->
-
-<!-- <div class="sectionText"> -->
-	<!-- <div class="columnsContainer">
-		<div class="firstColumn">
-			<span class="title">Visita'ns</span>
-			<span class="description">Qualsevol persona que visita el santuari t'ho dirà: hi ha alguna cosa especial en aquest lloc. Si ens visites tindràs l'oportunitat de veure els més de 50 cavalls i 10 gossos que viuen en aquest paradís.</span> 
-			<span class="description">Cada pam d'aquest santuari - des del Pedraforca fins a la Serra del Catllaràs - està impregnat d'una energia especial que et convidarà a disfrutar de cada instant envoltat de natura i animals.</span> 
-			<span class="description">Dóna un cop d'ull a les nostres activitats i apunta't-hi!</span> 
-
-			<div class="buttonsWrapper">
-				<a href="/#!/meet_us">
-					<div class="actionButton primaryColor buttonWithPadding big">Veure activitats</div>
-				</a>
-			</div>
-		</div>
-
-		<div class="secondColumn centered">
-			<img class="descriptionImage" src="/static/images/home2.jpg" />
-		</div>
-	</div> -->
-<!-- </div> -->

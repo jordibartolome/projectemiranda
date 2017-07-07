@@ -34,6 +34,10 @@ a {
   display: inline-block!important;
 }
 
+.marginTop {
+  margin-top: 10px;
+}
+
 .mainTitle {
   font-family: "Chalkduster";
   font-size: 40px;
@@ -79,8 +83,8 @@ a {
 	background-repeat: no-repeat;
 	background-size: contain;
 	height: 80px;
-    display: inline-block;
-    width: 700px;
+  display: inline-block;
+  width: 700px;
 	background-position-y: 50%;
 }
 
@@ -164,6 +168,16 @@ a {
   display: block;
 }
 
+.modernForm .inputWithButton {
+  width: 200px!important;
+  margin-right: 10px!important;
+}
+
+.modernForm .buttonNextToInput {
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+
 .columnsContainer {
   display: flex;
   width: 100%;
@@ -174,6 +188,7 @@ a {
   flex-grow: 1;
   flex-basis: 0;
   margin-right: 10px;
+  position: relative;
 }
 
 .secondColumn {
@@ -470,46 +485,92 @@ a {
 }
 
 .menuItem .floatingMenu {
-    position: absolute;
-    top: 38px;
-    left: -1px;
-    background-color: white;
-    padding-left: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 20px;
-    width: 200px;
-    text-align: left;
-    z-index: 10;
-    border-left: 1px solid #358e49;
-    border-bottom: 1px solid #358e49;
-    border-right: 1px solid #358e49;
-    font-size: 14px;
+  position: absolute;
+  top: 38px;
+  left: -1px;
+  background-color: white;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  width: 200px;
+  text-align: left;
+  z-index: 10;
+  border-left: 1px solid #358e49;
+  border-bottom: 1px solid #358e49;
+  border-right: 1px solid #358e49;
+  font-size: 14px;
+}
+
+.menuItem .floatingMenu i {
+  position: absolute;
+  top: 8px;
+  right: 0px;
+  font-weight: bold;
+  color: #358e49;
 }
 
 .menuItem .floatingMenu.wide {
 	width: 300px;
 }
 
+.menuItem .floatingMenuItemWrapper {
+  display: block;
+  position: relative;
+}
+
 .menuItem .floatingMenu .item {
-    display: block;
-    border-bottom: 1px solid rgba(187, 217, 188, 0.5);
-    padding-bottom: 8px;
-    cursor: pointer;
-    padding-top: 8px;
-    color: #3d3d3e;
+  display: block;
+  border-bottom: 1px solid rgba(187, 217, 188, 0.5);
+  padding-bottom: 8px;
+  cursor: pointer;
+  padding-top: 8px;
+  color: #3d3d3e;
 
-    -webkit-transition: color 200ms linear;
-    -ms-transition: color 200ms linear;
-    transition: color 200ms linear;
+  -webkit-transition: color 200ms linear;
+  -ms-transition: color 200ms linear;
+  transition: color 200ms linear;
 }
 
-.menuItem .floatingMenu .item.lastItem {
+.menuItem .floatingMenu .item.lastItem, .menuItem .floatingMenuSubitems .subitem.lastItem {
 	border-bottom: none;
+  padding-bottom: 5px;
 }
 
-.menuItem .floatingMenu .item:hover {
+.menuItem .floatingMenu .item:hover, .menuItem .floatingMenuSubitems .subitem:hover {
 	color: #C07330;
+}
+
+.menuItem .floatingMenuSubitemsWrapper {
+  display: block;
+}
+
+.menuItem .floatingMenuSubitems {
+  position: absolute;
+  left: 320px;
+  width: 250px;
+  top: 0px;
+  background-color: white;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 10px;
+  padding-right: 20px;
+  border-top: 1px solid #358e49;
+  border-bottom: 1px solid #358e49;
+  border-right: 1px solid #358e49;
+}
+
+.menuItem .floatingMenuSubitems .subitem {
+  border-bottom: 1px solid rgba(187, 217, 188, 0.5);
+  padding-bottom: 8px;
+  cursor: pointer;
+  padding-top: 8px;
+  color: #3d3d3e;
+  display: block;
+
+  -webkit-transition: color 200ms linear;
+  -ms-transition: color 200ms linear;
+  transition: color 200ms linear;
 }
 
 .fullWidthImage {
@@ -523,6 +584,7 @@ a {
 	background-position-y: 50%;
 	background-repeat: no-repeat;
 	background-size: cover;
+  position: relative;
 }
 
 .familyHorse {
@@ -539,8 +601,8 @@ a {
 	padding-left: 40px;
 	padding-bottom: 20px;
 	color: white;
-    top: 240px;
-    position: relative;
+  position: absolute;
+  bottom: 0px;
 }
 
 .fullWidthImage .pageTitle {
@@ -639,6 +701,13 @@ a {
     padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.subSectionText.shortPadding {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .animalCard {
@@ -756,6 +825,10 @@ a {
   background-color: #86830a;
 }
 
+.legend .legendElement .legendColor.holidaysInTheFoundation {
+  background-color: #1ab7d2;
+}
+
 .descriptionImage {
 	height: 300px;
 	border-radius: 2px;
@@ -822,12 +895,43 @@ a {
   margin-bottom: 50px;
 }
 
-.flags {
-  position: absolute;
-  right: 5px;
-  top: 5px;
-  width: 90px;
+
+
+.activityCard {
+  display: inline-block;
+  height: 300px;
+  width: 350px;
+  /* border-radius: 75px; */
+  margin-right: 20px;
+  cursor: pointer;
+  border: 1px solid rgba(101, 140, 101, 0.24);
+  border-radius: 5px;
+  -webkit-transition: opacity 500ms;
+  -ms-transition: opacity 500ms linear;
+  transition: opacity 500ms linear;
+}
+
+.activityCard:hover {
+  opacity: 0.8;
+}
+
+.activityCard img {
+  height: 210px;
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.activityCard span {
+  color: #345834;
+  padding-top: 33px;
+  text-align: center;
   display: block;
+}
+
+.flags {
+  position: relative;
+  margin-top: 10px;
 }
 
 .flags div {

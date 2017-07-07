@@ -1,0 +1,27 @@
+<div class="" data-bind="">
+	<div class="sectionText">
+		<span class="title">Estades i retirs</span>
+		<div class="indentedSection">
+			<div class="columnsContainer">
+				<div class="firstColumn">
+					<span class="description">Durant l'any organitzem diverses estades i retirs a la Fundació per tal que podeu passar uns dies a la natura entre cavalls lliures</span>
+
+					<div class="subSectionText">
+						<span class="subtitle complimentary1">Tipus d'activitats</span>
+						<!-- ko foreach: items -->
+							<a class="activityCard" data-bind="attr: {href: href()}">
+								<img data-bind="attr: {src: '/static/images/activityCard/' + id() + '.jpg' }" />
+								<span data-bind="text: title"></span>
+							</a>
+						<!-- /ko -->						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="sectionText">
+		<span class="title">Activitats</span>
+		<!-- ko template: {name: 'calendar', data: calendar} --><!-- /ko -->
+	</div>
+</div>
