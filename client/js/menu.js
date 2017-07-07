@@ -59,7 +59,7 @@ const Menu = [
 								id: "cultureAndNature"
 							},
 							{
-								title: "Vacances al Pla de l'Orri",
+								title: "Vacances entre cavalls lliures",
 								href: "/#!/holidays_in_the_foundation",
 								id: "holidaysInTheFoundation"
 							},
@@ -67,12 +67,23 @@ const Menu = [
 					}
 				},
 				{
-					title: "Campaments d'estiu (6-13 anys)",
-					href: "/#!/summer_camp_kids",
-				},
-				{
-					title: "Camp de treball d'estiu (13-17 anys)",
-					href: "/#!/summer_camp_teens",
+					title: "Infants i joves",
+					id: "kidsAndTeens",
+					href: "/#!/kids_and_teens",
+					floatingMenu: {
+						items: [
+							{
+								title: "Campaments d'estiu (6-13 anys)",
+								href: "/#!/summer_camp_kids",
+								id: "summerCampKids"
+							},
+							{
+								title: "Camp de treball d'estiu (13-17 anys)",
+								href: "/#!/summer_camp_teens",
+								id: "summerCampTeens"
+							},
+						]
+					}
 				},
 				{
 					title: "Transhumància",

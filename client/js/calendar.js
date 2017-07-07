@@ -4,7 +4,7 @@ var VISIT_COLOR = "#378006";
 var CULTURE_AND_NATURE_VISIT_TEXT = "Cultura i natura";
 var CULTURE_AND_NATURE_VISIT_COLOR = '#ea7900';
 
-var HOLIDAYS_IN_THE_FOUNDATION_TEXT = "Vacances al Pla de l'Orri";
+var HOLIDAYS_IN_THE_FOUNDATION_TEXT = "Vacances entre cavalls lliures";
 var HOLIDAYS_IN_THE_FOUNDATION_COLOR = '#1ab7d2';
 
 var SUMMER_CAMP_TEXT = "Campaments d'estiu";

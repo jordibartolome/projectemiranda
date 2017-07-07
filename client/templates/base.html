@@ -15,9 +15,9 @@
 					<span class="menuItemDescription" data-bind="text: subtitle"></span>
 				<!--/ko -->
 			</a>
-			<!-- ko if: floatingMenu() && floatingMenu().visible() -->
+			<!-- ko if: floatingMenu() -->
 				<!-- ko with: floatingMenu -->
-					<div class="floatingMenu" data-bind="css: {wide: wide}, event: { mouseover: handleFloatingMenuMouseover, mouseout: handleFloatingMenuMouseout }">
+					<div class="floatingMenu" data-bind="css: {wide: wide}, event: { mouseover: handleFloatingMenuMouseover, mouseout: handleFloatingMenuMouseout }, fadeVisible: visible()">
 						<!-- ko foreach: items -->
 							<div class="floatingMenuItemWrapper" data-bind="event: { mouseover: function() {handleMenuItemMouseover() && handleFloatingMenuMouseover()}, mouseout: function () {handleMenuItemMouseout() && handleFloatingMenuMouseout()} }">
 								<a class="item" data-bind="text: title,  attr: {href: href, target: target}, css: {lastItem: $index() == $parent.items().length - 1}"></a>
@@ -26,15 +26,13 @@
 										<!-- ko if: items().length > 0 -->
 											<i class="fa fa-angle-right" aria-hidden="true"></i>
 										<!-- /ko -->
-										<!-- ko if: visible -->
-											<div class="floatingMenuSubitems">
+											<div class="floatingMenuSubitems" data-bind="fadeVisible: visible()">
 												<!-- ko foreach: items -->
 													<div class="floatingMenuSubitemsWrapper">
 														<a class="subitem" data-bind="text: title, attr: {href: href, target: target}, css: {lastItem: $index() == $parent.items().length - 1}"></a>
 													</div>
 												<!--/ko -->
 											</div>
-										<!--/ko -->
 									<!--/ko -->
 								<!--/ko -->
 							</div>
@@ -164,6 +162,14 @@
 	<div data-bind="page: {id: 'transhumance', afterShow: function () {initializeOnPageLoad()}, scrollToTop: false}">
 		<!-- ko if: pager.activePage$().getCurrentId() == "transhumance" -->
 			<!-- ko template: {name: 'transhumance'} --><!-- /ko -->
+		<!-- /ko -->
+	</div>
+	<!-- /ko -->
+
+	<!-- ko with: kidsAndTeens-->
+	<div data-bind="page: {id: 'kids_and_teens', afterShow: function () {initializeOnPageLoad()}, scrollToTop: false}">
+		<!-- ko if: pager.activePage$().getCurrentId() == "kids_and_teens" -->
+			<!-- ko template: {name: 'kids_and_teens'} --><!-- /ko -->
 		<!-- /ko -->
 	</div>
 	<!-- /ko -->

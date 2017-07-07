@@ -1,3 +1,6 @@
+/** 
+ * Each menu item
+ */
 class MenuItem {
 	constructor(item) {
 		this.title = ko.observable(item.title);
@@ -48,7 +51,9 @@ class MenuItem {
 	}
 }
 
-// Floating menu
+/** 
+ * Floating menu
+ */
 class FloatingMenu {
 	constructor(item) {
 		this.fm = item;
@@ -91,7 +96,6 @@ class FloatingMenu {
 
 	createItems() {
 		for (var i = 0; i < this.fm.items.length; i++) {
-			// this.items.push(new FloatingMenuItem(this.fm.items[i]));
 			this.items.push(new MenuItem(this.fm.items[i]));
 		}
 	}
@@ -100,12 +104,3 @@ class FloatingMenu {
 		this.createItems();
 	}
 }
-
-// Each one of the floating items
-// class FloatingMenuItem {
-// 	constructor(item) {
-// 		this.title = ko.observable(item.title);
-// 		this.href = ko.observable(item.href);
-// 		this.target = ko.observable(item.target);
-// 	}
-// }

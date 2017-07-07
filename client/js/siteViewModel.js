@@ -13,7 +13,7 @@ class SiteViewModel {
 		this.sponsor = new Sponsor();
 		this.visits = new VisitsViewModel();
 		this.meetUs = new MeetUsViewModel();
-		this.holidaysAndRelax = new HolidaysAndRelaxViewModel(this.menuItems);
+		this.holidaysAndRelax = new HolidaysAndRelaxViewModel(this.getMenuItemsById.bind(this));
 		this.cultureAndNature = new CultureAndNatureViewModel();
 		this.transhumance = new TranshumanceViewModel();
 		this.footer = new Footer();
@@ -22,6 +22,7 @@ class SiteViewModel {
 		this.holidaysInTheFoundation = new HolidaysInTheFoundation()
 
 		// Camps
+		this.kidsAndTeens = new KidsAndTeensViewModel(this.getMenuItemsById.bind(this));
 		this.summerCampKids = new SummerCampKidsViewModel();
 		this.summerCampTeens = new SummerCampTeensViewModel();
 
@@ -32,6 +33,25 @@ class SiteViewModel {
 		for (var i = 0; i < Menu.length; i++) {
 			this.menuItems.push(new MenuItem(Menu[i]));
 		}
+	}
+
+	getMenuItemsById(id) {
+		for (var i = 0; i < this.menuItems().length; i++) {
+			let item = this.menuItems()[i];
+			if (item.id() == id) {
+				return item.items();
+			}
+
+			if (item.floatingMenu()) {
+				for (var j = 0; j < item.floatingMenu().items().length; j++) {
+					if (item.floatingMenu().items()[j].id() == id) {
+						return item.floatingMenu().items()[j].floatingMenu().items();
+					}
+				}
+			}
+		}
+
+		return [];
 	}
 
 	initialize() {
