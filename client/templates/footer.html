@@ -12,13 +12,11 @@
 			<div class="secondColumn modernForm medium">
 				<span class="">Vols rebre les nostres promocions?</span>
 				<div class="marginTop">
-					<!-- ko if: !signupDone() -->
-        	<input class="inputWithButton" type="text" data-bind="value: email, valueUpdate: 'input'" />
-					<div class="actionButton primaryColor buttonNextToInput" data-bind="click: signupToNewsletter">Subscriu-te</div>
-					<!-- /ko -->
-					<!-- ko if: signupDone() -->
-						<span class="primary">Moltes gràcies per subscriure't! Aviat rebràs emails de la Fundació.</span>
-					<!-- /ko -->
+					<form action="//projectemiranda.us7.list-manage.com/subscribe/post?u=daffc87875c6a7b0fd4fe7d57&amp;id=8204db422c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        		<input class="inputWithButton" type="email" name="EMAIL" id="mce-EMAIL" />
+						<button type="submit" class="actionButton primaryColor buttonNextToInput">Subscriu-te</button>
+    				<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_daffc87875c6a7b0fd4fe7d57_8204db422c" tabindex="-1" value=""></div>
+					</form>
 				</div>
 			</div>
 		</div>

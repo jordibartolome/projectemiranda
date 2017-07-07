@@ -54,7 +54,7 @@ const Menu = [
 					floatingMenu: {
 						items: [
 							{
-								title: "Cultura i natura",
+								title: "Connecta't a a la vida",
 								href: "/#!/culture_and_nature",
 								id: "cultureAndNature"
 							},

@@ -4,15 +4,6 @@ class Footer {
     this.signupDone = ko.observable(false);
   }
 
-  signupToNewsletter() {
-    if (this.email().length == 0) {
-      return;
-    }
-
-    this.signupDone(true);
-  }
-
-  
   changeLanguage(lang) {
     setCookie("language", lang, 10000);
     location.reload();

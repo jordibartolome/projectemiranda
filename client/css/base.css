@@ -211,7 +211,7 @@ a {
   width: 49%;
 }
 
-.modernForm input[type="number"], .modernForm input[type="text"], .modernForm input[type="password"] {
+.modernForm input[type="number"], .modernForm input[type="text"], .modernForm input[type="password"], .modernForm input[type="email"] {
   font-size: 20px;
   width: 100%;
   padding: 10px;
