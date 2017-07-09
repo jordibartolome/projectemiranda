@@ -29,7 +29,8 @@ const HORSES = [
 	{
 		name: "Múa",
 		id: "mua",
-		sponsored: false,
+		sponsored: true,
+		sponsor: "Miguel",
 		snippet: "La Múa va néixer la primavera del 2016 a la muntanya d’Alinyà, concretament al Coll d’Ares, unes setmanes abans d’iniciar la transhumància de tornada cap al Pla de l’Orri.",
 		description: [
 			"La Múa va néixer la primavera del 2016 a la muntanya d’Alinyà, concretament al Coll d’Ares, unes setmanes abans d’iniciar la transhumància de tornada cap al Pla de l’Orri.",
@@ -43,7 +44,8 @@ const HORSES = [
 	{
 		name: "Mandala",
 		id: "mandala",
-		sponsored: false,
+		sponsored: true,
+		sponsor: "Núria",
 		snippet: "La Mandala, una preciosa euga de 19 anys, va ser dels primers cavalls a arribar a la fundació ara ja fa 10 anys. El seu és el típic cas de cavall que malviu tancat en un box petit i sense quasi llum ni aire pur tot l’any i que només surt per fer classe. Fer classe vol dir que algú et puja a sobre, et posa un ferro a la boca i vulguis o no, hagis d’anar, passar i saltar per tots els llocs que aquest algú vol. I si aquest algú (com passa la majoria de les vegades) no sap muntar correctament, a cada pas et va donant cops a l’esquena i cada vegada que es desequilibra veus les estrelles per l’estrebada i el mal que et fa el filet que portes dins la boca. I els anomenen cavalls d’esport...",
 		description: [
 			"La Mandala, una preciosa euga de 19 any, va ser dels primers cavalls a arribar a la fundació ara ja fa 10 anys. El seu és el típic cas de cavall que malviu tancat en un box petit i sense quasi llum ni aire pur tot l’any i que només surt per fer classe. Fer classe vol dir que algú et puja a sobre, et posa un ferro a la boca i vulguis o no, hagis d’anar, passar i saltar per tots els llocs que aquest algú vol. I si aquest algú (com passa la majoria de les vegades) no sap muntar correctament, a cada pas et va donant cops a l’esquena i cada vegada que es desequilibra veus les estrelles per l’estrebada i el mal que et fa el filet que portes dins la boca. I els anomenen cavalls d’esport...",
@@ -139,7 +141,8 @@ const HORSES = [
 	{
 		name: "Kashmir",
 		id: "kashmir",
-		sponsored: false,
+		sponsored: true,
+		sponsor: "Núria",
 		snippet: "La Kashmir és una tantes eugues que ha sofert maltractament. Un maltractament potser per incosciència però un maltractament...  La van muntar massa jove i malament... i va arribar a la fundació coixa. Quan es va recuperar de la coixera vam observar que no podia ni galopar, estava rígida i bloquejda i tenia molta por.",
 		description: [
 			"La Kashmir és una tantes eugues que ha sofert maltractament. Un maltractament potser per incosciència però un maltractament...  La van muntar massa jove i malament... i va arribar a la fundació coixa. Quan es va recuperar de la coixera vam observar que no podia ni galopar, estava rígida i bloquejda i tenia molta por.",
@@ -153,7 +156,8 @@ const HORSES = [
 	{
 		name: "Bhangra",
 		id: "bhangra",
-		sponsored: false,
+		sponsored: true,
+		sponsor: "Núria",
 		snippet: "Una euga amb molt de ritme, hipersensible i una gran mare (el seu fill és el Yembé) Mireu quina mirada....no calen paraules. Apadrinar un ésser així....és posar un àngel a la vostra vida. La Bhangra anava per bistec....i per sort el destí la va portar, ja fa molts anys a la Fundació Miranda.",
 		description: [
 			"Una euga amb molt de ritme, hipersensible i una gran mare (el seu fill és el Yembé) Mireu quina mirada....no calen paraules. Apadrinar un ésser així....és posar un àngel a la vostra vida. La Bhangra anava per bistec....i per sort el destí la va portar, ja fa molts anys a la Fundació Miranda.",
