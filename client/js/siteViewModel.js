@@ -14,6 +14,7 @@ class SiteViewModel {
 		this.visits = new VisitsViewModel();
 		this.meetUs = new MeetUsViewModel();
 		this.holidaysAndRelax = new HolidaysAndRelaxViewModel(this.getMenuItemsById.bind(this));
+		this.connectToTheLife = new ConnectToTheLifeViewModel();
 		this.cultureAndNature = new CultureAndNatureViewModel();
 		this.transhumance = new TranshumanceViewModel();
 		this.footer = new Footer();

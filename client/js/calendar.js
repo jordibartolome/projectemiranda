@@ -1,8 +1,8 @@
 var VISIT_TEXT = "Un dia entre cavalls lliures";
 var VISIT_COLOR = "#378006";
 
-var CULTURE_AND_NATURE_VISIT_TEXT = "Connecta't a la vida";
-var CULTURE_AND_NATURE_VISIT_COLOR = '#ea7900';
+var CONNECT_TO_THE_LIFE_TEXT = "Connecta't a la vida";
+var CONNECT_TO_THE_LIFE_COLOR = '#ea7900';
 
 var HOLIDAYS_IN_THE_FOUNDATION_TEXT = "Vacances entre cavalls lliures";
 var HOLIDAYS_IN_THE_FOUNDATION_COLOR = '#1ab7d2';
@@ -20,9 +20,9 @@ var TYPES = [
 		title: "VISIT_TEXT"
 	},
 	{
-		type: "CULTURE_AND_NATURE",
-		color: "CULTURE_AND_NATURE_VISIT_COLOR",
-		title: "CULTURE_AND_NATURE_VISIT_TEXT"
+		type: "CONNECT_TO_THE_LIFE",
+		color: "CONNECT_TO_THE_LIFE_COLOR",
+		title: "CONNECT_TO_THE_LIFE_TEXT"
 	},
 	{
 		type: "HOLIDAYS_IN_THE_FOUNDATION",
@@ -56,7 +56,7 @@ var VISITS = [
 	},
 ];
 
-var CULTURE_AND_NATURE = [
+var CONNECT_TO_THE_LIFE = [
 	{
 	  start: '2017-08-25',
 	  end: '2017-08-28',

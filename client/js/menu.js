@@ -55,8 +55,8 @@ const Menu = [
 						items: [
 							{
 								title: "Connecta't a la vida",
-								href: "/#!/culture_and_nature",
-								id: "cultureAndNature"
+								href: "/#!/connect_to_the_life",
+								id: "connectToTheLife"
 							},
 							{
 								title: "Vacances entre cavalls lliures",
@@ -110,6 +110,27 @@ const Menu = [
 			]
 		}
 	},
+
+	{
+		title: "Cultura i natura",
+		subtitle: "Viu la natura",
+		href: "/#!/culture_and_nature",
+		floatingMenu: {
+			items: [
+				{
+					title: "Eòlia (Escola superior d'art dramàtic)",
+					href: "http://www.eolia.cat",
+					target: "_blank"
+				},
+				{
+					title: "Projectes",
+					href: "/#!/culture_and_nature",
+				},
+			]
+		}
+	},
+
+
 	{
 		title: "Col·labora",
 		subtitle: "Necessitem la teva ajuda",

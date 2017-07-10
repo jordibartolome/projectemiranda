@@ -158,6 +158,14 @@
 	</div>
 	<!-- /ko -->
 
+	<!-- ko with: connectToTheLife-->
+	<div data-bind="page: {id: 'connect_to_the_life', afterShow: function () {initializeOnPageLoad()}, scrollToTop: false}">
+		<!-- ko if: pager.activePage$().getCurrentId() == "connect_to_the_life" -->
+			<!-- ko template: {name: 'connect_to_the_life'} --><!-- /ko -->
+		<!-- /ko -->
+	</div>
+	<!-- /ko -->
+
 	<!-- ko with: transhumance-->
 	<div data-bind="page: {id: 'transhumance', afterShow: function () {initializeOnPageLoad()}, scrollToTop: false}">
 		<!-- ko if: pager.activePage$().getCurrentId() == "transhumance" -->
