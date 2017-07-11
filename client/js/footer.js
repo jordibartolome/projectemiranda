@@ -10,7 +10,7 @@ class Footer {
   }
 
   goToFacebook() {
-  	window.open("https://www.facebook.com/FundacioProjecteMiranda");
+  	window.open("https://www.facebook.com/FundacioMiranda");
   }
 
   goToInstagram() {
