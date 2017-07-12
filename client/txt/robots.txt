@@ -1,0 +1,6 @@
+# WebMatrix 1.0
+User-agent: *
+User-agent: Googlebot-News
+User-agent: Googlebot-Image
+User-agent: Googlebot-Video
+Sitemap: http://www.fundaciomiranda.org/sitemap.xml
