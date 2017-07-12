@@ -16,6 +16,10 @@ app.get('/sitemap.xml', function (req, res) {
   res.sendFile(path.join(__dirname + '/client/xml/sitemap.xml'));
 })
 
+app.get('/robots.txt', function (req, res) {
+  res.sendFile(path.join(__dirname + '/client/txt/robots.txt'));
+})
+
 app.listen(process.env.PORT || 3000, function(){
   console.log("Projecte Miranda - running!", this.address().port, app.settings.env);
 });
