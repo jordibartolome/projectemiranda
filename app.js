@@ -2,7 +2,6 @@ var express = require('express');
 var app = express();
 var path = require('path');
 var bodyParser = require('body-parser');
-var request = require('request');
 
 app.use('/static', express.static(path.join(__dirname, 'client')))
 
@@ -17,12 +16,8 @@ app.get('/sitemap.xml', function (req, res) {
   res.sendFile(path.join(__dirname + '/client/xml/sitemap.xml'));
 })
 
-app.get('/robots.txt', function (req, res) {
-  res.sendFile(path.join(__dirname + '/client/txt/robots.txt'));
-})
-
 app.listen(process.env.PORT || 3000, function(){
-  console.log("Fundació Miranda - running!", this.address().port, app.settings.env);
+  console.log("Projecte Miranda - running!", this.address().port, app.settings.env);
 });
 
 // EMAIL
@@ -40,12 +35,12 @@ app.post('/new_partner', function (req, res) {
 	mail = new helper.Mail(from_email, subject, to_email, content);
 
 	var sg = require('sendgrid')(process.env.SENDGRID_API_KEY);
-	var r = sg.emptyRequest({
+	var request = sg.emptyRequest({
 	  method: 'POST',
 	  path: '/v3/mail/send',
 	  body: mail.toJSON()
 	});
 
-	sg.API(r, function(error, response) {})
+	sg.API(request, function(error, response) {})
 
 });
