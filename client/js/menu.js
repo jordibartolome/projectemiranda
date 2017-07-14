@@ -159,7 +159,7 @@ const Menu = [
 				},
 				{
 					title: "Teaming",
-					href: "https://www.teaming.net/www-projectemiranda-cat",
+					href: "https://www.teaming.net/fundaciomiranda",
 					target: "_blank"
 				},
 			]
