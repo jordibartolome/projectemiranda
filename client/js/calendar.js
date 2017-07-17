@@ -13,6 +13,9 @@ var SUMMER_CAMP_COLOR = '#d8d305';
 var WORK_CAMP_TEXT = "Camps de treball";
 var WORK_CAMP_COLOR = "#86830a";
 
+var NIGHT_TEXT = "Nit entre cavalls"
+var NIGHT_COLOR = "#3a4373"
+
 var TYPES = [
 	{
 		type: "VISITS",
@@ -38,7 +41,47 @@ var TYPES = [
 		type: "WORK_CAMP",
 		color: "WORK_CAMP_COLOR",
 		title: "WORK_CAMP_TEXT"
+	},
+	{
+		type: "NIGHT",
+		color: "NIGHT_COLOR",
+		title: "NIGHT_TEXT"
 	}
+]
+
+var NIGHT = [
+	{
+	  start: '2017-08-04',
+	  end: '2017-08-06',
+	  url: "https://www.eventbrite.com/e/nit-entre-cavalls-lliures-tickets-36260083887",
+	},
+	{
+	  start: '2017-08-05',
+	  end: '2017-08-07',
+	  url: "https://www.eventbrite.com/e/nit-entre-cavalls-lliures-tickets-36260084890",
+	},
+
+	{
+	  start: '2017-08-18',
+	  end: '2017-08-20',
+	  url: "https://www.eventbrite.com/e/nit-entre-cavalls-lliures-tickets-36260085893",
+	},
+	{
+	  start: '2017-08-19',
+	  end: '2017-08-21',
+	  url: "https://www.eventbrite.com/e/nit-entre-cavalls-lliures-tickets-36260086896",
+	},
+
+	{
+	  start: '2017-09-01',
+	  end: '2017-09-03',
+	  url: "https://www.eventbrite.com/e/nit-entre-cavalls-lliures-tickets-36260087899",
+	},
+	{
+	  start: '2017-09-02',
+	  end: '2017-09-04',
+	  url: "https://www.eventbrite.com/e/nit-entre-cavalls-lliures-tickets-36260088902",
+	},
 ]
 
 var VISITS = [ 
