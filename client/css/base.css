@@ -853,6 +853,10 @@ a {
 	background-color: #378006;
 }
 
+.legend .legendElement .legendColor.night {
+  background-color: #3a4373;
+}
+
 .legend .legendElement .legendColor.meetingsPartners {
 	background-color: #ea7900;
 }
