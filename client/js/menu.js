@@ -22,10 +22,6 @@ const Menu = [
 					href: "/#!/social_contribution",
 				},
 				{
-					title: "La cuina",
-					href: "/#!/kitchen",
-				},
-				{
 					title: "Premsa",
 					href: "/#!/press",
 				},
@@ -113,7 +109,7 @@ const Menu = [
 
 	{
 		title: "Cultura i natura",
-		subtitle: "Viu la natura",
+		subtitle: "Connecta't a la vida",
 		href: "/#!/culture_and_nature",
 		floatingMenu: {
 			items: [
@@ -125,6 +121,10 @@ const Menu = [
 				{
 					title: "Projectes",
 					href: "/#!/culture_and_nature",
+				},
+				{
+					title: "La cuina de l'Orri",
+					href: "/#!/kitchen",
 				},
 			]
 		}

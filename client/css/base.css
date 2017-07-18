@@ -1005,3 +1005,9 @@ a {
 .flags .english {
   background-image: url("/static/images/flags/english.jpg");
 }
+
+.eoliaLogo {
+  width: 50%;
+  height: 50%;
+  cursor: pointer;
+}
