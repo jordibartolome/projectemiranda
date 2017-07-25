@@ -90,11 +90,15 @@ const Menu = [
 	},
 	{
 		title: "Santuari de cavalls",
-		subtitle: "Coneix-los a tots",
-		href: "/#!/our_horses",
+		subtitle: "Cavalls lliures",
+		href: "/#!/nature",
 		floatingMenu: {
 			wide: true,
 			items: [
+				{
+					title: "Un espai on els cavalls tornen a ser cavalls",
+					href: "/#!/nature",
+				},
 				{
 					title: "Els nostres cavalls",
 					href: "/#!/our_horses",

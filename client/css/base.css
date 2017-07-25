@@ -1011,3 +1011,45 @@ a {
   height: 50%;
   cursor: pointer;
 }
+
+.poem {
+  position: relative;
+  padding: 20px;
+  text-align: center;
+  display: block;
+  padding-bottom: 50px;
+}
+
+.poem .verse {
+  font-style: italic;
+  display: block;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.poem .verse {
+  font-style: italic;
+  display: block;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.poem .author {
+  font-style: italic;
+  display: block;
+  font-size: 14px;
+  line-height: 18px;
+  float: right;
+  margin-top: 15px;
+}
+
+.hashtagBlock {
+  display: block;
+  padding: 20px;
+}
+
+.hashtag {
+  display: block;
+  color: #348a47;
+  margin-bottom: 5px;
+}
