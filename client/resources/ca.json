@@ -1,4 +1,17 @@
 {
+	"menu.title.fundacioMiranda": "Fundació Miranda",
+	"menu.subtitle.fundacioMiranda": "La nostra filosofia",
+	"menu.title.activities": "Activitats",
+	"menu.subtitle.activities": "Com ens pots conèixer?",
+	"menu.title.sanctuary": "Santuari de cavalls",
+	"menu.subtitle.sanctuary": "Cavalls lliures",
+	"menu.title.cultureAndNature": "Cultura i natura",
+	"menu.subtitle.cultureAndNature": "Connecta't a la vida",
+	"menu.title.collaborate": "Col·labora",
+	"menu.subtitle.collaborate": "Necessitem la teva ajuda",
+	"menu.title.donate": "Dóna",
+	"menu.subtitle.donate": "Ajuda'ns",
+	
 	"whoAreWe.header.1": "Santuari de cavalls lliures",
 	"whoAreWe.header.2": "50 cavalls  pasturant en ramat tot l’any, millorant el territori i fent tasca social.",
 

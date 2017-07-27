@@ -2,6 +2,7 @@ const Menu = [
 	{
 		title: "Fundació Miranda",
 		subtitle: "La nostra filosofia",
+		id: "fundacioMiranda",
 		href: "/#!/start",
 		floatingMenu: {
 			items: [
@@ -35,6 +36,7 @@ const Menu = [
 	{
 		title: "Activitats",
 		subtitle: "Com ens pots conèixer?",
+		id: "activities",
 		href: "/#!/meet_us",
 		floatingMenu: {
 			wide: true,
@@ -91,6 +93,7 @@ const Menu = [
 	{
 		title: "Santuari de cavalls",
 		subtitle: "Cavalls lliures",
+		id: "sanctuary",
 		href: "/#!/nature",
 		floatingMenu: {
 			wide: true,
@@ -114,6 +117,7 @@ const Menu = [
 	{
 		title: "Cultura i natura",
 		subtitle: "Connecta't a la vida",
+		id: "cultureAndNature",
 		href: "/#!/culture_and_nature",
 		floatingMenu: {
 			items: [
@@ -133,11 +137,10 @@ const Menu = [
 			]
 		}
 	},
-
-
 	{
 		title: "Col·labora",
 		subtitle: "Necessitem la teva ajuda",
+		id: "collaborate",
 		href: "/#!/collaborate",
 		floatingMenu: {
 			items: [
@@ -177,6 +180,7 @@ const Menu = [
 	{
 		title: "Dóna",
 		subtitle: "Ajuda'ns",
+		id: "donate",
 		href: "/#!/donate",
 		highlighted: true
 	}

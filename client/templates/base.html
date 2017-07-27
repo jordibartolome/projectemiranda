@@ -10,9 +10,9 @@
 	<!-- ko foreach: menuItems -->
 		<div class="menuItem borderLeft" data-bind="css: {highlighted: highlighted}">
 			<a data-bind="event: { mouseover: handleMenuItemMouseover, mouseout: handleMenuItemMouseout }, attr: { href: href }">
-				<span class="menuItemTitle" data-bind="text: title"></span>
+				<span class="menuItemTitle" data-bind="attr: {translate: 'menu.title.' + id()}"></span>
 				<!-- ko if: subtitle -->
-					<span class="menuItemDescription" data-bind="text: subtitle"></span>
+					<span class="menuItemDescription" data-bind="attr: {translate: 'menu.subtitle.' + id()}"></span>
 				<!--/ko -->
 			</a>
 			<!-- ko if: floatingMenu() -->
