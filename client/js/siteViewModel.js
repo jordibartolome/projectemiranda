@@ -61,7 +61,7 @@ class SiteViewModel {
 
 	initializeSite() {
 		// Check if elements are present 
-		let divElement = $("#homePage")[0];
+		let divElement = $("#whoAreWe")[0];
 		if (!divElement) {
 			setTimeout(() => {
 				this.initializeSite();
@@ -70,6 +70,12 @@ class SiteViewModel {
 		}
 
 		// Localize the site
-		$("[data-localize]").localize("static/resources/site", { language: PM.locale() });
+		localize.translate("ca")
+			.then(function(){
+				localize.translate(PM.locale())
+					.then(function () {
+					  console.log("Done localizing!");
+					})
+		});
 	}
 }
