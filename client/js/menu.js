@@ -7,20 +7,12 @@ const Menu = [
 		floatingMenu: {
 			items: [
 				{
-					title: "Santuari de cavalls",
-					href: "/#!/horses_sanctuary",
-				},
-				{
 					title: "Qui som?",
 					href: "/#!/team",
 				},
 				{
 					title: "On som?",
 					href: "/#!/where",
-				},
-				{
-					title: "Tasca social",
-					href: "/#!/social_contribution",
 				},
 				{
 					title: "Premsa",
@@ -122,17 +114,21 @@ const Menu = [
 		floatingMenu: {
 			items: [
 				{
-					title: "Eòlia (Escola superior d'art dramàtic)",
-					href: "http://www.eolia.cat",
-					target: "_blank"
-				},
-				{
 					title: "Projectes",
 					href: "/#!/culture_and_nature",
 				},
 				{
+					title: "Tasca social",
+					href: "/#!/social_contribution",
+				},
+				{
 					title: "La cuina de l'Orri",
 					href: "/#!/kitchen",
+				},
+				{
+					title: "Eòlia (Escola superior d'art dramàtic)",
+					href: "http://www.eolia.cat",
+					target: "_blank"
 				},
 			]
 		}

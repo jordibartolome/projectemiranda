@@ -611,14 +611,19 @@ a {
 	height: 350px;
   margin-top: 20px;
 	background-size: cover;
+  background-position-y: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 .homePageImage {
 	background-image: url("/static/images/main.jpg");
-	background-position-y: 50%;
-	background-repeat: no-repeat;
-	background-size: cover;
-  position: relative;
+}
+
+.natureImage {
+  background-image: url("/static/images/horsesSanctuary4.jpg");
+  background-position-y: 32%;
 }
 
 .familyHorse {
@@ -1018,6 +1023,8 @@ a {
   text-align: center;
   display: block;
   padding-bottom: 50px;
+  padding-top: 40px;
+  margin: 0 auto;
 }
 
 .poem .verse {
