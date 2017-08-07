@@ -99,6 +99,10 @@ const Menu = [
 					href: "/#!/our_horses",
 				},
 				{
+					title: "Projecte Przewalski",
+					href: "/#!/przewalski",
+				},
+				{
 					title: "Dog team",
 					href: "/#!/dog_team",
 				},

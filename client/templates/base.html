@@ -92,6 +92,10 @@
 	</div>
 	<!-- /ko -->
 
+	<div data-bind="page: {id: 'przewalski', scrollToTop: false}">
+		<!-- ko template: {name: 'przewalski'} --><!-- /ko -->
+	</div>
+
 	<!-- ko with: animal-->
 	<div data-bind="page: {id: 'animal', beforeShow: function () {prepareAnimalToShow()}, scrollToTop: true}">
 		<!-- ko template: {name: 'animal'} --><!-- /ko -->
