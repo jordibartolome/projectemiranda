@@ -178,6 +178,12 @@
 	</div>
 	<!-- /ko -->
 
+	<div data-bind="page: {id: 'przewalskiProject', scrollToTop: false}">
+		<!-- ko if: pager.activePage$().getCurrentId() == "przewalskiProject" -->
+			<!-- ko template: {name: 'przewalskiProject'} --><!-- /ko -->
+		<!-- /ko -->
+	</div>
+
 	<!-- ko with: kidsAndTeens-->
 	<div data-bind="page: {id: 'kids_and_teens', afterShow: function () {initializeOnPageLoad()}, scrollToTop: false}">
 		<!-- ko if: pager.activePage$().getCurrentId() == "kids_and_teens" -->

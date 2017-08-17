@@ -1,5 +1,5 @@
-var VISIT_TEXT = "Un dia entre cavalls lliures";
-var VISIT_COLOR = "#378006";
+var VISITS_TEXT = "Un dia entre cavalls lliures";
+var VISITS_COLOR = "#378006";
 
 var CONNECT_TO_THE_LIFE_TEXT = "Connecta't a la vida";
 var CONNECT_TO_THE_LIFE_COLOR = '#ea7900';
@@ -16,36 +16,24 @@ var WORK_CAMP_COLOR = "#86830a";
 var NIGHT_TEXT = "Nit entre cavalls"
 var NIGHT_COLOR = "#3a4373"
 
+var PRZEWALSKI_TEXT = "Projecte Przewalski"
+var PRZEWALSKI_COLOR = "#dec74c"
+
 var TYPES = [
+	"VISITS",
+	"CONNECT_TO_THE_LIFE",
+	"HOLIDAYS_IN_THE_FOUNDATION",
+	"SUMMER_CAMP",
+	"WORK_CAMP",
+	"NIGHT",
+	"PRZEWALSKI",
+]
+
+var PRZEWALSKI = [
 	{
-		type: "VISITS",
-		color: "VISIT_COLOR",
-		title: "VISIT_TEXT"
-	},
-	{
-		type: "CONNECT_TO_THE_LIFE",
-		color: "CONNECT_TO_THE_LIFE_COLOR",
-		title: "CONNECT_TO_THE_LIFE_TEXT"
-	},
-	{
-		type: "HOLIDAYS_IN_THE_FOUNDATION",
-		color: "HOLIDAYS_IN_THE_FOUNDATION_COLOR",
-		title: "HOLIDAYS_IN_THE_FOUNDATION_TEXT"
-	},
-	{
-		type: "SUMMER_CAMP",
-		color: "SUMMER_CAMP_COLOR",
-		title: "SUMMER_CAMP_TEXT"
-	},
-	{
-		type: "WORK_CAMP",
-		color: "WORK_CAMP_COLOR",
-		title: "WORK_CAMP_TEXT"
-	},
-	{
-		type: "NIGHT",
-		color: "NIGHT_COLOR",
-		title: "NIGHT_TEXT"
+	  start: '2017-09-08',
+	  end: '2017-09-10',
+	  url: "https://www.eventbrite.com/e/presentacio-projecte-przewalski-tickets-37078724463",
 	}
 ]
 
@@ -160,13 +148,21 @@ class Calendar {
 		this.rendered = ko.observable(false);
 	}
 
+	getTextFromName(name) {
+		return name + "_TEXT"
+	}
+
+	getColorFromName(name) {
+		return name + "_COLOR"
+	}
+
 	createEventsList () {
 		EVENTS = [];
 		for (var j = 0; j < TYPES.length; j++) {
-			for (var i = 0; i < window[TYPES[j].type].length; i++) {
-				window[TYPES[j].type][i].title = window[TYPES[j].title];
-				window[TYPES[j].type][i].color = window[TYPES[j].color];
-				EVENTS.push(window[TYPES[j].type][i]);
+			for (var i = 0; i < window[TYPES[j]].length; i++) {
+				window[TYPES[j]][i].title = window[this.getTextFromName(TYPES[j])];
+				window[TYPES[j]][i].color = window[this.getColorFromName(TYPES[j])];
+				EVENTS.push(window[TYPES[j]][i]);
 			}
 		}
 	}

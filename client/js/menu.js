@@ -1,7 +1,7 @@
 const Menu = [
 	{
 		title: "Fundació Miranda",
-		subtitle: "La nostra filosofia",
+		subtitle: "Valors",
 		id: "fundacioMiranda",
 		href: "/#!/start",
 		floatingMenu: {
@@ -26,7 +26,7 @@ const Menu = [
 		}
 	},
 	{
-		title: "Activitats",
+		title: "Calendari d'activitats",
 		subtitle: "Com ens pots conèixer?",
 		id: "activities",
 		href: "/#!/meet_us",
@@ -78,6 +78,10 @@ const Menu = [
 				{
 					title: "Transhumància",
 					href: "/#!/transhumance",
+				},
+				{
+					title: "Presentació Projecte Przewalski",
+					href: "/#!/przewalskiProject",
 				},
 			]
 		}
