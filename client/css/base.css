@@ -883,6 +883,10 @@ a {
   background-color: #1ab7d2;
 }
 
+.legend .legendElement .legendColor.transhumanceColor {
+  background-color: #dec74c;
+}
+
 .descriptionImage {
 	height: 300px;
 	border-radius: 2px;
@@ -1012,7 +1016,7 @@ a {
   background-image: url("/static/images/flags/english.jpg");
 }
 
-.eoliaLogo {
+.smallLogo, .eoliaLogo {
   width: 50%;
   height: 50%;
   cursor: pointer;

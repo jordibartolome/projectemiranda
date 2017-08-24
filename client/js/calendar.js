@@ -19,6 +19,9 @@ var NIGHT_COLOR = "#3a4373"
 var PRZEWALSKI_TEXT = "Projecte Przewalski"
 var PRZEWALSKI_COLOR = "#dec74c"
 
+var TRANSHUMANCE_TEXT = "Transhumància"
+var TRANSHUMANCE_COLOR = "#dec74c"
+
 var TYPES = [
 	"VISITS",
 	"CONNECT_TO_THE_LIFE",
@@ -27,6 +30,15 @@ var TYPES = [
 	"WORK_CAMP",
 	"NIGHT",
 	"PRZEWALSKI",
+	"TRANSHUMANCE"
+]
+
+var TRANSHUMANCE = [
+	{
+	  start: '2017-11-22',
+	  end: '2017-11-28',
+	  url: "https://www.eventbrite.com/e/entradas-transhumancia-tardor-2017-37295096638",
+	}
 ]
 
 var PRZEWALSKI = [
@@ -69,6 +81,17 @@ var NIGHT = [
 	  start: '2017-09-02',
 	  end: '2017-09-04',
 	  url: "https://www.eventbrite.com/e/nit-entre-cavalls-lliures-tickets-36260088902",
+	},
+
+	{
+	  start: '2017-09-22',
+	  end: '2017-09-24',
+	  url: "https://www.eventbrite.com/e/nit-entre-cavalls-lliures-tickets-37295927122",
+	},
+	{
+	  start: '2017-09-23',
+	  end: '2017-09-25',
+	  url: "https://www.eventbrite.com/e/nit-entre-cavalls-lliures-tickets-37295928125",
 	},
 ]
 
