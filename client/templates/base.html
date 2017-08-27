@@ -184,6 +184,12 @@
 		<!-- /ko -->
 	</div>
 
+	<div data-bind="page: {id: 'communicateWithHorses', scrollToTop: false}">
+		<!-- ko if: pager.activePage$().getCurrentId() == "communicateWithHorses" -->
+			<!-- ko template: {name: 'communicateWithHorses'} --><!-- /ko -->
+		<!-- /ko -->
+	</div>
+
 	<!-- ko with: kidsAndTeens-->
 	<div data-bind="page: {id: 'kids_and_teens', afterShow: function () {initializeOnPageLoad()}, scrollToTop: false}">
 		<!-- ko if: pager.activePage$().getCurrentId() == "kids_and_teens" -->

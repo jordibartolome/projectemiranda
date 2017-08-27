@@ -83,6 +83,10 @@ const Menu = [
 					title: "Presentació Projecte Przewalski",
 					href: "/#!/przewalskiProject",
 				},
+				{
+					title: "Comunicació natural amb cavalls",
+					href: "/#!/communicateWithHorses",
+				},
 			]
 		}
 	},

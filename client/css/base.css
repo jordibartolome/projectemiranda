@@ -736,6 +736,17 @@ a {
   background-position-y: 3px;
 }
 
+.sectionText .description.subEnnumeration {
+  margin-bottom: 5px;
+  background-image: url(/static/images/dot.png);
+  background-repeat: no-repeat;
+  background-position-x: -3px;
+  padding-left: 20px;
+  background-size: 15px;
+  background-position-y: 3px;
+}
+
+
 .sectionText .description.bigDescription {
   font-size: 18px;
 }

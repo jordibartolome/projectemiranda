@@ -19,6 +19,9 @@ var NIGHT_COLOR = "#3a4373"
 var PRZEWALSKI_TEXT = "Projecte Przewalski"
 var PRZEWALSKI_COLOR = "#dec74c"
 
+var ANGELS_TEXT = "Comunicació Natural"
+var ANGELS_COLOR = "#dec74c"
+
 var TRANSHUMANCE_TEXT = "Transhumància"
 var TRANSHUMANCE_COLOR = "#dec74c"
 
@@ -30,7 +33,8 @@ var TYPES = [
 	"WORK_CAMP",
 	"NIGHT",
 	"PRZEWALSKI",
-	"TRANSHUMANCE"
+	"TRANSHUMANCE",
+	"ANGELS"
 ]
 
 var TRANSHUMANCE = [
@@ -46,6 +50,13 @@ var PRZEWALSKI = [
 	  start: '2017-09-08',
 	  end: '2017-09-10',
 	  url: "https://www.eventbrite.com/e/presentacio-projecte-przewalski-tickets-37078724463",
+	}
+]
+
+var ANGELS = [
+	{
+	  start: '2017-09-24',
+	  url: "https://www.eventbrite.com/e/entradas-jornada-de-comunicacio-natural-amb-cavalls-37365661700",
 	}
 ]
 
