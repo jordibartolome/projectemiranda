@@ -622,6 +622,10 @@ a {
 	background-image: url("/static/images/main.jpg");
 }
 
+.highlightedSection {
+  background-color: rgba(68, 150, 72, 0.14);
+}
+
 .natureImage {
   background-image: url("/static/images/horsesSanctuary4.jpg");
   background-position-y: 32%;
