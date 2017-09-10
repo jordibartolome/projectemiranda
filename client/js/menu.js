@@ -79,10 +79,10 @@ const Menu = [
 					title: "Transhumància",
 					href: "/#!/transhumance",
 				},
-				{
-					title: "Presentació Projecte Przewalski",
-					href: "/#!/przewalskiProject",
-				},
+				// {
+				// 	title: "Presentació Projecte Przewalski",
+				// 	href: "/#!/przewalskiProject",
+				// },
 				{
 					title: "Comunicació natural amb cavalls",
 					href: "/#!/communicateWithHorses",
