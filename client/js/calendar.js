@@ -104,6 +104,19 @@ var NIGHT = [
 	  end: '2017-09-25',
 	  url: "https://www.eventbrite.com/e/nit-entre-cavalls-lliures-tickets-37295928125",
 	},
+
+
+	{
+	  start: '2017-10-20',
+	  end: '2017-10-22',
+	  url: "https://www.eventbrite.com/e/entradas-nit-entre-cavalls-lliures-37803372906",
+	},
+	{
+	  start: '2017-10-21',
+	  end: '2017-10-23',
+	  url: "https://www.eventbrite.com/e/entradas-nit-entre-cavalls-lliures-37803373909",
+	},
+	
 ]
 
 var VISITS = [ 
@@ -123,6 +136,10 @@ var VISITS = [
 	  start  : '2017-09-23',
 	  url: "https://www.eventbrite.com/e/entradas-un-dia-entre-cavalls-lliures-fundacio-miranda-36599876215"
 	},
+	{
+	  start  : '2017-10-21',
+	  url: "https://www.eventbrite.com/e/entradas-un-dia-entre-cavalls-lliures-fundacio-miranda-37803347831"
+	}
 ];
 
 var CONNECT_TO_THE_LIFE = [
@@ -130,7 +147,15 @@ var CONNECT_TO_THE_LIFE = [
 	  start: '2017-08-25',
 	  end: '2017-08-28',
 	  url: "https://www.eventbrite.com/e/connectat-a-la-vida-tickets-35647822597",
+	},
+
+	{
+	  start: '2017-10-06',
+	  end: '2017-10-09',
+	  url: "https://www.eventbrite.com/e/retir-de-natura-i-salut-entre-cavalls-lliures-tickets-37803190360",
 	}
+
+	
 ];
 
 var SUMMER_CAMP = [
