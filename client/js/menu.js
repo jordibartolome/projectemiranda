@@ -107,10 +107,6 @@ const Menu = [
 					href: "/#!/our_horses",
 				},
 				{
-					title: "Projecte Przewalski",
-					href: "/#!/przewalski",
-				},
-				{
 					title: "Dog team",
 					href: "/#!/dog_team",
 				},
@@ -119,14 +115,22 @@ const Menu = [
 	},
 
 	{
-		title: "Cultura i natura",
+		title: "Projectes",
 		subtitle: "Connecta't a la vida",
-		id: "cultureAndNature",
+		id: "projects",
 		href: "/#!/culture_and_nature",
 		floatingMenu: {
 			items: [
 				{
-					title: "Projectes",
+					title: "Projecte Nòmades",
+					href: "/#!/nomads",
+				},
+				{
+					title: "Projecte Przewalski",
+					href: "/#!/przewalski",
+				},
+				{
+					title: "Projecte Cultura i Natura",
 					href: "/#!/culture_and_nature",
 				},
 				{
@@ -134,11 +138,11 @@ const Menu = [
 					href: "/#!/social_contribution",
 				},
 				{
-					title: "La cuina de l'Orri",
+					title: "La cuina de la terra",
 					href: "/#!/kitchen",
 				},
 				{
-					title: "Eòlia (Escola superior d'art dramàtic)",
+					title: "Eòlia",
 					href: "http://www.eolia.cat",
 					target: "_blank"
 				},

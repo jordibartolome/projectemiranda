@@ -130,6 +130,10 @@
 		<!-- ko template: {name: 'howWeSpendDonations'} --><!-- /ko -->
 	</div>
 
+	<div data-bind="page: {id: 'nomads', scrollToTop: false}">
+		<!-- ko template: {name: 'nomads'} --><!-- /ko -->
+	</div>
+
 	<!-- ko with: meetUs-->
 	<div data-bind="page: {id: 'meet_us', afterShow: function () {initializeOnPageLoad()}, scrollToTop: false}">
 		<!-- ko if: pager.activePage$().getCurrentId() == "meet_us" -->
