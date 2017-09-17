@@ -618,8 +618,44 @@ a {
   position: relative;
 }
 
-.homePageImage {
-	background-image: url("/static/images/main.jpg");
+.sliderContainer {
+  overflow: hidden;
+}
+
+.slider {
+  width: 100%;
+  height: 350px;
+  overflow:hidden;
+
+}
+
+.imageSlider {
+  width: 100%;
+  height: 100%;
+  display:block;
+  color: transparent;
+  background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: none;
+  float:left;
+  padding: 0;
+  margin: 0;
+}
+
+.homePageImage1 {
+	background-image: url("/static/images/home/home1.jpg");
+}
+
+.homePageImage2 {
+  background-image: url("/static/images/home/home2.jpg");
+}
+
+.homePageImage3 {
+  background-image: url("/static/images/home/home3.jpg");
 }
 
 .highlightedSection {
@@ -640,6 +676,7 @@ a {
 }
 
 .textContainer {
+  width: 100%;
 	background-color: rgba(0, 0, 0, 0.18);
 	padding-top: 20px;
 	padding-left: 40px;
