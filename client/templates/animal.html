@@ -1,28 +1,30 @@
-<div class="sectionText">
-	<span class="title" data-bind="text: name"></span>
-	<div class="indentedSection withTopMargin">
-		<div class="columnsContainer">
-			<div class="firstColumn">
-				<!-- ko foreach: description -->
-					<span class="description" data-bind="text: $data"></span>
-				<!-- /ko -->
+<!-- ko with: animal-->
+	<div class="sectionText" data-bind="create: prepareAnimalToShow">
+		<span class="title" data-bind="text: name"></span>
+		<div class="indentedSection withTopMargin">
+			<div class="columnsContainer">
+				<div class="firstColumn">
+					<!-- ko foreach: description -->
+						<span class="description" data-bind="text: $data"></span>
+					<!-- /ko -->
+				</div>
+
+				<div class="secondColumn centered">
+					<img class="descriptionImage" data-bind="attr: {src: firstImage}" />
+				</div>
 			</div>
 
-			<div class="secondColumn centered">
-				<img class="descriptionImage" data-bind="attr: {src: firstImage}" />
+			<div class="extraImages" data-bind="visible: extraImages().length > 0">
+					<!-- ko foreach: extraImages -->
+						<img class="extraImage" data-bind="attr: {src: $data}" />
+					<!-- /ko -->
 			</div>
+
+			<!-- ko if: !sponsored() -->
+				<div class="buttonsWrapper">
+					<div class="actionButton primaryColor buttonWithPadding big" data-bind="click: sponsor">Apadrina'l!</div>
+				</div>
+			<!-- /ko -->
 		</div>
-
-		<div class="extraImages" data-bind="visible: extraImages().length > 0">
-				<!-- ko foreach: extraImages -->
-					<img class="extraImage" data-bind="attr: {src: $data}" />
-				<!-- /ko -->
-		</div>
-
-		<!-- ko if: !sponsored() -->
-			<div class="buttonsWrapper">
-				<div class="actionButton primaryColor buttonWithPadding big" data-bind="click: sponsor">Apadrina'l!</div>
-			</div>
-		<!-- /ko -->
 	</div>
-</div>
+<!-- /ko -->

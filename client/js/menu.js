@@ -3,24 +3,24 @@ const Menu = [
 		title: "Fundació Miranda",
 		subtitle: "Valors",
 		id: "fundacioMiranda",
-		href: "/#!/start",
+		href: "/",
 		floatingMenu: {
 			items: [
 				{
 					title: "Qui som?",
-					href: "/#!/team",
+					href: "/team",
 				},
 				{
 					title: "On som?",
-					href: "/#!/where",
+					href: "/where",
 				},
 				{
 					title: "Premsa",
-					href: "/#!/press",
+					href: "/press",
 				},
 				{
 					title: "Contacta",
-					href: "/#!/contact",
+					href: "/contact",
 				}
 			]
 		}
@@ -29,28 +29,28 @@ const Menu = [
 		title: "Calendari d'activitats",
 		subtitle: "Com ens pots conèixer?",
 		id: "activities",
-		href: "/#!/meet_us",
+		href: "/meet_us",
 		floatingMenu: {
 			wide: true,
 			items: [
 				{
 					title: "Un dia entre cavalls lliures",
-					href: "/#!/visits",
+					href: "/visits",
 				},
 				{
 					title: "Estades i retirs",
 					id: "holidaysAndRelax",
-					href: "/#!/holidays_and_relax",
+					href: "/holidays_and_relax",
 					floatingMenu: {
 						items: [
 							{
 								title: "Connecta't a la vida",
-								href: "/#!/connect_to_the_life",
+								href: "/connect_to_the_life",
 								id: "connectToTheLife"
 							},
 							{
 								title: "Vacances entre cavalls lliures",
-								href: "/#!/holidays_in_the_foundation",
+								href: "/holidays_in_the_foundation",
 								id: "holidaysInTheFoundation"
 							},
 						]
@@ -59,17 +59,17 @@ const Menu = [
 				{
 					title: "Infants i joves",
 					id: "kidsAndTeens",
-					href: "/#!/kids_and_teens",
+					href: "/kids_and_teens",
 					floatingMenu: {
 						items: [
 							{
 								title: "Campaments d'estiu (6-13 anys)",
-								href: "/#!/summer_camp_kids",
+								href: "/summer_camp_kids",
 								id: "summerCampKids"
 							},
 							{
 								title: "Camp de treball d'estiu (13-17 anys)",
-								href: "/#!/summer_camp_teens",
+								href: "/summer_camp_teens",
 								id: "summerCampTeens"
 							},
 						]
@@ -77,16 +77,16 @@ const Menu = [
 				},
 				{
 					title: "Transhumància",
-					href: "/#!/transhumance",
+					href: "/transhumance",
 				},
 				// {
 				// 	title: "Presentació Projecte Przewalski",
-				// 	href: "/#!/przewalskiProject",
+				// 	href: "/przewalski_project",
 				// },
-				{
-					title: "Comunicació natural amb cavalls",
-					href: "/#!/communicateWithHorses",
-				},
+				// {
+				// 	title: "Comunicació natural amb cavalls",
+				// 	href: "/communicate_with_horses",
+				// },
 			]
 		}
 	},
@@ -94,21 +94,21 @@ const Menu = [
 		title: "Santuari de cavalls",
 		subtitle: "Cavalls lliures",
 		id: "sanctuary",
-		href: "/#!/nature",
+		href: "/nature",
 		floatingMenu: {
 			wide: true,
 			items: [
 				{
 					title: "Un espai on els cavalls tornen a ser cavalls",
-					href: "/#!/nature",
+					href: "/nature",
 				},
 				{
 					title: "Els nostres cavalls",
-					href: "/#!/our_horses",
+					href: "/our_horses",
 				},
 				{
 					title: "Dog team",
-					href: "/#!/dog_team",
+					href: "/dog_team",
 				},
 			]
 		}
@@ -118,28 +118,28 @@ const Menu = [
 		title: "Projectes",
 		subtitle: "Connecta't a la vida",
 		id: "projects",
-		href: "/#!/culture_and_nature",
+		href: "/culture_and_nature",
 		floatingMenu: {
 			items: [
 				{
 					title: "Projecte Nòmades",
-					href: "/#!/nomads",
+					href: "/nomads",
 				},
 				{
 					title: "Projecte Przewalski",
-					href: "/#!/przewalski",
+					href: "/przewalski",
 				},
 				{
 					title: "Projecte Cultura i Natura",
-					href: "/#!/culture_and_nature",
+					href: "/culture_and_nature",
 				},
 				{
 					title: "Tasca social",
-					href: "/#!/social_contribution",
+					href: "/social_contribution",
 				},
 				{
 					title: "La cuina de la terra",
-					href: "/#!/kitchen",
+					href: "kitchen",
 				},
 				{
 					title: "Eòlia",
@@ -153,28 +153,28 @@ const Menu = [
 		title: "Col·labora",
 		subtitle: "Necessitem la teva ajuda",
 		id: "collaborate",
-		href: "/#!/collaborate",
+		href: "/collaborate",
 		floatingMenu: {
 			items: [
 				{
 					title: "Fes-te soci",
-					href: "/#!/become_partner",
+					href: "/become_partner",
 				},
 				{
 					title: "Apadrina",
-					href: "/#!/sponsor",
+					href: "/sponsor",
 				},
 				{
 					title: "Dóna",
-					href: "/#!/donate",
+					href: "/donate",
 				},
 				{
 					title: "A què destinem la teva aportació?",
-					href: "/#!/how_we_spend_donations",
+					href: "/how_we_spend_donations",
 				},
 				{
 					title: "Fes-te voluntari",
-					href: "/#!/become_volunteer",
+					href: "/become_volunteer",
 				},
 				{
 					title: "Teaming",
@@ -184,16 +184,11 @@ const Menu = [
 			]
 		}
 	},
-	// {
-	// 	title: "Blog",
-	// 	subtitle: "",
-	// 	href: "/blog"
-	// },
 	{
 		title: "Dóna",
 		subtitle: "Ajuda'ns",
 		id: "donate",
-		href: "/#!/donate",
+		href: "/donate",
 		highlighted: true
 	}
 ];

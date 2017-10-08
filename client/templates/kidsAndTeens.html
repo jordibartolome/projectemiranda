@@ -1,0 +1,29 @@
+<!-- ko with: kidsAndTeens -->
+	<div class="" data-bind="create: initializeOnPageLoad">
+		<div class="sectionText">
+			<span class="title">Infants i joves</span>
+			<div class="indentedSection">
+				<div class="columnsContainer">
+					<div class="firstColumn">
+						<span class="description">Vols que els teus fills passin una setmana entre cavalls lliures a l'estiu? Apunta'ls als nostres campaments d'estiu!</span>
+
+						<div class="subSectionText">
+							<span class="subtitle complimentary1">Campaments</span>
+							<!-- ko foreach: items -->
+								<a class="activityCard" data-bind="attr: {href: href()}">
+									<img data-bind="attr: {src: '/static/images/activityCard/' + id() + '.jpg' }" />
+									<span data-bind="text: title"></span>
+								</a>
+							<!-- /ko -->						
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="sectionText">
+			<span class="title">Activitats</span>
+			<!-- ko template: {name: 'calendar', data: calendar} --><!-- /ko -->
+		</div>
+	</div>
+<!-- /ko -->

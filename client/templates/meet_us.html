@@ -1,63 +1,65 @@
-<div class="" data-bind="">
-	<div class="sectionText">
-		<span class="title">Activitats a la Fundació</span>
-		<div class="indentedSection">
-			<div class="columnsContainer">
-				<div class="firstColumn">
-					<span class="description">Organitzem diversos tipus d'activitats durant l'any per poder acostar la muntanya i els cavalls en llibertat a tothom.</span>
-					<span class="description">Aquí tens el calendari! Apunta't a les que més t'agradin!</span>
+<!-- ko with: meetUs -->
+	<div class="" data-bind="create: initializeOnPageLoad">
+		<div class="sectionText">
+			<span class="title">Activitats a la Fundació</span>
+			<div class="indentedSection">
+				<div class="columnsContainer">
+					<div class="firstColumn">
+						<span class="description">Organitzem diversos tipus d'activitats durant l'any per poder acostar la muntanya i els cavalls en llibertat a tothom.</span>
+						<span class="description">Aquí tens el calendari! Apunta't a les que més t'agradin!</span>
 
-					<div class="subSectionText">
-						<span class="sectionTitle">Un dia entre cavalls lliures</span>
-						<span class="description">Vine a conèixer els cavalls de veritat al Pla de l’Orri. Us explicarem com viuen els cavalls en llibertat i les tasques que hi duem a terme. Acostumem a fer dues trobades al mes i són obertes a socis i no socis.</span>
-						<span class="description">Podreu disfrutar de l’interacció amb els cavalls tot respectant la seva essència i el seu hàbitat natural.</span>
-						<div class="buttonsWrapper">
-							<a href="/#!/visits">
-								<div class="actionButton primaryColor medium buttonWithPadding">Més info</div>
-							</a>
+						<div class="subSectionText">
+							<span class="sectionTitle">Un dia entre cavalls lliures</span>
+							<span class="description">Vine a conèixer els cavalls de veritat al Pla de l’Orri. Us explicarem com viuen els cavalls en llibertat i les tasques que hi duem a terme. Acostumem a fer dues trobades al mes i són obertes a socis i no socis.</span>
+							<span class="description">Podreu disfrutar de l’interacció amb els cavalls tot respectant la seva essència i el seu hàbitat natural.</span>
+							<div class="buttonsWrapper">
+								<a href="/visits">
+									<div class="actionButton primaryColor medium buttonWithPadding">Més info</div>
+								</a>
+							</div>
+						</div>
+
+						<div class="subSectionText">
+							<span class="sectionTitle">Cultura i natura</span>
+							<span class="description">Vols passar una setmana relaxant entre cavalls? Vols saber com es cuida un bosc? Durant l'any organitzem activitats enfocades en un tema en concret.</span>
+							<div class="buttonsWrapper">
+								<a href="/connect_to_the_life">
+									<div class="actionButton primaryColor medium buttonWithPadding">Descobreix-les!</div>
+								</a>
+							</div>
+						</div>
+
+						<div class="subSectionText">
+							<span class="sectionTitle">Transhumància</span>
+							<span class="description">Els cavalls de la Fundació passen mig any al Pla de l'Orri i mig any a les muntanyes d'Alinyà. La transhumància és una activitat on, durant uns dies, guiem els cavalls des d'una muntanya a una altra. Apunta't a aquesta experiència única! Caminarem entre cavalls per paisatges esplèndids i ens ajudareu a guiar-los cap a les pastures de primavera, estiu i tardor.</span>
+							<div class="buttonsWrapper">
+								<a href="/transhumance">
+									<div class="actionButton primaryColor medium buttonWithPadding">Apunta't-hi!</div>
+								</a>
+							</div>
+						</div>
+
+						<div class="subSectionText">
+							<span class="sectionTitle">Campaments d'estiu per a nois i noies</span>
+							<span class="description">Vols que els teus fills gaudeixin d'una setmana a l'aire lliure entre cavalls? Porta'ls als nostres campaments!</span>
+							<div class="buttonsWrapper">
+								<a href="/summer_camp_kids">
+									<div class="actionButton primaryColor medium buttonWithPadding">6-13 anys</div>
+								</a>
+								<a href="/summer_camp_teens">
+									<div class="actionButton primaryColor medium buttonWithPadding">13-17 anys</div>
+								</a>
+							</div>
 						</div>
 					</div>
 
-					<div class="subSectionText">
-						<span class="sectionTitle">Cultura i natura</span>
-						<span class="description">Vols passar una setmana relaxant entre cavalls? Vols saber com es cuida un bosc? Durant l'any organitzem activitats enfocades en un tema en concret.</span>
-						<div class="buttonsWrapper">
-							<a href="/#!/connect_to_the_life">
-								<div class="actionButton primaryColor medium buttonWithPadding">Descobreix-les!</div>
-							</a>
-						</div>
+					<div class="secondColumn">
+						<img class="descriptionImage" src="/static/images/visitsHorses.jpg" />
 					</div>
-
-					<div class="subSectionText">
-						<span class="sectionTitle">Transhumància</span>
-						<span class="description">Els cavalls de la Fundació passen mig any al Pla de l'Orri i mig any a les muntanyes d'Alinyà. La transhumància és una activitat on, durant uns dies, guiem els cavalls des d'una muntanya a una altra. Apunta't a aquesta experiència única! Caminarem entre cavalls per paisatges esplèndids i ens ajudareu a guiar-los cap a les pastures de primavera, estiu i tardor.</span>
-						<div class="buttonsWrapper">
-							<a href="/#!/transhumance">
-								<div class="actionButton primaryColor medium buttonWithPadding">Apunta't-hi!</div>
-							</a>
-						</div>
-					</div>
-
-					<div class="subSectionText">
-						<span class="sectionTitle">Campaments d'estiu per a nois i noies</span>
-						<span class="description">Vols que els teus fills gaudeixin d'una setmana a l'aire lliure entre cavalls? Porta'ls als nostres campaments!</span>
-						<div class="buttonsWrapper">
-							<a href="/#!/summer_camp_kids">
-								<div class="actionButton primaryColor medium buttonWithPadding">6-13 anys</div>
-							</a>
-							<a href="/#!/summer_camp_teens">
-								<div class="actionButton primaryColor medium buttonWithPadding">13-17 anys</div>
-							</a>
-						</div>
-					</div>
-
 				</div>
+			</div>
 
-				<div class="secondColumn">
-					<img class="descriptionImage" src="/static/images/visitsHorses.jpg" />
-				</div>
+			<!-- ko template: {name: 'calendar', data: calendar} --><!-- /ko -->
 		</div>
-
-		<!-- ko template: {name: 'calendar', data: calendar} --><!-- /ko -->
 	</div>
-</div>
+<!-- /ko -->

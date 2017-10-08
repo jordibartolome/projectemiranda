@@ -100,6 +100,61 @@
   </head>
 
   <body>
-    <div class="mainPage" data-bind="template: {name: 'base', data: siteViewModel}"></div>
+    <!-- ko with: PM.siteViewModel -->
+      <div class="header" data-bind="create: initializeSite">
+        <div class="logos">
+          <a href="/">
+            <div class="logoHorse"></div>
+            <span class="mainTitle">Fundació Miranda</span>
+          </a>
+        </div>
+      </div>
+      <div class="menuContainer">
+        <!-- ko foreach: menuItems -->
+          <div class="menuItem borderLeft" data-bind="css: {highlighted: highlighted}">
+            <a data-bind="event: { mouseover: handleMenuItemMouseover, mouseout: handleMenuItemMouseout }, attr: { href: href }">
+              <span class="menuItemTitle" data-bind="attr: {translate: 'menu.title.' + id(), id: 'menu-title-' + id()}"></span>
+              <!-- ko if: subtitle -->
+                <span class="menuItemDescription" data-bind="attr: {translate: 'menu.subtitle.' + id()}"></span>
+              <!--/ko -->
+            </a>
+            <!-- ko if: floatingMenu() -->
+              <!-- ko with: floatingMenu -->
+                <div class="floatingMenu" data-bind="css: {wide: wide}, event: { mouseover: handleFloatingMenuMouseover, mouseout: handleFloatingMenuMouseout }, fadeVisible: visible()">
+                  <!-- ko foreach: items -->
+                    <div class="floatingMenuItemWrapper" data-bind="event: { mouseover: function() {handleMenuItemMouseover() && handleFloatingMenuMouseover()}, mouseout: function () {handleMenuItemMouseout() && handleFloatingMenuMouseout()} }">
+                      <a class="item" data-bind="text: title,  attr: {href: href, target: target}, css: {lastItem: $index() == $parent.items().length - 1}"></a>
+                      <!-- ko if: floatingMenu() -->
+                        <!-- ko with: floatingMenu -->
+                          <!-- ko if: items().length > 0 -->
+                            <i class="fa fa-angle-right" aria-hidden="true"></i>
+                          <!-- /ko -->
+                            <div class="floatingMenuSubitems" data-bind="fadeVisible: visible()">
+                              <!-- ko foreach: items -->
+                                <div class="floatingMenuSubitemsWrapper">
+                                  <a class="subitem" data-bind="text: title, attr: {href: href, target: target}, css: {lastItem: $index() == $parent.items().length - 1}"></a>
+                                </div>
+                              <!--/ko -->
+                            </div>
+                        <!--/ko -->
+                      <!--/ko -->
+                    </div>
+                  <!--/ko -->
+                </div>
+              <!--/ko -->
+            <!--/ko -->
+          </div>
+        <!-- /ko -->
+      </div>
+
+      <div class="mainContainer">
+        <main>${template}</main>
+
+        <!-- FOOTER -->
+        <!-- ko with: footer-->
+          <!-- ko template: {name: 'footer'} --><!-- /ko -->
+        <!-- /ko -->
+      </div>
+    <!-- /ko -->
   </body>
 </html>

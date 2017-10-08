@@ -1,44 +1,46 @@
-<div class="sectionText">
-	<span class="title">Dog team</span>
-	<div class="columnsContainer">
-		<div class="firstColumn maxGrowth">
-			<span class="description">A la Fundació també comptem amb un equip molt especial que hem anat formant amb gossos, la majoria adoptats i rescatats. Ells ens ajuden a aprendre cada dia i és un altre potencial del qual gaudeixen els nostres socis, padrins i visitants. També són grans terapèutes, cadascú desde la seva particularitat, potencial i energia.</span>
+<!-- ko with: dogTeam-->
+	<div class="sectionText">
+		<span class="title">Dog team</span>
+		<div class="columnsContainer">
+			<div class="firstColumn maxGrowth">
+				<span class="description">A la Fundació també comptem amb un equip molt especial que hem anat formant amb gossos, la majoria adoptats i rescatats. Ells ens ajuden a aprendre cada dia i és un altre potencial del qual gaudeixen els nostres socis, padrins i visitants. També són grans terapèutes, cadascú desde la seva particularitat, potencial i energia.</span>
 
-			<span class="description">Els <strong>guardians</strong>: Orri, Mússa i Shiatsu. Gossos de Muntanya del Pirineu. Fan una gran tasca cuidant i vigilant els habitants del Pla de l’Orri i evitant els atacs dels depredadors. Cuiden el ramat de cavalls, els rucs, els xais, les gallines, els gats i les porquetes.</span>
+				<span class="description">Els <strong>guardians</strong>: Orri, Mússa i Shiatsu. Gossos de Muntanya del Pirineu. Fan una gran tasca cuidant i vigilant els habitants del Pla de l’Orri i evitant els atacs dels depredadors. Cuiden el ramat de cavalls, els rucs, els xais, les gallines, els gats i les porquetes.</span>
 
-			<span class="description">Al Pirineu s’ha fet servir tradicionalment el Gos dels Pirineus (abans també anomenat gos ramader o mastí i avui dia Gos de Muntanya dels Pirineus) com a gos de protecció de ramats. Amb el retorn del llop i de l’ós, a les nostres muntanyes, aquest gos esdevé vital i necessari per cuidar els ramats i garantir la biodiversitat permetent la convivència de totes les espècies – Institut pirinenc.</span>
-			
-			<span class="description">A la Fundació Miranda, aquests gossos aporten també la seva <strong>energia calmada i centrada</strong> per acompanyar procesos personals dels nostres usuaris i un valor afegit a l’estada de qualsevol visitant. Són també uns grans embaixadors i guies, que ajuden als gossos acabats d’arribar a calmar-se, integrar-se i a deixar enrera el seu passat traumàtic  i dolorós.</span>
-			
-			<span class="description">Els <strong>pastors</strong> : Llevant, Jazz. Amb instint de pastor, menys necessàri per la nostra tasca, intentem que puguin donar sortida a la seva energia i connectar amb el seu propòsit de vida. Companys incondicionals i vitals, sense els quals el nostre dia a dia seria menys alegre.</span>
+				<span class="description">Al Pirineu s’ha fet servir tradicionalment el Gos dels Pirineus (abans també anomenat gos ramader o mastí i avui dia Gos de Muntanya dels Pirineus) com a gos de protecció de ramats. Amb el retorn del llop i de l’ós, a les nostres muntanyes, aquest gos esdevé vital i necessari per cuidar els ramats i garantir la biodiversitat permetent la convivència de totes les espècies – Institut pirinenc.</span>
+				
+				<span class="description">A la Fundació Miranda, aquests gossos aporten també la seva <strong>energia calmada i centrada</strong> per acompanyar procesos personals dels nostres usuaris i un valor afegit a l’estada de qualsevol visitant. Són també uns grans embaixadors i guies, que ajuden als gossos acabats d’arribar a calmar-se, integrar-se i a deixar enrera el seu passat traumàtic  i dolorós.</span>
+				
+				<span class="description">Els <strong>pastors</strong> : Llevant, Jazz. Amb instint de pastor, menys necessàri per la nostra tasca, intentem que puguin donar sortida a la seva energia i connectar amb el seu propòsit de vida. Companys incondicionals i vitals, sense els quals el nostre dia a dia seria menys alegre.</span>
 
-			<span class="description">Els <strong>resilients</strong>: Kenai, Reiki, Thai, Bròc, Lluna i Kèfir. Gossos diversos, de procedències poc definides que no deixen de sorprendre’ns amb les seves habilitats i acudits... Un autèntic repte pel treball amb senyals de calma i en positiu.</span>
+				<span class="description">Els <strong>resilients</strong>: Kenai, Reiki, Thai, Bròc, Lluna i Kèfir. Gossos diversos, de procedències poc definides que no deixen de sorprendre’ns amb les seves habilitats i acudits... Un autèntic repte pel treball amb senyals de calma i en positiu.</span>
 
-			<span class="description">Si vols esponsoritzar el dog team apadrinant un dels gossos (quota de <strong>15 o 25€/mes</strong>) envia’ns un email a <a href="mailto:cavalls@fundaciomiranda.org" class="standardLink">cavalls@fundaciomiranda.org</a> o truca al 93 102 30 68 i t’informem en detall i sense compromís! T’enviarem fotos i videos del teu gos i podràs venir a veure’l a totes les trobades de socis i padrins que anem programant mensualment.</span>
+				<span class="description">Si vols esponsoritzar el dog team apadrinant un dels gossos (quota de <strong>15 o 25€/mes</strong>) envia’ns un email a <a href="mailto:cavalls@fundaciomiranda.org" class="standardLink">cavalls@fundaciomiranda.org</a> o truca al 93 102 30 68 i t’informem en detall i sense compromís! T’enviarem fotos i videos del teu gos i podràs venir a veure’l a totes les trobades de socis i padrins que anem programant mensualment.</span>
+			</div>
+
+			<div class="secondColumn">
+				<img class="descriptionImage" src="/static/images/dogTeam.jpg" />
+			</div>
 		</div>
 
-		<div class="secondColumn">
-			<img class="descriptionImage" src="/static/images/dogTeam.jpg" />
+		<div class="subSectionText">
+			<span class="subtitle complimentary1">Busquen padrins</span>
+
+			<div class="gridContainer">
+				<!-- ko foreach: nonSponsoredDogs -->
+					<!-- ko template: {name: 'animalCard'} --><!-- /ko -->
+				<!-- /ko -->
+			</div>
+		</div>
+
+		<div class="subSectionText">
+			<span class="subtitle complimentary1">Ja tenen padrins!</span>
+
+			<div class="gridContainer">
+				<!-- ko foreach: sponsoredDogs -->
+					<!-- ko template: {name: 'animalCard'} --><!-- /ko -->
+				<!-- /ko -->
+			</div>
 		</div>
 	</div>
-
-	<div class="subSectionText">
-		<span class="subtitle complimentary1">Busquen padrins</span>
-
-		<div class="gridContainer">
-			<!-- ko foreach: nonSponsoredDogs -->
-				<!-- ko template: {name: 'animalCard'} --><!-- /ko -->
-			<!-- /ko -->
-		</div>
-	</div>
-
-	<div class="subSectionText">
-		<span class="subtitle complimentary1">Ja tenen padrins!</span>
-
-		<div class="gridContainer">
-			<!-- ko foreach: sponsoredDogs -->
-				<!-- ko template: {name: 'animalCard'} --><!-- /ko -->
-			<!-- /ko -->
-		</div>
-	</div>
-</div>
+<!-- /ko -->

@@ -42,16 +42,16 @@ class Home extends CalendarViewModel {
 	}
 
 	activitiesInfo() {
-		window.location.href = "/#!/meet_us";
+		window.location.href = "/meet_us";
 	}
 
 	transhumance() {
-		window.location.href = "/#!/transhumance";
+		window.location.href = "/transhumance";
 	}
 
 
 	cultureAndNature() {
-		window.location.href = "/#!/connect_to_the_life";
+		window.location.href = "/connect_to_the_life";
 	}
 
 	initialize() {

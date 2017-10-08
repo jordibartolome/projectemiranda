@@ -16,6 +16,6 @@ class AnimalCard {
 	}
 
 	goTo() {
-		window.location.href = "/#!/animal/?name=" + this.id();
+		window.location.href = "/animal/?name=" + this.id();
 	}
 }

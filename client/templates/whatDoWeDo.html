@@ -1,4 +1,5 @@
-<div class="sliderContainer">
+<!-- ko with: home-->
+<div class="sliderContainer" data-bind="create: initializeOnPageLoad">
 	<div class="fullWidthImage slider" id="homePage">
 		<div class="imageSlider homePageImage1" data-bind="click: activitiesInfo">
 			<div class="textContainer">
@@ -28,7 +29,7 @@
 			<span class="description" translate="whoAreWe.block3.2"></span>
 
 			<div class="buttonsWrapper">
-				<a href="/#!/transhumance">
+				<a href="/transhumance">
 					<div class="actionButton primaryColor buttonWithPadding big" translate="whoAreWe.block3.3"></div>
 				</a>
 			</div>
@@ -73,7 +74,7 @@
 			<span class="description" translate="whoAreWe.block2.2"></span>
 			<span class="description" translate="whoAreWe.block2.3"></span>
 			<div class="buttonsWrapper">
-				<a href="/#!/meet_us">
+				<a href="/meet_us">
 					<div class="actionButton primaryColor buttonWithPadding big" translate="whoAreWe.block2.4"></div>
 				</a>
 			</div>
@@ -86,3 +87,5 @@
 	<span class="title" translate="whoAreWe.block3.4"></span>
 	<!-- ko template: {name: 'calendar', data: calendar} --><!-- /ko -->
 </div>
+
+<!-- /ko -->

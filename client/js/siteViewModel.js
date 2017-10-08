@@ -61,7 +61,7 @@ class SiteViewModel {
 
 	initializeSite() {
 		// Check if elements are present 
-		let divElement = $("#whoAreWe")[0];
+		let divElement = $("#menu-title-sanctuary")[0];
 		if (!divElement) {
 			setTimeout(() => {
 				this.initializeSite();
