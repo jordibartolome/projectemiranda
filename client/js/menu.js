@@ -79,6 +79,10 @@ const Menu = [
 					title: "Transhumància",
 					href: "/transhumance",
 				},
+				{
+					title: "Castanyada",
+					href: "/castanyada",
+				},
 				// {
 				// 	title: "Presentació Projecte Przewalski",
 				// 	href: "/przewalski_project",

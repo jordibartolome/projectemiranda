@@ -22,6 +22,10 @@ a {
   color: #358c48;
 }
 
+.bold.black {
+  color: black;
+}
+
 .italic {
   font-style: italic;
 }
@@ -40,6 +44,10 @@ a {
 
 .centered {
   text-align: center;
+}
+
+.roundedImage {
+  border-radius: 1000px!important;
 }
 
 .noMargins {

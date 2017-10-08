@@ -65,7 +65,7 @@ class SiteViewModel {
 		if (!divElement) {
 			setTimeout(() => {
 				this.initializeSite();
-			}, 50);
+			}, 5);
 			return;
 		}
 

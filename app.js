@@ -113,14 +113,6 @@ app.get('/transhumance', function (req, res) {
 	res.render('main', { partials: { template: path.join(__dirname, 'client/templates/transhumance.html') }});
 });
 
-app.get('/przewalski_project', function (req, res) {
-	res.render('main', { partials: { template: path.join(__dirname, 'client/templates/przewalskiProject.html') }});
-});
-
-app.get('/communicate_with_horses', function (req, res) {
-	res.render('main', { partials: { template: path.join(__dirname, 'client/templates/communicateWithHorses.html') }});
-});
-
 app.get('/kids_and_teens', function (req, res) {
 	res.render('main', { partials: { template: path.join(__dirname, 'client/templates/kidsAndTeens.html') }});
 });
@@ -139,6 +131,20 @@ app.get('/holidays_in_the_foundation', function (req, res) {
 
 app.get('/donate', function (req, res) {
 	res.render('main', { partials: { template: path.join(__dirname, 'client/templates/donate.html') }});
+});
+
+app.get('/castanyada', function (req, res) {
+	res.render('main', { partials: { template: path.join(__dirname, 'client/templates/castanyada.html') }});
+});
+
+
+// OLD
+app.get('/przewalski_project', function (req, res) {
+	res.render('main', { partials: { template: path.join(__dirname, 'client/templates/przewalskiProject.html') }});
+});
+
+app.get('/communicate_with_horses', function (req, res) {
+	res.render('main', { partials: { template: path.join(__dirname, 'client/templates/communicateWithHorses.html') }});
 });
 
 // SEO STUFF 
