@@ -126,7 +126,7 @@ const Menu = [
 		floatingMenu: {
 			items: [
 				{
-					title: "Projecte Nòmades",
+					title: "Transhumància",
 					href: "/nomads",
 				},
 				{
