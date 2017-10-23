@@ -14,7 +14,7 @@ class Footer {
   }
 
   goToInstagram() {
-  	window.open("https://www.instagram.com/fundacioprojectemiranda/");
+  	window.open("https://www.instagram.com/fundaciomiranda/");
   }
 
   goToYoutube() {
