@@ -80,9 +80,13 @@ const Menu = [
 					href: "/transhumance",
 				},
 				{
-					title: "Castanyada",
-					href: "/castanyada",
+					title: "Cap d'any",
+					href: "/new_year",
 				},
+				// {
+				// 	title: "Castanyada",
+				// 	href: "/castanyada",
+				// },
 				// {
 				// 	title: "Presentació Projecte Przewalski",
 				// 	href: "/przewalski_project",

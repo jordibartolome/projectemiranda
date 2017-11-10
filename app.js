@@ -133,8 +133,8 @@ app.get('/donate', function (req, res) {
 	res.render('main', { partials: { template: path.join(__dirname, 'client/templates/donate.html') }});
 });
 
-app.get('/castanyada', function (req, res) {
-	res.render('main', { partials: { template: path.join(__dirname, 'client/templates/castanyada.html') }});
+app.get('/new_year', function (req, res) {
+	res.render('main', { partials: { template: path.join(__dirname, 'client/templates/new_year.html') }});
 });
 
 
