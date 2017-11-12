@@ -25,6 +25,9 @@ var ANGELS_COLOR = "#dec74c"
 var TRANSHUMANCE_TEXT = "Transhumància"
 var TRANSHUMANCE_COLOR = "#dec74c"
 
+var NEW_YEAR_TEXT = "Cap d'any"
+var NEW_YEAR_COLOR = "#86830a"
+
 var TYPES = [
 	"VISITS",
 	"CONNECT_TO_THE_LIFE",
@@ -34,7 +37,16 @@ var TYPES = [
 	"NIGHT",
 	"PRZEWALSKI",
 	"TRANSHUMANCE",
-	"ANGELS"
+	"ANGELS",
+	"NEW_YEAR"
+]
+
+var NEW_YEAR = [
+	{
+	  start: '2017-12-30',
+	  end: '2018-01-02',
+	  url: "https://www.eventbrite.com/e/retir-de-constellacions-sistemiques-i-nit-de-cap-dany-tickets-39432318125",
+	}
 ]
 
 var TRANSHUMANCE = [
