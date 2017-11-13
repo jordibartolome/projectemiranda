@@ -79,10 +79,10 @@ const Menu = [
 					title: "Transhumància",
 					href: "/transhumance",
 				},
-				{
-					title: "Cap d'any",
-					href: "/new_year",
-				},
+				// {
+				// 	title: "Cap d'any",
+				// 	href: "/new_year",
+				// },
 				// {
 				// 	title: "Castanyada",
 				// 	href: "/castanyada",
