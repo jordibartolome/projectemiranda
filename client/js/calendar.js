@@ -38,7 +38,6 @@ var TYPES = [
 	"PRZEWALSKI",
 	"TRANSHUMANCE",
 	"ANGELS",
-	"NEW_YEAR"
 ]
 
 var NEW_YEAR = [
