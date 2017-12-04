@@ -34,8 +34,22 @@ const Menu = [
 			wide: true,
 			items: [
 				{
-					title: "Un dia entre cavalls lliures",
+					title: "Cavalls",
 					href: "/visits",
+					floatingMenu: {
+						items: [
+							{
+								title: "Un dia entre cavalls lliures",
+								href: "/visits",
+								id: "freeHorses"
+							},
+							{
+								title: "Transhumància",
+								href: "/transhumance",
+								id: "transhumance"
+							},
+						]
+					}
 				},
 				{
 					title: "Estades i retirs",
@@ -44,15 +58,15 @@ const Menu = [
 					floatingMenu: {
 						items: [
 							{
-								title: "Connecta't a la vida",
+								title: "Constel·lacions amb cavalls",
 								href: "/connect_to_the_life",
 								id: "connectToTheLife"
 							},
-							{
-								title: "Vacances entre cavalls lliures",
-								href: "/holidays_in_the_foundation",
-								id: "holidaysInTheFoundation"
-							},
+							// {
+							// 	title: "Vacances entre cavalls lliures",
+							// 	href: "/holidays_in_the_foundation",
+							// 	id: "holidaysInTheFoundation"
+							// },
 						]
 					}
 				},
@@ -75,10 +89,7 @@ const Menu = [
 						]
 					}
 				},
-				{
-					title: "Transhumància",
-					href: "/transhumance",
-				},
+
 				// {
 				// 	title: "Cap d'any",
 				// 	href: "/new_year",
