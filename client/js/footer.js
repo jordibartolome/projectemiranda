@@ -22,6 +22,6 @@ class Footer {
   }
 
   goToTwitter() {
-  	window.open("https://twitter.com/@ProjecteMiranda");
+  	window.open("https://twitter.com/@FundacioMiranda");
   }
 }
