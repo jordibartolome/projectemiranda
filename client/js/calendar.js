@@ -25,8 +25,9 @@ var ANGELS_COLOR = "#dec74c"
 var TRANSHUMANCE_TEXT = "Transhumància"
 var TRANSHUMANCE_COLOR = "#dec74c"
 
-var NEW_YEAR_TEXT = "Cap d'any"
-var NEW_YEAR_COLOR = "#86830a"
+var FAMILY_TEXT = "Natura i Cultura en família"
+var FAMILY_COLOR = "#86830a"
+
 
 var TYPES = [
 	"VISITS",
@@ -38,6 +39,25 @@ var TYPES = [
 	"PRZEWALSKI",
 	"TRANSHUMANCE",
 	"ANGELS",
+	"FAMILY"
+]
+
+var FAMILY = [	
+	{
+	  start: '2018-03-10',
+	  end: '2018-03-12',
+	  url: "http://www.eolia.cat/wp-content/uploads/2017/11/INSCRIPCIONS-TALLERS-E%C3%92LIA-cultura-i-natura.pdf",
+	},
+	{
+	  start: '2018-04-21',
+	  end: '2018-04-23',
+	  url: "http://www.eolia.cat/wp-content/uploads/2017/11/INSCRIPCIONS-TALLERS-E%C3%92LIA-cultura-i-natura.pdf",
+	},
+	{
+	  start: '2018-03-25',
+	  end: '2018-03-30',
+	  url: "http://www.eolia.cat/wp-content/uploads/2017/11/INSCRIPCIONS-TALLERS-E%C3%92LIA-cultura-i-natura.pdf",
+	}
 ]
 
 var NEW_YEAR = [

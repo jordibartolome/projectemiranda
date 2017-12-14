@@ -77,6 +77,11 @@ const Menu = [
 					floatingMenu: {
 						items: [
 							{
+								title: "Natura i Cultura per pares amb fills (13-17 anys)",
+								href: "/culture_and_nature_family",
+								id: "cultureAndNatureFamily"
+							},
+							{
 								title: "Campaments d'estiu (6-13 anys)",
 								href: "/summer_camp_kids",
 								id: "summerCampKids"

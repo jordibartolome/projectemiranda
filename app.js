@@ -137,6 +137,10 @@ app.get('/new_year', function (req, res) {
 	res.render('main', { partials: { template: path.join(__dirname, 'client/templates/new_year.html') }});
 });
 
+app.get('/culture_and_nature_family', function (req, res) {
+	res.render('main', { partials: { template: path.join(__dirname, 'client/templates/cultureAndNatureFamily.html') }});
+});
+
 
 // OLD
 app.get('/przewalski_project', function (req, res) {
