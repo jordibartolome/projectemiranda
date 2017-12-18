@@ -141,6 +141,9 @@ app.get('/culture_and_nature_family', function (req, res) {
 	res.render('main', { partials: { template: path.join(__dirname, 'client/templates/cultureAndNatureFamily.html') }});
 });
 
+app.get('/culture_and_nature_teens', function (req, res) {
+	res.render('main', { partials: { template: path.join(__dirname, 'client/templates/cultureAndNatureTeens.html') }});
+});
 
 // OLD
 app.get('/przewalski_project', function (req, res) {

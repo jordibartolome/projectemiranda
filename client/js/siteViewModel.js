@@ -27,6 +27,7 @@ class SiteViewModel {
 		this.summerCampKids = new SummerCampKidsViewModel();
 		this.summerCampTeens = new SummerCampTeensViewModel();
 		this.cultureAndNatureFamily = new CultureAndNatureFamilyViewModel();
+		this.cultureAndNatureTeens = new CultureAndNatureTeensViewModel();
 
 		this.initialize();
 	}

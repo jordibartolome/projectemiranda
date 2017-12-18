@@ -28,6 +28,8 @@ var TRANSHUMANCE_COLOR = "#dec74c"
 var FAMILY_TEXT = "Natura i Cultura en família"
 var FAMILY_COLOR = "#86830a"
 
+var FAMILY_TEENS_TEXT = "Natura i Cultura pares i fills"
+var FAMILY_TEENS_COLOR = "#86830a"
 
 var TYPES = [
 	"VISITS",
@@ -39,7 +41,8 @@ var TYPES = [
 	"PRZEWALSKI",
 	"TRANSHUMANCE",
 	"ANGELS",
-	"FAMILY"
+	"FAMILY",
+	"FAMILY_TEENS"
 ]
 
 var FAMILY = [	
@@ -56,6 +59,18 @@ var FAMILY = [
 	{
 	  start: '2018-03-25',
 	  end: '2018-03-30',
+	  url: "http://www.eolia.cat/wp-content/uploads/2017/11/INSCRIPCIONS-TALLERS-E%C3%92LIA-cultura-i-natura.pdf",
+	}
+]
+
+
+var FAMILY_TEENS = [	
+	{
+	  start: '2018-01-28',
+	  url: "http://www.eolia.cat/wp-content/uploads/2017/11/INSCRIPCIONS-TALLERS-E%C3%92LIA-cultura-i-natura.pdf",
+	},
+	{
+	  start: '2018-02-25',
 	  url: "http://www.eolia.cat/wp-content/uploads/2017/11/INSCRIPCIONS-TALLERS-E%C3%92LIA-cultura-i-natura.pdf",
 	}
 ]

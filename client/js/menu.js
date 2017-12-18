@@ -58,6 +58,11 @@ const Menu = [
 					floatingMenu: {
 						items: [
 							{
+								title: "Natura i cultura per pares amb fills adolescents",
+								href: "/culture_and_nature_teens",
+								id: "cultureAndNatureTeens"
+							},
+							{
 								title: "Constel·lacions amb cavalls",
 								href: "/connect_to_the_life",
 								id: "connectToTheLife"
