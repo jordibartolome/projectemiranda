@@ -63,6 +63,11 @@ const Menu = [
 								id: "cultureAndNatureTeens"
 							},
 							{
+								title: "Comunicació i lideratge amb cavalls lliures",
+								href: "/lidership",
+								id: "lidership"
+							},
+							{
 								title: "Constel·lacions amb cavalls",
 								href: "/connect_to_the_life",
 								id: "connectToTheLife"

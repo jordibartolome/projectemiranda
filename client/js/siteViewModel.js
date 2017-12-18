@@ -21,6 +21,7 @@ class SiteViewModel {
 		this.press = new Press();
 		this.donate = new Donate();
 		this.holidaysInTheFoundation = new HolidaysInTheFoundation()
+		this.lidership = new LidershipViewModel();
 
 		// Camps
 		this.kidsAndTeens = new KidsAndTeensViewModel(this.getMenuItemsById.bind(this));

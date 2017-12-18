@@ -31,6 +31,12 @@ var FAMILY_COLOR = "#86830a"
 var FAMILY_TEENS_TEXT = "Natura i Cultura pares i fills"
 var FAMILY_TEENS_COLOR = "#86830a"
 
+var LIDERSHIP_TEXT = "Comunicació i Lideratge"
+var LIDERSHIP_COLOR = "#86830a"
+
+var LIDERSHIP2_TEXT = "Constel·lacions Sistèmiques"
+var LIDERSHIP2_COLOR = "#86830a"
+
 var TYPES = [
 	"VISITS",
 	"CONNECT_TO_THE_LIFE",
@@ -42,7 +48,27 @@ var TYPES = [
 	"TRANSHUMANCE",
 	"ANGELS",
 	"FAMILY",
-	"FAMILY_TEENS"
+	"FAMILY_TEENS",
+	"LIDERSHIP",
+	"LIDERSHIP2"
+]
+
+var LIDERSHIP = [	
+	{
+	  start: '2018-02-22',
+	  url: "http://www.eolia.cat/wp-content/uploads/2017/11/INSCRIPCIONS-TALLERS-E%C3%92LIA-cultura-i-natura.pdf",
+	},
+	{
+	  start: '2018-02-24',
+	  url: "http://www.eolia.cat/wp-content/uploads/2017/11/INSCRIPCIONS-TALLERS-E%C3%92LIA-cultura-i-natura.pdf",
+	}
+]
+
+var LIDERSHIP2 = [	
+	{
+	  start: '2018-04-15',
+	  url: "http://www.eolia.cat/wp-content/uploads/2017/11/INSCRIPCIONS-TALLERS-E%C3%92LIA-cultura-i-natura.pdf",
+	}
 ]
 
 var FAMILY = [	

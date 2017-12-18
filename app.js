@@ -145,13 +145,17 @@ app.get('/culture_and_nature_teens', function (req, res) {
 	res.render('main', { partials: { template: path.join(__dirname, 'client/templates/cultureAndNatureTeens.html') }});
 });
 
+app.get('/communicate_with_horses', function (req, res) {
+	res.render('main', { partials: { template: path.join(__dirname, 'client/templates/communicateWithHorses.html') }});
+});
+
+app.get('/lidership', function (req, res) {
+	res.render('main', { partials: { template: path.join(__dirname, 'client/templates/lidership.html') }});
+});
+
 // OLD
 app.get('/przewalski_project', function (req, res) {
 	res.render('main', { partials: { template: path.join(__dirname, 'client/templates/przewalskiProject.html') }});
-});
-
-app.get('/communicate_with_horses', function (req, res) {
-	res.render('main', { partials: { template: path.join(__dirname, 'client/templates/communicateWithHorses.html') }});
 });
 
 // SEO STUFF 
