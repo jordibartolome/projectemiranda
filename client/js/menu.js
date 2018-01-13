@@ -58,11 +58,6 @@ const Menu = [
 					floatingMenu: {
 						items: [
 							{
-								title: "Natura i cultura per pares amb fills adolescents",
-								href: "/culture_and_nature_teens",
-								id: "cultureAndNatureTeens"
-							},
-							{
 								title: "Comunicació i lideratge amb cavalls lliures",
 								href: "/lidership",
 								id: "lidership"
@@ -87,7 +82,12 @@ const Menu = [
 					floatingMenu: {
 						items: [
 							{
-								title: "Natura i Cultura per pares amb fills (13-17 anys)",
+								title: "Natura i cultura per pares amb fills adolescents",
+								href: "/culture_and_nature_teens",
+								id: "cultureAndNatureTeens"
+							},
+							{
+								title: "Convivència creativa amb cavalls i natura",
 								href: "/culture_and_nature_family",
 								id: "cultureAndNatureFamily"
 							},
