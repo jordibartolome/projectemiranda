@@ -228,7 +228,17 @@ var VISITS = [
 	{
 	  start  : '2018-02-18',
 	  url: "https://www.eventbrite.com/e/entradas-un-dia-entre-cavalls-lliures-al-garraf-42562404297"
+	},
+	{
+	  start  : '2018-03-24',
+	  url: "https://www.eventbrite.com/e/entradas-un-dia-entre-cavalls-lliures-a-ossera-alt-urgell-42983218965"
+	},
+	{
+	  start  : '2018-03-31',
+	  url: "https://www.eventbrite.com/e/entradas-un-dia-entre-cavalls-lliures-al-garraf-42983136719"
 	}
+
+
 ];
 
 var CONNECT_TO_THE_LIFE = [

@@ -50,8 +50,8 @@ class CommerceForm {
 		this.sendText = ko.observable();
 		this.notDoneYet = ko.observable(true);
 
-		this.firstName = ko.observable();
-		this.lastName = ko.observable();
+		this.name = ko.observable();
+		this.city = ko.observable();
 		this.email = ko.observable();
 		this.phone = ko.observable();
 		this.address = ko.observable();
@@ -72,7 +72,7 @@ class CommerceForm {
 	}
 
 	send() {
-		if (!this.firstName()) {
+		if (!this.name()) {
 			return;
 		}
 		
@@ -80,8 +80,8 @@ class CommerceForm {
 		var postService = ProjecteMiranda.postService("/new_partner", {}, () => {});
 
 		postService({
-			firstName: this.firstName(),
-			lastName: this.lastName(),
+			name: this.name(),
+			city: this.city(),
 			email: this.email(),
 			phone: this.phone(),
 			address: this.address(),
