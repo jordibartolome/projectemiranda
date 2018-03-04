@@ -125,6 +125,10 @@ app.get('/summer_camp_teens', function (req, res) {
 	res.render('main', { partials: { template: path.join(__dirname, 'client/templates/summerCampTeens.html') }});
 });
 
+app.get('/summer_camp_veterans', function (req, res) {
+	res.render('main', { partials: { template: path.join(__dirname, 'client/templates/summerCampVeterans.html') }});
+});
+
 app.get('/holidays_in_the_foundation', function (req, res) {
 	res.render('main', { partials: { template: path.join(__dirname, 'client/templates/holidaysInTheFoundation.html') }});
 });

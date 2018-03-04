@@ -13,6 +13,9 @@ var SUMMER_CAMP_COLOR = '#d8d305';
 var WORK_CAMP_TEXT = "Camps de treball";
 var WORK_CAMP_COLOR = "#86830a";
 
+var VETERANS_CAMP_TEXT = "Camp de veterans";
+var VETERANS_CAMP_COLOR = "#d8d305";
+
 var NIGHT_TEXT = "Nit entre cavalls"
 var NIGHT_COLOR = "#3a4373"
 
@@ -43,6 +46,7 @@ var TYPES = [
 	"HOLIDAYS_IN_THE_FOUNDATION",
 	"SUMMER_CAMP",
 	"WORK_CAMP",
+	"VETERANS_CAMP",
 	"NIGHT",
 	"PRZEWALSKI",
 	"TRANSHUMANCE",
@@ -259,32 +263,41 @@ var CONNECT_TO_THE_LIFE = [
 
 var SUMMER_CAMP = [
 	{
-	  start: '2017-06-25',
-	  end: '2017-07-02',
-	  url: "https://www.eventbrite.com/e/campaments-destiu-tickets-32205656987",
+	  start: '2018-06-24',
+	  end: '2018-07-01',
+	  url: "http://www.eolia.cat/wp-content/uploads/2017/11/INSCRIPCIONS-TALLERS-E%C3%92LIA-cultura-i-natura.pdf",
 	},
 	{
-	  start: '2017-07-02',
-	  end: '2017-07-09',
-	  url: "https://www.eventbrite.com/e/campaments-destiu-tickets-32205657990",
+	  start: '2018-07-01',
+	  end: '2018-07-08',
+	  url: "http://www.eolia.cat/wp-content/uploads/2017/11/INSCRIPCIONS-TALLERS-E%C3%92LIA-cultura-i-natura.pdf",
 	},
 	{
-	  start: '2017-07-09',
-	  end: '2017-07-16',
-	  url: "https://www.eventbrite.com/e/campaments-destiu-tickets-32205658993",
+	  start: '2018-07-08',
+	  end: '2018-07-15',
+	  url: "http://www.eolia.cat/wp-content/uploads/2017/11/INSCRIPCIONS-TALLERS-E%C3%92LIA-cultura-i-natura.pdf",
 	}
 ];
 
 var WORK_CAMP = [	
 	{
-	  start: '2017-07-16',
-	  end: '2017-07-23',
-	  url: "https://www.eventbrite.com/e/entradas-camp-de-vida-12-17-anys-32311224743",
+	  start: '2018-07-15',
+	  end: '2018-07-22',
+	  url: "http://www.eolia.cat/wp-content/uploads/2017/11/INSCRIPCIONS-TALLERS-E%C3%92LIA-cultura-i-natura.pdf",
 	},
 	{
-	  start: '2017-07-23',
-	  end: '2017-07-30',
-	  url: "https://www.eventbrite.com/e/entradas-camp-de-vida-12-17-anys-32311225746",
+	  start: '2018-07-22',
+	  end: '2018-07-28',
+	  url: "http://www.eolia.cat/wp-content/uploads/2017/11/INSCRIPCIONS-TALLERS-E%C3%92LIA-cultura-i-natura.pdf",
+	}
+];
+
+
+var VETERANS_CAMP = [	
+	{
+	  start: '2018-08-06',
+	  end: '2018-08-10',
+	  url: "http://www.eolia.cat/wp-content/uploads/2017/11/INSCRIPCIONS-TALLERS-E%C3%92LIA-cultura-i-natura.pdf",
 	}
 ];
 

@@ -5,6 +5,6 @@ class SummerCampKidsViewModel extends CampsViewModel {
 
   // Show the date!
   setDefaultDate() {
-    this.getCalendar().defaultDate("2017-06-01");
+    this.getCalendar().defaultDate("2018-06-01");
   }
 }

@@ -92,7 +92,7 @@ const Menu = [
 								id: "cultureAndNatureFamily"
 							},
 							{
-								title: "Campaments d'estiu (6-13 anys)",
+								title: "Campaments d'estiu (8-17 anys)",
 								href: "/summer_camp_kids",
 								id: "summerCampKids"
 							},
@@ -100,6 +100,11 @@ const Menu = [
 								title: "Camp de treball d'estiu (13-17 anys)",
 								href: "/summer_camp_teens",
 								id: "summerCampTeens"
+							},
+							{
+								title: "Camp de veterans (a partir de 18 anys)",
+								href: "/summer_camp_veterans",
+								id: "summerCampVeterans"
 							},
 						]
 					}

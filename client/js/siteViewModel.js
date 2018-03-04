@@ -27,6 +27,7 @@ class SiteViewModel {
 		this.kidsAndTeens = new KidsAndTeensViewModel(this.getMenuItemsById.bind(this));
 		this.summerCampKids = new SummerCampKidsViewModel();
 		this.summerCampTeens = new SummerCampTeensViewModel();
+		this.summerCampVeterans = new SummerCampVeteransViewModel();
 		this.cultureAndNatureFamily = new CultureAndNatureFamilyViewModel();
 		this.cultureAndNatureTeens = new CultureAndNatureTeensViewModel();
 
