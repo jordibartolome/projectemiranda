@@ -31,6 +31,9 @@ var TRANSHUMANCE_COLOR = "#dec74c"
 var FAMILY_TEXT = "Natura i Cultura en família"
 var FAMILY_COLOR = "#86830a"
 
+var CONVIVENCIA_CREATIVA_GARRAF_TEXT = "Convivència creativa al Garraf"
+var CONVIVENCIA_CREATIVA_GARRAF_COLOR = "#dec74c"
+
 var FAMILY_TEENS_TEXT = "Natura i Cultura pares i fills"
 var FAMILY_TEENS_COLOR = "#86830a"
 
@@ -54,7 +57,8 @@ var TYPES = [
 	"FAMILY",
 	"FAMILY_TEENS",
 	"LIDERSHIP",
-	"LIDERSHIP2"
+	"LIDERSHIP2",
+	"CONVIVENCIA_CREATIVA_GARRAF"
 ]
 
 var LIDERSHIP = [	
@@ -82,15 +86,18 @@ var FAMILY = [
 	  url: "http://www.eolia.cat/wp-content/uploads/2017/11/INSCRIPCIONS-TALLERS-E%C3%92LIA-cultura-i-natura.pdf",
 	},
 	{
-	  start: '2018-04-21',
-	  end: '2018-04-23',
-	  url: "http://www.eolia.cat/wp-content/uploads/2017/11/INSCRIPCIONS-TALLERS-E%C3%92LIA-cultura-i-natura.pdf",
-	},
-	{
 	  start: '2018-03-25',
 	  end: '2018-03-30',
 	  url: "http://www.eolia.cat/wp-content/uploads/2017/11/INSCRIPCIONS-TALLERS-E%C3%92LIA-cultura-i-natura.pdf",
 	}
+]
+
+var CONVIVENCIA_CREATIVA_GARRAF = [
+	{
+	  start: '2018-04-21',
+	  end: '2018-04-23',
+	  url: "http://www.eolia.cat/wp-content/uploads/2017/11/INSCRIPCIONS-TALLERS-E%C3%92LIA-cultura-i-natura.pdf",
+	},
 ]
 
 
