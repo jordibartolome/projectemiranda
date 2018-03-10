@@ -97,6 +97,10 @@ app.get('/visits', function (req, res) {
 	res.render('main', { partials: { template: path.join(__dirname, 'client/templates/visits.html') }});
 });
 
+app.get('/visits_garraf', function (req, res) {
+	res.render('main', { partials: { template: path.join(__dirname, 'client/templates/visits_garraf.html') }});
+});
+
 app.get('/holidays_and_relax', function (req, res) {
 	res.render('main', { partials: { template: path.join(__dirname, 'client/templates/holidays_and_relax.html') }});
 });

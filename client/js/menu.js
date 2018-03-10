@@ -44,6 +44,11 @@ const Menu = [
 								id: "freeHorses"
 							},
 							{
+								title: "Un dia entre cavalls lliures al Garraf",
+								href: "/visits_garraf",
+								id: "freeHorsesGarraf"
+							},
+							{
 								title: "Transhumància",
 								href: "/transhumance",
 								id: "transhumance"
