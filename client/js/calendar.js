@@ -84,11 +84,6 @@ var FAMILY = [
 	  start: '2018-03-10',
 	  end: '2018-03-12',
 	  url: "http://www.eolia.cat/wp-content/uploads/2017/11/INSCRIPCIONS-TALLERS-E%C3%92LIA-cultura-i-natura.pdf",
-	},
-	{
-	  start: '2018-03-25',
-	  end: '2018-03-30',
-	  url: "http://www.eolia.cat/wp-content/uploads/2017/11/INSCRIPCIONS-TALLERS-E%C3%92LIA-cultura-i-natura.pdf",
 	}
 ]
 
@@ -98,6 +93,11 @@ var CONVIVENCIA_CREATIVA_GARRAF = [
 	  end: '2018-04-23',
 	  url: "http://www.eolia.cat/wp-content/uploads/2017/11/INSCRIPCIONS-TALLERS-E%C3%92LIA-cultura-i-natura.pdf",
 	},
+	{
+	  start: '2018-03-25',
+	  end: '2018-03-30',
+	  url: "http://www.eolia.cat/wp-content/uploads/2017/11/INSCRIPCIONS-TALLERS-E%C3%92LIA-cultura-i-natura.pdf",
+	}
 ]
 
 
