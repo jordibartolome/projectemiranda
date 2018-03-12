@@ -117,6 +117,10 @@ app.get('/transhumance', function (req, res) {
 	res.render('main', { partials: { template: path.join(__dirname, 'client/templates/transhumance.html') }});
 });
 
+app.get('/transhumance_party', function (req, res) {
+	res.render('main', { partials: { template: path.join(__dirname, 'client/templates/transhumance_party.html') }});
+});
+
 app.get('/kids_and_teens', function (req, res) {
 	res.render('main', { partials: { template: path.join(__dirname, 'client/templates/kidsAndTeens.html') }});
 });

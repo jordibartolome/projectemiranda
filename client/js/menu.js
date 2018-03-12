@@ -53,6 +53,11 @@ const Menu = [
 								href: "/transhumance",
 								id: "transhumance"
 							},
+							{
+								title: "Festa de la Transhumància",
+								href: "/transhumance_party",
+								id: "transhumanceParty"
+							}
 						]
 					}
 				},
