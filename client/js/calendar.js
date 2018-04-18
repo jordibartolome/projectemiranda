@@ -247,6 +247,10 @@ var VISITS = [
 	{
 	  start  : '2018-03-31',
 	  url: "https://www.eventbrite.com/e/entradas-un-dia-entre-cavalls-lliures-al-garraf-42983136719"
+	},
+	{
+	  start  : '2018-06-17',
+	  url: "https://www.eventbrite.com/e/entradas-un-dia-entre-cavalls-lliures-fundacio-miranda-45291820053"
 	}
 
 
