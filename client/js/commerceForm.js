@@ -55,6 +55,7 @@ class CommerceForm {
 		this.email = ko.observable();
 		this.phone = ko.observable();
 		this.address = ko.observable();
+		this.postalCode = ko.observable();
 		this.contribution = ko.observable();
 		this.disableContribution = ko.observable(false);
 		this.availableContributions = ko.observableArray(CONTRIBUTIONS);
@@ -85,6 +86,7 @@ class CommerceForm {
 			email: this.email(),
 			phone: this.phone(),
 			address: this.address(),
+			postalCode: this.postalCode(),
 			contribution: this.contribution(),
 			bankAccount: this.bankAccount(),
 			owner: this.owner(),
