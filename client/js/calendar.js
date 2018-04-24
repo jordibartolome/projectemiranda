@@ -64,18 +64,18 @@ var TYPES = [
 var LIDERSHIP = [	
 	{
 	  start: '2018-02-22',
-	  url: "http://www.eolia.cat/wp-content/uploads/2017/11/INSCRIPCIONS-TALLERS-E%C3%92LIA-cultura-i-natura.pdf",
+	  url: "/static/images/inscripcionsTallers.pdf",
 	},
 	{
 	  start: '2018-02-24',
-	  url: "http://www.eolia.cat/wp-content/uploads/2017/11/INSCRIPCIONS-TALLERS-E%C3%92LIA-cultura-i-natura.pdf",
+	  url: "/static/images/inscripcionsTallers.pdf",
 	}
 ]
 
 var LIDERSHIP2 = [	
 	{
 	  start: '2018-04-15',
-	  url: "http://www.eolia.cat/wp-content/uploads/2017/11/INSCRIPCIONS-TALLERS-E%C3%92LIA-cultura-i-natura.pdf",
+	  url: "/static/images/inscripcionsTallers.pdf",
 	}
 ]
 
@@ -83,7 +83,7 @@ var FAMILY = [
 	{
 	  start: '2018-03-10',
 	  end: '2018-03-12',
-	  url: "http://www.eolia.cat/wp-content/uploads/2017/11/INSCRIPCIONS-TALLERS-E%C3%92LIA-cultura-i-natura.pdf",
+	  url: "/static/images/inscripcionsTallers.pdf",
 	}
 ]
 
@@ -91,12 +91,12 @@ var CONVIVENCIA_CREATIVA_GARRAF = [
 	{
 	  start: '2018-04-21',
 	  end: '2018-04-23',
-	  url: "http://www.eolia.cat/wp-content/uploads/2017/11/INSCRIPCIONS-TALLERS-E%C3%92LIA-cultura-i-natura.pdf",
+	  url: "/static/images/inscripcionsTallers.pdf",
 	},
 	{
 	  start: '2018-03-25',
 	  end: '2018-03-30',
-	  url: "http://www.eolia.cat/wp-content/uploads/2017/11/INSCRIPCIONS-TALLERS-E%C3%92LIA-cultura-i-natura.pdf",
+	  url: "/static/images/inscripcionsTallers.pdf",
 	}
 ]
 
@@ -104,11 +104,11 @@ var CONVIVENCIA_CREATIVA_GARRAF = [
 var FAMILY_TEENS = [	
 	{
 	  start: '2018-01-28',
-	  url: "http://www.eolia.cat/wp-content/uploads/2017/11/INSCRIPCIONS-TALLERS-E%C3%92LIA-cultura-i-natura.pdf",
+	  url: "/static/images/inscripcionsTallers.pdf",
 	},
 	{
 	  start: '2018-02-25',
-	  url: "http://www.eolia.cat/wp-content/uploads/2017/11/INSCRIPCIONS-TALLERS-E%C3%92LIA-cultura-i-natura.pdf",
+	  url: "/static/images/inscripcionsTallers.pdf",
 	}
 ]
 
@@ -276,17 +276,17 @@ var SUMMER_CAMP = [
 	{
 	  start: '2018-06-24',
 	  end: '2018-07-01',
-	  url: "http://www.eolia.cat/wp-content/uploads/2017/11/INSCRIPCIONS-TALLERS-E%C3%92LIA-cultura-i-natura.pdf",
+	  url: "/static/images/inscripcionsTallers.pdf",
 	},
 	{
 	  start: '2018-07-01',
 	  end: '2018-07-08',
-	  url: "http://www.eolia.cat/wp-content/uploads/2017/11/INSCRIPCIONS-TALLERS-E%C3%92LIA-cultura-i-natura.pdf",
+	  url: "/static/images/inscripcionsTallers.pdf",
 	},
 	{
 	  start: '2018-07-08',
 	  end: '2018-07-15',
-	  url: "http://www.eolia.cat/wp-content/uploads/2017/11/INSCRIPCIONS-TALLERS-E%C3%92LIA-cultura-i-natura.pdf",
+	  url: "/static/images/inscripcionsTallers.pdf",
 	}
 ];
 
@@ -294,12 +294,12 @@ var WORK_CAMP = [
 	{
 	  start: '2018-07-15',
 	  end: '2018-07-22',
-	  url: "http://www.eolia.cat/wp-content/uploads/2017/11/INSCRIPCIONS-TALLERS-E%C3%92LIA-cultura-i-natura.pdf",
+	  url: "/static/images/inscripcionsTallers.pdf",
 	},
 	{
 	  start: '2018-07-22',
 	  end: '2018-07-28',
-	  url: "http://www.eolia.cat/wp-content/uploads/2017/11/INSCRIPCIONS-TALLERS-E%C3%92LIA-cultura-i-natura.pdf",
+	  url: "/static/images/inscripcionsTallers.pdf",
 	}
 ];
 
@@ -308,7 +308,7 @@ var VETERANS_CAMP = [
 	{
 	  start: '2018-08-06',
 	  end: '2018-08-10',
-	  url: "http://www.eolia.cat/wp-content/uploads/2017/11/INSCRIPCIONS-TALLERS-E%C3%92LIA-cultura-i-natura.pdf",
+	  url: "/static/images/inscripcionsTallers.pdf",
 	}
 ];
 
