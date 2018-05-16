@@ -298,7 +298,7 @@ var WORK_CAMP = [
 	},
 	{
 	  start: '2018-07-22',
-	  end: '2018-07-28',
+	  end: '2018-07-29',
 	  url: "/static/images/inscripcionsTallers.pdf",
 	}
 ];
