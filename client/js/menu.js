@@ -78,7 +78,7 @@ const Menu = [
 								id: "connectToTheLife"
 							},
 							{
-								title: "Retir Alimentació",
+								title: "Retir alimentació saludable",
 								href: "/nutrition",
 								id: "nutrition"
 							},
