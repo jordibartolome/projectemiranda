@@ -88,6 +88,11 @@ var LIDERSHIP2 = [
 	{
 	  start: '2018-04-15',
 	  url: "/static/images/inscripcionsTallers.pdf",
+	},
+	{
+	  start: '2018-08-17',
+	  end: '2018-08-20',
+	  url: "https://www.eventbrite.com/e/retir-de-constellacions-entre-cavalls-lliures-tickets-46047709940",
 	}
 ]
 
