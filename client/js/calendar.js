@@ -43,7 +43,11 @@ var LIDERSHIP_COLOR = "#86830a"
 var LIDERSHIP2_TEXT = "Constel·lacions Sistèmiques"
 var LIDERSHIP2_COLOR = "#86830a"
 
+var MENJAR_TEXT = "Alimentación consciente y saludable"
+var MENJAR_COLOR = "#86830a"
+
 var TYPES = [
+	"MENJAR",
 	"VISITS",
 	"CONNECT_TO_THE_LIFE",
 	"HOLIDAYS_IN_THE_FOUNDATION",
@@ -60,6 +64,14 @@ var TYPES = [
 	"LIDERSHIP2",
 	"CONVIVENCIA_CREATIVA_GARRAF"
 ]
+
+var MENJAR = [	
+	{
+	  start: '2018-08-03',
+	  end: '2018-08-06',
+	  url: "https://www.eventbrite.com/e/entradas-retir-dalimentacio-transicio-cap-a-una-alimentacio-conscient-i-saludable-46048523373",
+	},
+];
 
 var LIDERSHIP = [	
 	{

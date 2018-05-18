@@ -961,6 +961,10 @@ a {
 	border-radius: 2px;
 }
 
+.smallImage {
+  max-width: 200px;
+}
+
 .extraImages {
   margin-top: 40px;
   display: block;

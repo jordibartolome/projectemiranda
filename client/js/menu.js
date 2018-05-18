@@ -77,6 +77,11 @@ const Menu = [
 								href: "/connect_to_the_life",
 								id: "connectToTheLife"
 							},
+							{
+								title: "Retir Alimentació",
+								href: "/nutrition",
+								id: "nutrition"
+							},
 							// {
 							// 	title: "Vacances entre cavalls lliures",
 							// 	href: "/holidays_in_the_foundation",
