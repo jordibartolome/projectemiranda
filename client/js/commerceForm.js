@@ -59,6 +59,7 @@ class CommerceForm {
 		this.contribution = ko.observable();
 		this.disableContribution = ko.observable(false);
 		this.availableContributions = ko.observableArray(CONTRIBUTIONS);
+		this.newsletter = ko.observable(true);
 
 		this.selectedHorse = ko.observable();
 		this.availableHorses = ko.observableArray(Horses.getNonSponsoredHorses());
@@ -92,7 +93,8 @@ class CommerceForm {
 			owner: this.owner(),
 			idType: this.idType(),
 			idNumber: this.idNumber(),
-			horse: this.selectedHorse()
+			horse: this.selectedHorse(),
+			newsletter: this.newsletter() ? "Sí" : "No"
 		});
 
 	}
