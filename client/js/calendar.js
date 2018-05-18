@@ -268,6 +268,14 @@ var VISITS = [
 	{
 	  start  : '2018-06-17',
 	  url: "https://www.eventbrite.com/e/entradas-un-dia-entre-cavalls-lliures-fundacio-miranda-45291820053"
+	},
+	{
+	  start  : '2018-08-12',
+	  url: "https://www.eventbrite.com/e/entradas-un-dia-entre-cavalls-lliures-fundacio-miranda-46048488268"
+	},
+	{
+	  start  : '2018-08-25',
+	  url: "https://www.eventbrite.com/e/entradas-un-dia-entre-cavalls-lliures-fundacio-miranda-46048508328"
 	}
 
 
