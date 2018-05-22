@@ -301,17 +301,22 @@ var SUMMER_CAMP = [
 	{
 	  start: '2018-06-24',
 	  end: '2018-07-01',
-	  url: "/static/images/inscripcionsTallers.pdf",
+	  url: "http://www.eolia.cat/wp-content/uploads/2015/05/INSCRIPCIONS-PLA-DE-LORRI-TALLERS-E%C3%92LIAFUNDACI%C3%93-MIRANDA-1.pdf",
 	},
 	{
 	  start: '2018-07-01',
 	  end: '2018-07-08',
-	  url: "/static/images/inscripcionsTallers.pdf",
+	  url: "http://www.eolia.cat/wp-content/uploads/2015/05/INSCRIPCIONS-PLA-DE-LORRI-TALLERS-E%C3%92LIAFUNDACI%C3%93-MIRANDA-1.pdf",
 	},
 	{
 	  start: '2018-07-08',
 	  end: '2018-07-15',
-	  url: "/static/images/inscripcionsTallers.pdf",
+	  url: "http://www.eolia.cat/wp-content/uploads/2015/05/INSCRIPCIONS-PLA-DE-LORRI-TALLERS-E%C3%92LIAFUNDACI%C3%93-MIRANDA-1.pdf",
+	},
+	{
+	  start: '2018-09-02',
+	  end: '2018-09-09',
+	  url: "http://www.eolia.cat/wp-content/uploads/2015/05/INSCRIPCIONS-PLA-DE-LORRI-TALLERS-E%C3%92LIAFUNDACI%C3%93-MIRANDA-1.pdf",
 	}
 ];
 
@@ -319,12 +324,12 @@ var WORK_CAMP = [
 	{
 	  start: '2018-07-15',
 	  end: '2018-07-22',
-	  url: "/static/images/inscripcionsTallers.pdf",
+	  url: "http://www.eolia.cat/wp-content/uploads/2015/05/INSCRIPCIONS-PLA-DE-LORRI-TALLERS-E%C3%92LIAFUNDACI%C3%93-MIRANDA-1.pdf",
 	},
 	{
 	  start: '2018-07-22',
 	  end: '2018-07-29',
-	  url: "/static/images/inscripcionsTallers.pdf",
+	  url: "http://www.eolia.cat/wp-content/uploads/2015/05/INSCRIPCIONS-PLA-DE-LORRI-TALLERS-E%C3%92LIAFUNDACI%C3%93-MIRANDA-1.pdf",
 	}
 ];
 
@@ -333,7 +338,7 @@ var VETERANS_CAMP = [
 	{
 	  start: '2018-08-06',
 	  end: '2018-08-10',
-	  url: "/static/images/inscripcionsTallers.pdf",
+	  url: "http://www.eolia.cat/wp-content/uploads/2015/05/INSCRIPCIONS-PLA-DE-LORRI-TALLERS-E%C3%92LIAFUNDACI%C3%93-MIRANDA-1.pdf",
 	}
 ];
 
