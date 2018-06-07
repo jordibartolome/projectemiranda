@@ -65,6 +65,10 @@ a {
   margin-bottom: 0px!important;
 }
 
+.right {
+  float: right;
+}
+
 .mainTitle {
   font-family: "Chalkduster";
   font-size: 40px;

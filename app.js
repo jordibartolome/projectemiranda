@@ -28,6 +28,9 @@ app.get('/social_contribution', function (req, res) {
 	res.render('main', { partials: { template: path.join(__dirname, 'client/templates/socialContribution.html') }});
 });
 
+app.get('/legal', function (req, res) {
+	res.render('main', { partials: { template: path.join(__dirname, 'client/templates/legal.html') }});
+});
 
 app.get('/team', function (req, res) {
 	res.render('main', { partials: { template: path.join(__dirname, 'client/templates/team.html') }});
