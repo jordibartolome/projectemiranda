@@ -325,6 +325,7 @@ var WORK_CAMP = [
 	  start: '2018-07-15',
 	  end: '2018-07-22',
 	  url: "http://www.eolia.cat/wp-content/uploads/2015/05/INSCRIPCIONS-PLA-DE-LORRI-TALLERS-E%C3%92LIAFUNDACI%C3%93-MIRANDA-1.pdf",
+	  full: true
 	},
 	{
 	  start: '2018-07-22',
@@ -374,6 +375,11 @@ class Calendar {
 			for (var i = 0; i < window[TYPES[j]].length; i++) {
 				window[TYPES[j]][i].title = window[this.getTextFromName(TYPES[j])];
 				window[TYPES[j]][i].color = window[this.getColorFromName(TYPES[j])];
+				if ( window[TYPES[j]][i].full) {
+					window[TYPES[j]][i].color = "#de780b";
+					window[TYPES[j]][i].url = "";
+					window[TYPES[j]][i].title += " - COMPLET";
+				}
 				EVENTS.push(window[TYPES[j]][i]);
 			}
 		}
