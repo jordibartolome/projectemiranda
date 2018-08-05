@@ -49,6 +49,11 @@ const Menu = [
 								id: "freeHorsesGarraf"
 							},
 							{
+								title: "Capvespre entre cavalls",
+								href: "/horses_evening",
+								id: "horsesEvening"
+							},
+							{
 								title: "Transhumància",
 								href: "/transhumance",
 								id: "transhumance"

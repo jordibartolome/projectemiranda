@@ -164,6 +164,10 @@ app.get('/communicate_with_horses', function (req, res) {
 	res.render('main', { partials: { template: path.join(__dirname, 'client/templates/communicateWithHorses.html') }});
 });
 
+app.get('/horses_evening', function (req, res) {
+	res.render('main', { partials: { template: path.join(__dirname, 'client/templates/horsesEvening.html') }});
+});
+
 // app.get('/nutrition', function (req, res) {
 // 	res.render('main', { partials: { template: path.join(__dirname, 'client/templates/nutrition.html') }});
 // });
