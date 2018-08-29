@@ -168,6 +168,10 @@ app.get('/horses_evening', function (req, res) {
 	res.render('main', { partials: { template: path.join(__dirname, 'client/templates/horsesEvening.html') }});
 });
 
+app.get('/vincles', function (req, res) {
+	res.render('main', { partials: { template: path.join(__dirname, 'client/templates/vincles.html') }});
+});
+
 // app.get('/nutrition', function (req, res) {
 // 	res.render('main', { partials: { template: path.join(__dirname, 'client/templates/nutrition.html') }});
 // });
