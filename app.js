@@ -172,6 +172,10 @@ app.get('/vincles', function (req, res) {
 	res.render('main', { partials: { template: path.join(__dirname, 'client/templates/vincles.html') }});
 });
 
+app.get('/essencia', function (req, res) {
+	res.render('main', { partials: { template: path.join(__dirname, 'client/templates/essencia.html') }});
+});
+
 // app.get('/nutrition', function (req, res) {
 // 	res.render('main', { partials: { template: path.join(__dirname, 'client/templates/nutrition.html') }});
 // });

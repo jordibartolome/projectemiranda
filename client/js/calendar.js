@@ -46,6 +46,12 @@ var LIDERSHIP2_COLOR = "#86830a"
 var MENJAR_TEXT = "Alimentación consciente y saludable"
 var MENJAR_COLOR = "#86830a"
 
+var ESSENCIA_TEXT = "Essència del Cavall"
+var ESSENCIA_COLOR = "#86830a"
+
+var VINCLES_TEXT = "Vincle de confiança amb el cavall"
+var VINCLES_COLOR = "#86830a"
+
 var TYPES = [
 	"MENJAR",
 	"VISITS",
@@ -62,7 +68,24 @@ var TYPES = [
 	"FAMILY_TEENS",
 	"LIDERSHIP",
 	"LIDERSHIP2",
-	"CONVIVENCIA_CREATIVA_GARRAF"
+	"CONVIVENCIA_CREATIVA_GARRAF",
+	"ESSENCIA",
+	"VINCLES"
+]
+
+var VINCLES = [	
+	{
+	  start: '2018-10-13',
+	  end: '2018-10-15',
+	  url: "https://www.eventbrite.com/e/creant-vincle-de-confianca-amb-el-cavall-formacio-en-comunicacio-i-nec-natural-equine-connexion-tickets-49591258790",
+	},
+];
+
+var ESSENCIA = [
+	{
+	  start: '2018-09-15',
+	  url: "https://www.eventbrite.com/e/jornada-sobre-lessencia-del-cavall-tickets-49037858555?aff=ebapi",
+	},
 ]
 
 var MENJAR = [	
@@ -284,8 +307,11 @@ var VISITS = [
 	{
 	  start  : '2018-09-30',
 	  url: "https://www.eventbrite.com/e/entradas-un-dia-entre-cavalls-lliures-fundacio-miranda-49421284392"
+	},
+	{
+	  start  : '2018-10-07',
+	  url: "https://www.eventbrite.com/e/entradas-un-dia-entre-cavalls-lliures-fundacio-miranda-49037595769"
 	}
-
 
 ];
 

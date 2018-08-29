@@ -64,6 +64,11 @@ const Menu = [
 								id: "transhumanceParty"
 							},
 							{
+								title: "Essència del Cavall",
+								href: "/essencia",
+								id: "essencia"
+							},
+							{
 								title: "Creant vincle de confiança amb el cavall",
 								href: "/vincles",
 								id: "vincles"
