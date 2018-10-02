@@ -162,9 +162,14 @@ var NEW_YEAR = [
 
 var TRANSHUMANCE = [
 	{
-	  start: '2017-11-22',
-	  end: '2017-11-28',
-	  url: "https://www.eventbrite.com/e/entradas-transhumancia-tardor-2017-37295096638",
+	  start: '2018-10-01',
+	  end: '2018-10-13',
+	  url: "http://pedratour.com/tour/camins-de-sal-2018/",
+	},
+	{
+	  start: '2018-10-31',
+	  end: '2018-11-13',
+	  url: "http://pedratour.com/tour/camins-de-sal-2018/",
 	}
 ]
 
