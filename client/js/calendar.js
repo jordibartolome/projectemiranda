@@ -316,6 +316,10 @@ var VISITS = [
 	{
 	  start  : '2018-10-07',
 	  url: "https://www.eventbrite.com/e/entradas-un-dia-entre-cavalls-lliures-fundacio-miranda-49037595769"
+	},
+	{
+	  start  : '2018-11-18',
+	  url: "https://www.eventbrite.com/e/entradas-primer-dia-entre-cavalls-lliures-al-parc-del-garraf-despres-de-la-transhumancia-52189316651"
 	}
 
 ];
