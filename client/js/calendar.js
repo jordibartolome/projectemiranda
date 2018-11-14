@@ -320,6 +320,14 @@ var VISITS = [
 	{
 	  start  : '2018-11-18',
 	  url: "https://www.eventbrite.com/e/entradas-primer-dia-entre-cavalls-lliures-al-parc-del-garraf-despres-de-la-transhumancia-52189316651"
+	},
+	{
+	  start  : '2018-12-09',
+	  url: "https://www.eventbrite.com/e/entradas-un-dia-entre-cavalls-lliures-al-parc-del-garraf-52447310317"
+	},
+	{
+	  start  : '2018-12-22',
+	  url: "https://www.eventbrite.com/e/entradas-un-dia-entre-cavalls-lliures-al-parc-del-garraf-edicio-especial-52540688614"
 	}
 
 ];
