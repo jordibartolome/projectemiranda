@@ -119,7 +119,8 @@ const HORSES = [
 	{
 		name: "Gaia",
 		id: "gaia",
-		sponsored: false,
+		sponsored: true,
+		sponsor: "Alícia",
 		snippet: "Una marassa entre les marasses! la Gaia va ser mare de cria molts anys, o sigui que cada cop que paria un preciós polli o pollina li prenien als 6 mesos. Us podem assegurar que amb 6 mesos els pollins se separen de les mares! Per sort, aquí a la Fundació, la Gaia ha tingut dos fills preciosos que tot i que ja estan emancipats, de tant en tant torna a veure.",
 		description: [
 			"Una marassa entre les marasses! la Gaia va ser mare de cria molts anys, o sigui que cada cop que paria un preciós polli o pollina li prenien als 6 mesos. Us podem assegurar que amb 6 mesos els pollins se separen de les mares! Per sort, aquí a la Fundació, la Gaia ha tingut dos fills preciosos que tot i que ja estan emancipats, de tant en tant torna a veure.",
