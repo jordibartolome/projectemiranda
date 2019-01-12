@@ -60,6 +60,7 @@ class CommerceForm {
 		this.disableContribution = ko.observable(false);
 		this.availableContributions = ko.observableArray(CONTRIBUTIONS);
 		this.newsletter = ko.observable(true);
+		this.meet = ko.observable();
 
 		this.selectedHorse = ko.observable();
 		this.availableHorses = ko.observableArray(Horses.getNonSponsoredHorses());
@@ -88,6 +89,7 @@ class CommerceForm {
 			phone: this.phone(),
 			address: this.address(),
 			postalCode: this.postalCode(),
+			meet: this.meet(),
 			contribution: this.contribution(),
 			bankAccount: this.bankAccount(),
 			owner: this.owner(),
