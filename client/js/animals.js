@@ -209,7 +209,8 @@ const HORSES = [
 	{
 		name: "Cadí",
 		id: "cadi",
-		sponsored: false,
+		sponsored: true,
+		sponsor: "Sílvia Valls, Begoña Torrealba i Juan Carlos Odriozola",
 		snippet: "El Cadí no ha patit mai cap maltractament. No ha estat tancat mai dins d’un box ni cap paddock ridícul. Ha nasctu el 4 de febrer d’aquest any 2016 en llibertat i acompanyat de la seva família i la seva super mami Sherpa. (La Sherpa està apadrinada!) És el 1r cavall que neix a les pastures d’hivern de la Vall de la Vansa. Serà molt emocionant veure com descobreix el paradís del Pla de l’Orri i viu la seva primera transhumància aquesta propera primavera!",
 		description: [
 			"El Cadí no ha patit mai cap maltractament. No ha estat tancat mai dins d’un box ni cap paddock ridícul. Ha nasctu el 4 de febrer d’aquest any 2016 en llibertat i acompanyat de la seva família i la seva super mami Sherpa. (La Sherpa està apadrinada!) És el 1r cavall que neix a les pastures d’hivern de la Vall de la Vansa. Serà molt emocionant veure com descobreix el paradís del Pla de l’Orri i viu la seva primera transhumància aquesta propera primavera!",
