@@ -337,6 +337,14 @@ var VISITS = [
 	  start  : '2019-01-27',
 	  url: "https://www.eventbrite.com/e/entradas-un-dia-entre-cavalls-lliures-al-parc-del-garraf-53649248346"
 	},
+	{
+	  start  : '2019-02-10',
+	  url: "https://www.eventbrite.com/e/entradas-un-dia-entre-cavalls-lliures-al-parc-del-garraf-54819076333"
+	},
+	{
+	  start  : '2019-02-23',
+	  url: "https://www.eventbrite.com/e/entradas-un-dia-entre-cavalls-lliures-al-parc-del-garraf-54819121468"
+	},
 	
 
 ];
