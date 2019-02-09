@@ -49,7 +49,7 @@ var MENJAR_COLOR = "#86830a"
 var ESSENCIA_TEXT = "Essència del Cavall"
 var ESSENCIA_COLOR = "#86830a"
 
-var VINCLES_TEXT = "Vincle de confiança amb el cavall"
+var VINCLES_TEXT = "Retirs"
 var VINCLES_COLOR = "#86830a"
 
 var TYPES = [
@@ -75,9 +75,8 @@ var TYPES = [
 
 var VINCLES = [	
 	{
-	  start: '2018-10-13',
-	  end: '2018-10-15',
-	  url: "https://www.eventbrite.com/e/creant-vincle-de-confianca-amb-el-cavall-formacio-en-comunicacio-i-nec-natural-equine-connexion-tickets-49591258790",
+	  start: '2019-03-02',
+	  url: "/dol",
 	},
 ];
 

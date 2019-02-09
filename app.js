@@ -116,6 +116,10 @@ app.get('/connect_to_the_life', function (req, res) {
 	res.render('main', { partials: { template: path.join(__dirname, 'client/templates/connect_to_the_life.html') }});
 });
 
+app.get('/dol', function (req, res) {
+	res.render('main', { partials: { template: path.join(__dirname, 'client/templates/dol.html') }});
+});
+
 app.get('/transhumance', function (req, res) {
 	res.render('main', { partials: { template: path.join(__dirname, 'client/templates/transhumance.html') }});
 });

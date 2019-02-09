@@ -43,16 +43,16 @@ const Menu = [
 								href: "/visits",
 								id: "freeHorses"
 							},
-							{
-								title: "Un dia entre cavalls lliures al Garraf",
-								href: "/visits_garraf",
-								id: "freeHorsesGarraf"
-							},
-							{
-								title: "Capvespre entre cavalls",
-								href: "/horses_evening",
-								id: "horsesEvening"
-							},
+							// {
+							// 	title: "Un dia entre cavalls lliures al Garraf",
+							// 	href: "/visits_garraf",
+							// 	id: "freeHorsesGarraf"
+							// },
+							// {
+							// 	title: "Capvespre entre cavalls",
+							// 	href: "/horses_evening",
+							// 	id: "horsesEvening"
+							// },
 							{
 								title: "Transhumància",
 								href: "/transhumance",
@@ -63,16 +63,16 @@ const Menu = [
 								href: "/transhumance_party",
 								id: "transhumanceParty"
 							},
-							{
-								title: "Essència del Cavall",
-								href: "/essencia",
-								id: "essencia"
-							},
-							{
-								title: "Creant vincle de confiança amb el cavall",
-								href: "/vincles",
-								id: "vincles"
-							}
+							// {
+							// 	title: "Essència del Cavall",
+							// 	href: "/essencia",
+							// 	id: "essencia"
+							// },
+							// {
+							// 	title: "Creant vincle de confiança amb el cavall",
+							// 	href: "/vincles",
+							// 	id: "vincles"
+							// }
 						]
 					}
 				},
@@ -82,11 +82,11 @@ const Menu = [
 					href: "/holidays_and_relax",
 					floatingMenu: {
 						items: [
-							{
-								title: "Comunicació i lideratge amb cavalls lliures",
-								href: "/lidership",
-								id: "lidership"
-							},
+							// {
+							// 	title: "Comunicació i lideratge amb cavalls lliures",
+							// 	href: "/lidership",
+							// 	id: "lidership"
+							// },
 							{
 								title: "Constel·lacions amb cavalls",
 								href: "/connect_to_the_life",
@@ -102,6 +102,11 @@ const Menu = [
 							// 	href: "/holidays_in_the_foundation",
 							// 	id: "holidaysInTheFoundation"
 							// },
+							{
+								title: "Acompanyament espiritual del dol",
+								href: "/dol",
+								id: "dol"
+							},
 						]
 					}
 				},
@@ -111,16 +116,16 @@ const Menu = [
 					href: "/kids_and_teens",
 					floatingMenu: {
 						items: [
-							{
-								title: "Natura i cultura per pares amb fills adolescents",
-								href: "/culture_and_nature_teens",
-								id: "cultureAndNatureTeens"
-							},
-							{
-								title: "Convivència creativa amb cavalls i natura",
-								href: "/culture_and_nature_family",
-								id: "cultureAndNatureFamily"
-							},
+							// {
+							// 	title: "Natura i cultura per pares amb fills adolescents",
+							// 	href: "/culture_and_nature_teens",
+							// 	id: "cultureAndNatureTeens"
+							// },
+							// {
+							// 	title: "Convivència creativa amb cavalls i natura",
+							// 	href: "/culture_and_nature_family",
+							// 	id: "cultureAndNatureFamily"
+							// },
 							{
 								title: "Campaments d'estiu (8-17 anys)",
 								href: "/summer_camp_kids",
@@ -131,11 +136,11 @@ const Menu = [
 								href: "/summer_camp_teens",
 								id: "summerCampTeens"
 							},
-							{
-								title: "Camp de veterans (a partir de 18 anys)",
-								href: "/summer_camp_veterans",
-								id: "summerCampVeterans"
-							},
+							// {
+							// 	title: "Camp de veterans (a partir de 18 anys)",
+							// 	href: "/summer_camp_veterans",
+							// 	id: "summerCampVeterans"
+							// },
 						]
 					}
 				},
