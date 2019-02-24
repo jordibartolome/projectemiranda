@@ -344,6 +344,14 @@ var VISITS = [
 	  start  : '2019-02-23',
 	  url: "https://www.eventbrite.com/e/entradas-un-dia-entre-cavalls-lliures-al-parc-del-garraf-54819121468"
 	},
+	{
+	  start  : '2019-03-17',
+	  url: "https://www.eventbrite.com/e/entradas-un-dia-entre-cavalls-lliures-al-parc-del-garraf-56358544925"
+	},
+	{
+	  start  : '2019-03-30',
+	  url: "https://www.eventbrite.com/e/entradas-un-dia-entre-cavalls-lliures-amb-visita-enoturistica-a-can-rafols-dels-caus-edicio-especial-56360639189"
+	},
 	
 
 ];
