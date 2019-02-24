@@ -78,6 +78,10 @@ var VINCLES = [
 	  start: '2019-03-02',
 	  url: "/dol",
 	},
+	{
+	  start: '2019-04-07',
+	  url: "/malalties",
+	},
 ];
 
 var ESSENCIA = [

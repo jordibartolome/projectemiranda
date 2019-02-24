@@ -107,6 +107,11 @@ const Menu = [
 								href: "/dol",
 								id: "dol"
 							},
+							{
+								title: "Els cavalls i les persones amb malalties",
+								href: "/malalties",
+								id: "malalties"
+							},
 						]
 					}
 				},
