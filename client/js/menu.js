@@ -133,12 +133,12 @@ const Menu = [
 							// },
 							{
 								title: "Campaments d'estiu (8-17 anys)",
-								href: "/summer_camp_kids",
+								href: "http://www.eolia.cat/campaments-destiu-per-nens-i-joves/",
 								id: "summerCampKids"
 							},
 							{
 								title: "Camp de treball d'estiu (13-17 anys)",
-								href: "/summer_camp_teens",
+								href: "http://www.eolia.cat/campaments-destiu-per-nens-i-joves/",
 								id: "summerCampTeens"
 							},
 							// {
