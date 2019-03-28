@@ -102,11 +102,11 @@ const Menu = [
 							// 	href: "/holidays_in_the_foundation",
 							// 	id: "holidaysInTheFoundation"
 							// },
-							{
-								title: "Acompanyament espiritual del dol",
-								href: "/dol",
-								id: "dol"
-							},
+							// {
+							// 	title: "Acompanyament espiritual del dol",
+							// 	href: "/dol",
+							// 	id: "dol"
+							// },
 							{
 								title: "Els cavalls i les persones amb malalties",
 								href: "/malalties",
