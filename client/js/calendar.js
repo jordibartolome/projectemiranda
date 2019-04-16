@@ -406,7 +406,43 @@ var SUMMER_CAMP = [
 	  start: '2018-09-02',
 	  end: '2018-09-09',
 	  url: "http://www.eolia.cat/wp-content/uploads/2015/05/INSCRIPCIONS-PLA-DE-LORRI-TALLERS-E%C3%92LIAFUNDACI%C3%93-MIRANDA-1.pdf",
-	}
+	},
+
+	{
+	  start: '2019-06-24',
+	  end: '2019-06-30',
+	  url: "http://www.eolia.cat/campaments-destiu-per-nens-i-joves/",
+	},
+	{
+	  start: '2019-06-30',
+	  end: '2019-07-07',
+	  url: "http://www.eolia.cat/campaments-destiu-per-nens-i-joves/",
+	},
+	{
+	  start: '2019-07-07',
+	  end: '2019-07-14',
+	  url: "http://www.eolia.cat/campaments-destiu-per-nens-i-joves/",
+	},
+	{
+	  start: '2019-07-14',
+	  end: '2019-07-21',
+	  url: "http://www.eolia.cat/campaments-destiu-per-nens-i-joves/",
+	},
+	{
+	  start: '2019-07-21',
+	  end: '2019-07-28',
+	  url: "http://www.eolia.cat/campaments-destiu-per-nens-i-joves/",
+	},
+	{
+	  start: '2019-07-28',
+	  end: '2019-08-04',
+	  url: "http://www.eolia.cat/campaments-destiu-per-nens-i-joves/",
+	},
+	{
+	  start: '2019-09-01',
+	  end: '2019-09-08',
+	  url: "http://www.eolia.cat/campaments-destiu-per-nens-i-joves/",
+	},
 ];
 
 var WORK_CAMP = [	
