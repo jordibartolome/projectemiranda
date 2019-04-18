@@ -108,6 +108,11 @@ const Menu = [
 							// 	id: "dol"
 							// },
 							{
+								title: "Cantando entre caballos",
+								href: "/veu",
+								id: "veu"
+							},
+							{
 								title: "Els cavalls i les persones amb malalties",
 								href: "/malalties",
 								id: "malalties"
