@@ -364,10 +364,14 @@ var VISITS = [
 	  start  : '2019-04-27',
 	  url: "https://www.eventbrite.com/e/entradas-un-dia-entre-cavalls-lliures-al-garraf-amb-sencies-58986461093"
 	},
-
-	
-	
-
+	{
+	  start  : '2019-06-02',
+	  url: "https://www.eventbrite.com/e/entradas-festa-de-la-transhumancia-de-primavera-2019-60536899496"
+	},
+	{
+	  start  : '2019-06-16',
+	  url: "https://www.eventbrite.com/e/entradas-un-dia-entre-cavalls-lliures-al-pla-de-lorri-62109480127"
+	},
 ];
 
 var CONNECT_TO_THE_LIFE = [
