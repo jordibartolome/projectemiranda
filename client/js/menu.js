@@ -63,6 +63,11 @@ const Menu = [
 								href: "/transhumance_party",
 								id: "transhumanceParty"
 							},
+							{
+								title: "Entrenament actoral entre cavalls lliures",
+								href: "http://www.eolia.cat/entrenament-actoral-entre-cavalls-lliures-amb-david-vert-i-mauri-biosca/",
+								id: "transhumanceParty"
+							},
 							// {
 							// 	title: "Essència del Cavall",
 							// 	href: "/essencia",

@@ -372,6 +372,20 @@ var VISITS = [
 	  start  : '2019-06-16',
 	  url: "https://www.eventbrite.com/e/entradas-un-dia-entre-cavalls-lliures-al-pla-de-lorri-62109480127"
 	},
+	{
+	  start  : '2019-08-10',
+	  url: "https://www.eventbrite.com/e/entradas-un-dia-entre-cavalls-lliures-al-pla-de-lorri-62841900817"
+	},
+	{
+	  start  : '2019-07-06',
+	  url: "https://www.eventbrite.com/e/entradas-un-vespre-entre-cavalls-lliures-al-parc-del-garraf-62842588875"
+	},
+	{
+	  start  : '2019-07-21',
+	  url: "https://www.eventbrite.com/e/entradas-un-vespre-entre-cavalls-lliures-al-parc-del-garraf-62853349059"
+	},
+
+	
 ];
 
 var CONNECT_TO_THE_LIFE = [
