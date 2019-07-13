@@ -52,8 +52,11 @@ var ESSENCIA_COLOR = "#86830a"
 var VINCLES_TEXT = "Retirs"
 var VINCLES_COLOR = "#86830a"
 
-var ACTIVITATS_ESPECIALS_TEXT = "Altres activitats"
+var ACTIVITATS_ESPECIALS_TEXT = "Sota la lluna"
 var ACTIVITATS_ESPECIALS_COLOR = "#dc7519"
+
+var VESPRE_ENTRE_CAVALLS_TEXT = "Vespre entre cavalls"
+var VESPRE_ENTRE_CAVALLS_COLOR = "#1988dc"
 
 var TYPES = [
 	"MENJAR",
@@ -74,7 +77,39 @@ var TYPES = [
 	"CONVIVENCIA_CREATIVA_GARRAF",
 	"ESSENCIA",
 	"VINCLES",
-	"ACTIVITATS_ESPECIALS"
+	"ACTIVITATS_ESPECIALS",
+	"VESPRE_ENTRE_CAVALLS"
+]
+
+var VESPRE_ENTRE_CAVALLS = [
+	{
+	  start: '2019-08-02',
+	  url: "https://www.eventbrite.com/e/entradas-un-vespre-entre-cavalls-lliures-al-parc-del-garraf-64959653071",
+	},
+	{
+	  start: '2019-08-09',
+	  url: "https://www.eventbrite.com/e/entradas-un-vespre-entre-cavalls-lliures-al-parc-del-garraf-64960498600",
+	},
+	{
+	  start: '2019-08-16',
+	  url: "https://www.eventbrite.com/e/entradas-un-vespre-entre-cavalls-lliures-al-parc-del-garraf-64960610936",
+	},
+	{
+	  start: '2019-08-23',
+	  url: "https://www.eventbrite.com/e/entradas-un-vespre-entre-cavalls-lliures-al-parc-del-garraf-64960798497",
+	},
+	{
+	  start: '2019-08-30',
+	  url: "https://www.eventbrite.com/e/entradas-un-vespre-entre-cavalls-lliures-al-parc-del-garraf-64960916851",
+	},
+	{
+	  start  : '2019-07-21',
+	  url: "https://www.eventbrite.com/e/entradas-un-vespre-entre-cavalls-lliures-al-parc-del-garraf-62853349059"
+	},
+	{
+	  start  : '2019-07-06',
+	  url: "https://www.eventbrite.com/e/entradas-un-vespre-entre-cavalls-lliures-al-parc-del-garraf-62842588875"
+	},
 ]
 
 var VINCLES = [	
@@ -108,14 +143,7 @@ var ACTIVITATS_ESPECIALS = [
 	  start: '2019-08-15',
 	  url: "https://www.eventbrite.com/e/entradas-sota-la-lluna-plena-del-garraf-amb-les-ponis-pottoka-62843016153",
 	},
-	{
-	  start  : '2019-07-06',
-	  url: "https://www.eventbrite.com/e/entradas-un-vespre-entre-cavalls-lliures-al-parc-del-garraf-62842588875"
-	},
-	{
-	  start  : '2019-07-21',
-	  url: "https://www.eventbrite.com/e/entradas-un-vespre-entre-cavalls-lliures-al-parc-del-garraf-62853349059"
-	},
+
 ]
 
 var LIDERSHIP = [	
