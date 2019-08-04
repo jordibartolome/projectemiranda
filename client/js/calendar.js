@@ -110,6 +110,14 @@ var VESPRE_ENTRE_CAVALLS = [
 	  start  : '2019-07-06',
 	  url: "https://www.eventbrite.com/e/entradas-un-vespre-entre-cavalls-lliures-al-parc-del-garraf-62842588875"
 	},
+	{
+	  start  : '2019-09-06',
+	  url: "https://www.eventbrite.com/e/entradas-un-vespre-entre-cavalls-lliures-al-parc-del-garraf-66352677645"
+	},
+	{
+	  start  : '2019-09-13',
+	  url: "https://www.eventbrite.com/e/entradas-un-vespre-entre-cavalls-lliures-al-parc-del-garraf-66357337583"
+	},
 ]
 
 var VINCLES = [	
