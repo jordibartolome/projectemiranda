@@ -81,6 +81,15 @@ var TYPES = [
 	"VESPRE_ENTRE_CAVALLS"
 ]
 
+var LIDERSHIP2 = [
+	{
+	  start: '2019-09-20',
+	  end: '2019-09-23',
+	  url: "https://www.eventbrite.com/e/retir-de-constellacions-entre-cavalls-lliures-tickets-68772507421",
+	}
+	
+];
+
 var VESPRE_ENTRE_CAVALLS = [
 	{
 	  start: '2019-08-02',
@@ -430,6 +439,19 @@ var VISITS = [
 	{
 	  start  : '2019-08-10',
 	  url: "https://www.eventbrite.com/e/entradas-un-dia-entre-cavalls-lliures-al-pla-de-lorri-62841900817"
+	},
+	
+	{
+	  start  : '2019-09-15',
+	  url: "https://www.eventbrite.com/e/entradas-un-dia-entre-cavalls-lliures-al-pla-de-lorri-68774724051"
+	},
+	{
+	  start  : '2019-09-28',
+	  url: "https://www.eventbrite.com/e/entradas-un-dia-entre-cavalls-lliures-al-pla-de-lorri-68775307797"
+	},
+	{
+	  start  : '2019-09-22',
+	  url: "https://www.eventbrite.com/e/entradas-un-dia-entre-cavalls-lliures-al-garraf-68775626751"
 	},
 
 	
