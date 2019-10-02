@@ -453,6 +453,12 @@ var VISITS = [
 	  start  : '2019-09-22',
 	  url: "https://www.eventbrite.com/e/entradas-un-dia-entre-cavalls-lliures-al-garraf-68775626751"
 	},
+	{
+	  start  : '2019-10-12',
+	  url: "https://www.eventbrite.com/e/entradas-un-dia-entre-cavalls-lliures-al-pla-de-lorri-72052241193"
+	},
+	
+	
 
 	
 ];
